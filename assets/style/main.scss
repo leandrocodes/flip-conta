@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-@import "functions/variables.scss";
+@import "abstract/variables";
 
 // Import only what you need from Bulma
 @import "bulma/sass/utilities/_all.sass";
