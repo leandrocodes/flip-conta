@@ -57,12 +57,12 @@
         </div>
       </div>
       <div class="navbar-item">
-        <a href="#facebook" class="button is-rounded is-link">
+        <a href="#facebook" class="button is-rounded is-white is-outlined">
           <font-awesome-icon :icon="['fab', 'facebook-f']"/>
         </a>
       </div>
       <div class="navbar-item">
-        <a href="#twitter" class="button is-rounded">
+        <a href="#twitter" class="button is-rounded is-white is-outlined">
           <font-awesome-icon :icon="['fab', 'twitter']"/>
         </a>
       </div>
