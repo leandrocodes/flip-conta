@@ -56,29 +56,15 @@
           </a>
         </div>
       </div>
-      <a href="#facebook" class="navbar-item">
-        <font-awesome-icon :icon="['fab', 'facebook']"/>
-        F
-      </a>
-      <a href="#twiter" class="navbar-item">
-        T
-      </a>
-      <a href="#abrir-conta" class="navbar-item">
-        Abrir minha conta grátis
-      </a>
-      <a href="#login" class="navbar-item">
-        Logar na minha conta
-      </a>
-      <a href="#consultor" class="navbar-item">
-        Seja consultor
-      </a>
       <div class="navbar-item">
         <a href="#facebook" class="button is-rounded is-link">
-          <i class="fab fa-twitter"></i>
+          <font-awesome-icon :icon="['fab', 'facebook-f']"/>
         </a>
       </div>
       <div class="navbar-item">
-        <a href="#twitter" class="button is-rounded">T</a>
+        <a href="#twitter" class="button is-rounded">
+          <font-awesome-icon :icon="['fab', 'twitter']"/>
+        </a>
       </div>
       <div class="navbar-item">
         <a href="#abrir-conta" class="button is-rounded">Abrir minha conta grátis</a>
