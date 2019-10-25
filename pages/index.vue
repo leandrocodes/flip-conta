@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-<nav class="navbar is-link">
+<nav class="navbar is-link is-transparent">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="~@/assets/img/flipconta-logo-white.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    <a class="navbar-item" href="#">
+      <img src="~@/assets/img/flipconta-logo-white.png" alt="Flip Conta" width="112" height="28">
     </a>
     <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
       <span></span>
@@ -14,41 +14,45 @@
 
   <div id="navbarHome" class="navbar-menu">
     <div class="navbar-end">
-      <a href="#incio" class="navbar-item">
-        início
-      </a>
-      <a href="#solucoes" class="navbar-item">
-        soluções
-      </a>
-      <a href="#preco" class="navbar-item">
-        preço
-      </a>
+      <div class="navbar-item">
+        <a href="" class="button is-rounded">início</a>
+      </div>
+      <div class="navbar-item">
+        <a href="" class="button is-rounded">soluções</a>
+      </div>
+      <div class="navbar-item">
+        <a href="" class="button is-rounded">preços</a>
+      </div>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link is-arrowless" href="https://bulma.io/documentation/overview/start/">
-          suporte
-        </a>
+        <div class="navbar-link is-arrowless is-rounded">
+          <a href="" class="button is-rounded">suporte</a>
+        </div>
         <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-            Overview
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-            Modifiers
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-            Columns
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-            Layout
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-            Form
+          <a class="navbar-item" href="">
+            Chat
           </a>
           <hr class="navbar-divider">
-          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-            Elements
+          <a class="navbar-item" href="">
+            Fone
           </a>
-          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-            Components
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="">
+            contato@flipconta.com
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="">
+            <span>
+              Horário de Funcionamento<br><br>
+              <span>
+                Segunda à Sexta<br>
+                8h30 às 19h30<br><br>
+                Sábado<br>
+                9h30 às 19h30<br><br>
+                <span>
+                  Exceto Domingos e Feriados
+                </span>
+              </span>
+            </span>    
           </a>
         </div>
       </div>
@@ -68,6 +72,23 @@
       <a href="#consultor" class="navbar-item">
         Seja consultor
       </a>
+      <div class="navbar-item">
+        <a href="#facebook" class="button is-rounded is-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a href="#twitter" class="button is-rounded">T</a>
+      </div>
+      <div class="navbar-item">
+        <a href="#abrir-conta" class="button is-rounded">Abrir minha conta grátis</a>
+      </div>
+      <div class="navbar-item">
+        <a href="#login" class="button is-rounded">Logar na minha conta</a>
+      </div>
+      <div class="navbar-item">
+        <a href="#consultor" class="button is-rounded">Seja consultor</a>
+      </div>
     </div>
   </div>
 </nav>
