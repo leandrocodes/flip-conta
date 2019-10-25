@@ -53,6 +53,7 @@
         </div>
       </div>
       <a href="#facebook" class="navbar-item">
+        <font-awesome-icon :icon="['fab', 'facebook']"/>
         F
       </a>
       <a href="#twiter" class="navbar-item">
