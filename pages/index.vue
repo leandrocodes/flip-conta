@@ -30,19 +30,19 @@
               <a href="" class="button is-link is-outlined is-rounded">suporte</a>
             </div>
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="">
+              <a class="navbar-item has-text-dark" href="">
                 Chat
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="">
+              <a class="navbar-item has-text-dark" href="">
                 Fone
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="">
+              <a class="navbar-item has-text-dark" href="">
                 contato@flipconta.com
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="">
+              <a class="navbar-item has-text-dark" href="">
                 <span>
                   Horário de Funcionamento<br><br>
                   <span>
@@ -105,6 +105,9 @@ export default {
 </script>
 
 <style>
+  .navbar-dropdown .navbar-item:hover{
+    color:purple!important;
+  }
   .social{
     width: 2.25em;
     height: 2.25em;
