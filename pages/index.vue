@@ -66,13 +66,13 @@
               </a>
             </div>
             <div class="navbar-item">
-              <a href="#abrir-conta" class="button is-light is-outlined is-rounded">Abrir minha conta grátis</a>
+              <a href="#abrir-conta" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</a>
             </div>
             <div class="navbar-item">
-              <a href="#login" class="button is-light is-outlined is-rounded">Logar na minha conta</a>
+              <a href="#login" class="button is-link is-outlined is-rounded">Logar na minha conta</a>
             </div>
             <div class="navbar-item">
-              <a href="#consultor" class="button is-light is-outlined is-rounded">Seja consultor</a>
+              <a href="#consultor" class="button is-link is-outlined is-rounded">Seja consultor</a>
             </div>
           </div>
         </div>

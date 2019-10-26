@@ -54,3 +54,11 @@
     }
   }
 }
+
+.navbar-item{
+  .is-link{
+    &:hover{
+      color: $primary!important;
+    }
+  }
+}
