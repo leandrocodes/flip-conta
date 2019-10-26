@@ -2,10 +2,11 @@
   &.hero {
     background-color: transparent !important;
     background-image: url(~@/assets/img/bg-gradient.webp);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
   }
+
   .social {
     border-color: rgba(255, 255, 255, 0.85) !important;
     color: rgba(255, 255, 255, 0.85) !important;
@@ -103,51 +104,56 @@
   }
 
   @media only screen and (min-width: 1440px) {
-    .anim{
+    .anim {
       width: 20em;
       top: 15%;
       animation-name: floatWide;
     }
+
     @keyframes floatWide {
       0% {
         top: 12%
       }
-  
+
       50% {
         top: 15%
       }
-  
+
       100% {
         top: 12%
       }
     }
-    .slider-hero{
-      img{
+
+    .slider-hero {
+      img {
         width: 12em;
       }
     }
   }
+
   @media only screen and (min-width: 1920px) {
-    .anim{
+    .anim {
       width: 27em;
       top: 20%;
       animation: floatFull 6s ease infinite;
     }
+
     @keyframes floatFull {
       0% {
         top: 15%
       }
-  
+
       50% {
         top: 20%
       }
-  
+
       100% {
         top: 15%
       }
     }
-    .slider-hero{
-      img{
+
+    .slider-hero {
+      img {
         top: 4.5em;
         width: 16.5em;
       }
