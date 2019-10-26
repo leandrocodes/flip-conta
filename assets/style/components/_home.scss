@@ -127,4 +127,30 @@
       }
     }
   }
+  @media only screen and (min-width: 1920px) {
+    .anim{
+      width: 27em;
+      top: 20%;
+      animation: floatFull 6s ease infinite;
+    }
+    @keyframes floatFull {
+      0% {
+        top: 15%
+      }
+  
+      50% {
+        top: 20%
+      }
+  
+      100% {
+        top: 15%
+      }
+    }
+    .slider-hero{
+      img{
+        top: 4.5em;
+        width: 16.5em;
+      }
+    }
+  }
 }
