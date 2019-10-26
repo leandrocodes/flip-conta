@@ -41,17 +41,16 @@
                 <a class="navbar-item has-text-dark" href>
                   <font-awesome-icon :icon="['fas', 'envelope']" />contato@flipconta.com
                 </a>
+                <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
                   <font-awesome-icon :icon="['fas', 'question-circle']" />Dúvidas
                 </a>
                 <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'clock']" />
                   <span>
-                    Horário de Funcionamento
-                    <br />
-                    <br />
-                    <span>
+                    <font-awesome-icon :icon="['fas', 'clock']" />Horário de Funcionamento
+                    <hr class="navbar-divider" />
+                    <div class="horarios">
                       Segunda à Sexta
                       <br />8h30 às 19h30
                       <br />
@@ -60,7 +59,7 @@
                       <br />
                       <br />
                       <span>Exceto Domingos e Feriados</span>
-                    </span>
+                    </div>
                   </span>
                 </a>
               </div>
@@ -95,9 +94,9 @@
         Lorem ipsum dolor
         <strong>sit amet</strong>.
       </p>
-      <img src="../assets/img/float-icons.webp" class="anim">
+      <img src="../assets/img/float-icons.webp" class="anim" />
       <div class="slider-hero">
-        <img src="../assets/img/modelo.png">
+        <img src="../assets/img/modelo.png" />
       </div>
     </div>
   </section>

@@ -70,6 +70,21 @@
     }
   }
 
+  .navbar-dropdown{
+    a{
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+    svg{
+      margin: 0 10px;
+      font-size: 18px;
+    }
+    .horarios{
+      margin-left: 20px;
+    }
+  }
+
   .anim {
     width: 18em;
     margin-left: auto;
@@ -110,6 +125,7 @@
   @media only screen and (min-width: 1440px) {
     .navbar{
       margin: 25px 40px;
+      padding: 0 25px;
     }
     .anim {
       width: 20em;
@@ -142,6 +158,7 @@
   @media only screen and (min-width: 1920px) {
     .navbar{
       margin: 35px 50px;
+      padding: 0 125px;
     }
     .anim {
       width: 27em;
@@ -167,6 +184,39 @@
       img {
         top: 6em;
         width: 16.5em;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .navbar{
+      margin: 35px 200px;
+      padding: 0 225px;
+    }
+    .anim {
+      width: 35em;
+      top: 30%;
+      animation: floatUltra 6s ease infinite;
+    }
+
+    @keyframes floatUltra {
+      0% {
+        top: 25%
+      }
+
+      50% {
+        top: 30%
+      }
+
+      100% {
+        top: 25%
+      }
+    }
+
+    .slider-hero {
+      img {
+        top: 5em;
+        width: 23em;
       }
     }
   }
