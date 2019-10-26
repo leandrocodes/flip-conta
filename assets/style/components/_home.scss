@@ -4,6 +4,20 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 2560px){
+  .navbar{
+    padding: 10em;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .hero{
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh!important;
+  }
+}
+
 @media screen and (min-width: 1920px){
   .navbar{
     padding: 1em 10em;
