@@ -95,6 +95,7 @@
         Lorem ipsum dolor
         <strong>sit amet</strong>.
       </p>
+      <img src="../assets/img/float-icons.png" class="anim">
     </div>
   </section>
 </template>
@@ -110,19 +111,25 @@ export default {
     return {
 
     }
-  },
-  methods: {
-    mouseInHover(event) {
-      event.target.classList.remove('is-light')
-      event.target.classList.add('is-primary')
-    },
-    mouseOutHover(event) {
-      event.target.classList.remove('is-primary')
-      event.target.classList.add('is-light')
-    }
   }
 }
 </script>
 
 <style>
+.anim{
+  height: 25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 25%;
+  animation: test 5s ease-in-out infinite;
+  position: absolute;
+}
+@keyframes test {
+ 0% {top: 20%}
+ 50% {top: 30%}
+  100% {top: 20%}
+}
 </style>
