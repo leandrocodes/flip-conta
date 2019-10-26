@@ -30,13 +30,27 @@
                 <a href class="button is-light is-outlined is-rounded">suporte</a>
               </div>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item has-text-dark" href>Chat</a>
-                <hr class="navbar-divider" />
-                <a class="navbar-item has-text-dark" href>Fone</a>
-                <hr class="navbar-divider" />
-                <a class="navbar-item has-text-dark" href>contato@flipconta.com</a>
+                <a class="navbar-item has-text-dark" href>
+                  <font-awesome-icon :icon="['fas', 'comment-alt']"/>
+                   Chat
+                </a>
                 <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
+                  <font-awesome-icon :icon="['fas', 'phone-volume']"/>
+                  Fone
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item has-text-dark" href>
+                  <font-awesome-icon :icon="['fas', 'envelope']"/>
+                  contato@flipconta.com
+                </a>
+                <a class="navbar-item has-text-dark" href>
+                  <font-awesome-icon :icon="['fas', 'question-circle']"/>
+                  Dúvidas
+                </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item has-text-dark" href>
+                  <font-awesome-icon :icon="['fas', 'clock']"/>
                   <span>
                     Horário de Funcionamento
                     <br />
