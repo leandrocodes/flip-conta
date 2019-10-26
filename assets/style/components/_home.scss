@@ -1,85 +1,84 @@
-.hero{
-  background-color: transparent!important;
-  background-image: url(~@/assets/img/banner-hero.png);
-  background-size: cover;
-}
-
-@media screen and (min-width: 2560px){
-  .navbar{
-    padding: 10em;
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  .hero{
+.home{
+  &.hero{
+    background-color: transparent!important;
+    background-image: url(~@/assets/img/banner-hero.png);
     background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh!important;
   }
-}
-
-@media screen and (min-width: 1920px){
-  .navbar{
-    padding: 1em 10em;
-  }
-}
-@media screen and (min-width: 1440px){
-  .navbar{
-    padding: 1em 5em;
-  }
-}
-.social{
-  border-color: rgba(255, 255, 255, 0.85)!important;
-  color: rgba(255, 255, 255, 0.85)!important;
-  width: 2.25em;
-  height: 2.25em;
-  &.fb-link{
-    &:hover{
-      color: $fb-color!important;
+  
+  @media screen and (min-width: 2560px){
+    .navbar{
+      padding: 10em;
+      margin: 0 auto;
+      max-width: 80%;
+    }
+    .hero{
+      background-size: cover;
+      height: 100vh!important;
     }
   }
-  &.twt-link{
-    &:hover{
-      color: $twt-color!important;
+  
+  @media screen and (min-width: 1920px){
+    .navbar{
+      padding: 1em 10em;
     }
   }
-}
-
-.navbar-dropdown .navbar-item:hover{
-  color:$primary!important;
-}
-
-.navbar-brand{
-  img{
-    height: 28px;
-    width: 178px;
+  @media screen and (min-width: 1440px){
+    .navbar{
+      padding: 1em 5em;
+    }
   }
-}
-
-.navbar-item{
-  .button{
-    border-width: 1px;
-    transition: all .1s ease;
-  }
-}
-
-.navbar-menu{
-  .nav-link{
-    .button{
-      border-color: transparent!important;
+  .social{
+    border-color: rgba(255, 255, 255, 0.85)!important;
+    color: rgba(255, 255, 255, 0.85)!important;
+    width: 2.25em;
+    height: 2.25em;
+    &.fb-link{
       &:hover{
-        border-color: $beige-lighter!important;
-        background-color: transparent!important;
-        color: $beige-lighter!important;
+        color: $fb-color!important;
+      }
+    }
+    &.twt-link{
+      &:hover{
+        color: $twt-color!important;
       }
     }
   }
-}
-
-.navbar-item{
-  .is-link{
-    &:hover{
-      color: $primary!important;
+  
+  .navbar-dropdown .navbar-item:hover{
+    color:$primary!important;
+  }
+  
+  .navbar-brand{
+    img{
+      height: 28px;
+      width: 178px;
+    }
+  }
+  
+  .navbar-item{
+    .button{
+      border-width: 1px;
+      transition: all .1s ease;
+    }
+  }
+  
+  .navbar-menu{
+    .nav-link{
+      .button{
+        border-color: transparent!important;
+        &:hover{
+          border-color: $beige-lighter!important;
+          background-color: transparent!important;
+          color: $beige-lighter!important;
+        }
+      }
+    }
+  }
+  .navbar-item{
+    .is-link{
+      &:hover{
+        color: $primary!important;
+      }
     }
   }
 }

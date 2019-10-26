@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-primary is-large">
+  <section class="hero is-primary is-large home">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar is-primary is-transparent">
@@ -31,26 +31,22 @@
               </div>
               <div class="navbar-dropdown is-boxed">
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'comment-alt']"/>
-                   Chat
+                  <font-awesome-icon :icon="['fas', 'comment-alt']" />Chat
                 </a>
                 <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'phone-volume']"/>
-                  Fone
+                  <font-awesome-icon :icon="['fas', 'phone-volume']" />Fone
                 </a>
                 <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'envelope']"/>
-                  contato@flipconta.com
+                  <font-awesome-icon :icon="['fas', 'envelope']" />contato@flipconta.com
                 </a>
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'question-circle']"/>
-                  Dúvidas
+                  <font-awesome-icon :icon="['fas', 'question-circle']" />Dúvidas
                 </a>
                 <hr class="navbar-divider" />
                 <a class="navbar-item has-text-dark" href>
-                  <font-awesome-icon :icon="['fas', 'clock']"/>
+                  <font-awesome-icon :icon="['fas', 'clock']" />
                   <span>
                     Horário de Funcionamento
                     <br />
