@@ -7,6 +7,10 @@
     background-position: top center;
   }
 
+  .navbar{
+    margin: 10px 10px;
+  }
+
   .social {
     border-color: rgba(255, 255, 255, 0.85) !important;
     color: rgba(255, 255, 255, 0.85) !important;
@@ -104,6 +108,9 @@
   }
 
   @media only screen and (min-width: 1440px) {
+    .navbar{
+      margin: 25px 40px;
+    }
     .anim {
       width: 20em;
       top: 15%;
@@ -126,12 +133,16 @@
 
     .slider-hero {
       img {
+        top: 5em;
         width: 12em;
       }
     }
   }
 
   @media only screen and (min-width: 1920px) {
+    .navbar{
+      margin: 35px 50px;
+    }
     .anim {
       width: 27em;
       top: 20%;
@@ -154,7 +165,7 @@
 
     .slider-hero {
       img {
-        top: 4.5em;
+        top: 6em;
         width: 16.5em;
       }
     }
