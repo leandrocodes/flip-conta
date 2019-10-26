@@ -95,7 +95,7 @@
         Lorem ipsum dolor
         <strong>sit amet</strong>.
       </p>
-      <img src="../assets/img/float-icons.png" class="anim">
+      <img src="../assets/img/float-icons.webp" class="anim">
     </div>
   </section>
 </template>
@@ -117,19 +117,19 @@ export default {
 
 <style>
 .anim{
-  height: 25em;
+  width: 45em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 25%;
+  left: -3em;
+  right: 3em;
+  top: 20%;
   animation: test 5s ease-in-out infinite;
   position: absolute;
 }
 @keyframes test {
- 0% {top: 20%}
- 50% {top: 30%}
-  100% {top: 20%}
+ 0% {top: 15%}
+ 50% {top: 25%}
+  100% {top: 15%}
 }
 </style>
