@@ -8,51 +8,29 @@
   }
 
   @media screen and (max-width: 2560px) {
-    .home{
-      &.hero{
-        background-size: cover!important;
+    .home {
+      &.hero {
+        background-size: cover !important;
       }
     }
+
     .navbar {
       padding: 1em 10em;
     }
-    .anim{
-      width: 50em;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      left: -11rem;
-      right: 11rem;
-      top: 25%;
-      animation: float 10s ease-in infinite;
-      position: absolute;
+
+    .anim {
+      width: 37em!important;
     }
-    @keyframes float {
-     0% {top: 20%}
-     50% {top: 40%}
-      100% {top: 20%}
-    }
+
   }
 
   @media screen and (max-width: 1920px) {
     .navbar {
       padding: 1em 10em;
     }
-    .anim{
-      width: 40em;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      left: -9rem;
-      right: 9rem;
-      top: 20%;
-      animation: float 10s ease-in infinite;
-      position: absolute;
-    }
-    @keyframes float {
-     0% {top: 15%}
-     50% {top: 25%}
-      100% {top: 15%}
+
+    .anim {
+      width: 30em!important;
     }
   }
 
@@ -60,44 +38,14 @@
     .navbar {
       padding: 1em 5em;
     }
-
     .anim {
-      width: 30em;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      left: -6.5rem;
-      right: 6.5rem;
-      top: 20%;
-      animation: float 10s ease-in infinite;
-      position: absolute;
-    }
-    @keyframes float {
-     0% {top: 15%}
-     50% {top: 25%}
-      100% {top: 15%}
+      width: 25em!important;
     }
   }
 
   @media screen and (max-width: 1366px) {
     .navbar {
       padding: 0;
-    }
-    .anim {
-      width: 30em;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      left: -6.5rem;
-      right: 6.5rem;
-      top: 20%;
-      animation: float 10s ease-in infinite;
-      position: absolute;
-    }
-    @keyframes float {
-     0% {top: 15%}
-     50% {top: 25%}
-      100% {top: 15%}
     }
   }
 
@@ -157,6 +105,30 @@
       &:hover {
         color: $primary !important;
       }
+    }
+  }
+  .anim {
+    width: 22em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    animation: float 10s ease-in infinite;
+    position: absolute;
+  }
+
+  @keyframes float {
+    0% {
+      top: 15%
+    }
+
+    50% {
+      top: 25%
+    }
+
+    100% {
+      top: 15%
     }
   }
 }
