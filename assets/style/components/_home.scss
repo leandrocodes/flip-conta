@@ -194,22 +194,22 @@
       padding: 0 225px;
     }
     .anim {
-      width: 35em;
-      top: 30%;
+      width: 37em;
+      top: 25%;
       animation: floatUltra 6s ease infinite;
     }
 
     @keyframes floatUltra {
       0% {
-        top: 25%
+        top: 20%
       }
 
       50% {
-        top: 30%
+        top: 25%
       }
 
       100% {
-        top: 25%
+        top: 20%
       }
     }
 
