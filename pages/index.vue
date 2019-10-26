@@ -2,6 +2,7 @@
   <section class="hero is-primary is-large home">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
+      <barra-menu></barra-menu>
       <nav class="navbar is-primary is-transparent">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
@@ -103,11 +104,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import BarraMenu from '~/components/barra-menu.vue'
 
 export default {
   components: {
-    Logo
+    BarraMenu
   },
   data() {
     return {
