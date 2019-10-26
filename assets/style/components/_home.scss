@@ -8,6 +8,11 @@
   }
 
   @media screen and (max-width: 2560px) {
+    .home{
+      &.hero{
+        background-size: cover!important;
+      }
+    }
     .navbar {
       padding: 1em 10em;
     }
