@@ -7,29 +7,92 @@
     background-position: top center;
   }
 
-  @media screen and (min-width: 2560px) {
-    .home {
-      background-color: black !important;
-    }
-  }
-
-  @media screen and (min-width: 1920px) {
+  @media screen and (max-width: 2560px) {
     .navbar {
       padding: 1em 10em;
     }
+    .anim{
+      width: 50em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      left: -11rem;
+      right: 11rem;
+      top: 25%;
+      animation: float 10s ease-in infinite;
+      position: absolute;
+    }
+    @keyframes float {
+     0% {top: 20%}
+     50% {top: 40%}
+      100% {top: 20%}
+    }
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (max-width: 1920px) {
+    .navbar {
+      padding: 1em 10em;
+    }
+    .anim{
+      width: 40em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      left: -9rem;
+      right: 9rem;
+      top: 20%;
+      animation: float 10s ease-in infinite;
+      position: absolute;
+    }
+    @keyframes float {
+     0% {top: 15%}
+     50% {top: 25%}
+      100% {top: 15%}
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
     .navbar {
       padding: 1em 5em;
+    }
+
+    .anim {
+      width: 30em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      left: -6.5rem;
+      right: 6.5rem;
+      top: 20%;
+      animation: float 10s ease-in infinite;
+      position: absolute;
+    }
+    @keyframes float {
+     0% {top: 15%}
+     50% {top: 25%}
+      100% {top: 15%}
     }
   }
 
   @media screen and (max-width: 1366px) {
-    .anim{
+    .navbar {
+      padding: 0;
+    }
+    .anim {
       width: 30em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       left: -6.5rem;
       right: 6.5rem;
+      top: 20%;
+      animation: float 10s ease-in infinite;
+      position: absolute;
+    }
+    @keyframes float {
+     0% {top: 15%}
+     50% {top: 25%}
+      100% {top: 15%}
     }
   }
 

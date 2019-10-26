@@ -116,20 +116,5 @@ export default {
 </script>
 
 <style>
-.anim{
-  width: 40em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  left: -9rem;
-  right: 9rem;
-  top: 20%;
-  animation: test 5s ease-in-out infinite;
-  position: absolute;
-}
-@keyframes test {
- 0% {top: 15%}
- 50% {top: 25%}
-  100% {top: 15%}
-}
+
 </style>
