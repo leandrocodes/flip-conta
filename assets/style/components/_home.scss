@@ -14,3 +14,43 @@
     padding: 1em 5em;
   }
 }
+.social{
+  border-color: rgba(255, 255, 255, 0.85)!important;
+  color: rgba(255, 255, 255, 0.85)!important;
+  width: 2.25em;
+  height: 2.25em;
+  &.fb-link{
+    &:hover{
+      color: $fb-color!important;
+    }
+  }
+  &.twt-link{
+    &:hover{
+      color: $twt-color!important;
+    }
+  }
+}
+
+.navbar-dropdown .navbar-item:hover{
+  color:$primary!important;
+}
+
+.navbar-brand{
+  img{
+    height: 28px;
+    width: 178px;
+  }
+}
+.navbar-menu{
+  .nav-link{
+    .button{
+      border-color: transparent!important;
+      transition: all .1s ease;
+      &:hover{
+        border-color: $beige-lighter!important;
+        background-color: transparent!important;
+        color: $beige-lighter!important;
+      }
+    }
+  }
+}
