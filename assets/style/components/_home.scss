@@ -3,3 +3,14 @@
   background-image: url(~@/assets/img/banner-hero.png);
   background-size: cover;
 }
+
+@media screen and (min-width: 1920px){
+  .navbar{
+    padding: 1em 10em;
+  }
+}
+@media screen and (min-width: 1440px){
+  .navbar{
+    padding: 1em 5em;
+  }
+}

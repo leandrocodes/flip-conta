@@ -84,10 +84,10 @@
 
   <div class="hero-body">
     <p class="title">
-      Documentation
+      FLIPCONTA
     </p>
     <p class="subtitle">
-      Everything you need to <strong>create a website</strong> with Bulma
+      Lorem ipsum dolor <strong>sit amet</strong>.
     </p>
   </div>
 
