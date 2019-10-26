@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-<nav class="navbar is-link is-transparent">
+<nav class="navbar is-primary is-transparent">
   <div class="navbar-brand">
     <a class="navbar-item" href="#">
       <img src="~@/assets/img/flipconta-logo-white.png" alt="Flip Conta" width="112" height="28">
@@ -15,17 +15,17 @@
   <div id="navbarHome" class="navbar-menu">
     <div class="navbar-end">
       <div class="navbar-item">
-        <a href="" class="button is-rounded">início</a>
+        <a href="" class="button is-link is-outlined is-rounded">início</a>
       </div>
       <div class="navbar-item">
-        <a href="" class="button is-rounded">soluções</a>
+        <a href="" class="button is-link is-outlined is-rounded">soluções</a>
       </div>
       <div class="navbar-item">
-        <a href="" class="button is-rounded">preços</a>
+        <a href="" class="button is-link is-outlined is-rounded">preços</a>
       </div>
       <div class="navbar-item has-dropdown is-hoverable">
         <div class="navbar-link is-arrowless is-rounded">
-          <a href="" class="button is-rounded">suporte</a>
+          <a href="" class="button is-link is-outlined is-rounded">suporte</a>
         </div>
         <div class="navbar-dropdown is-boxed">
           <a class="navbar-item" href="">
@@ -57,29 +57,29 @@
         </div>
       </div>
       <div class="navbar-item">
-        <a href="#facebook" class="button is-rounded is-white is-outlined">
+        <a href="#facebook" class="button is-rounded is-link is-outlined social">
           <font-awesome-icon :icon="['fab', 'facebook-f']"/>
         </a>
       </div>
       <div class="navbar-item">
-        <a href="#twitter" class="button is-rounded is-white is-outlined">
+        <a href="#twitter" class="button is-rounded is-link is-outlined social">
           <font-awesome-icon :icon="['fab', 'twitter']"/>
         </a>
       </div>
       <div class="navbar-item">
-        <a href="#abrir-conta" class="button is-rounded">Abrir minha conta grátis</a>
+        <a href="#abrir-conta" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</a>
       </div>
       <div class="navbar-item">
-        <a href="#login" class="button is-rounded">Logar na minha conta</a>
+        <a href="#login" class="button is-link is-outlined is-rounded">Logar na minha conta</a>
       </div>
       <div class="navbar-item">
-        <a href="#consultor" class="button is-rounded">Seja consultor</a>
+        <a href="#consultor" class="button is-link is-outlined is-rounded">Seja consultor</a>
       </div>
     </div>
   </div>
 </nav>
 
-<section class="hero is-link">
+<section class="hero is-primary">
   <div class="hero-body">
     <p class="title">
       Documentation
@@ -103,4 +103,9 @@ export default {
 </script>
 
 <style>
+  .social{
+    width: 2.25em;
+    height: 2.25em;
+  }
+
 </style>
