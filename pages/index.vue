@@ -117,12 +117,12 @@ export default {
 
 <style>
 .anim{
-  width: 45em;
+  width: 40em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  left: -3em;
-  right: 3em;
+  left: -9rem;
+  right: 9rem;
   top: 20%;
   animation: test 5s ease-in-out infinite;
   position: absolute;
