@@ -49,15 +49,15 @@
                 <a class="navbar-item has-text-dark" href>
                   <span>
                     <font-awesome-icon :icon="['fas', 'clock']" />Horário de Funcionamento
-                    <hr class="navbar-divider" />
                     <div class="horarios">
-                      Segunda à Sexta
-                      <br />8h30 às 19h30
-                      <br />
-                      <br />Sábado
-                      <br />9h30 às 19h30
-                      <br />
-                      <br />
+                      <p>
+                      Segunda à Sexta <br />
+                      8h30 às 19h30
+                      </p>
+                      <p>
+                      Sábado <br />
+                      9h30 às 19h30
+                      </p>                      
                       <span>Exceto Domingos e Feriados</span>
                     </div>
                   </span>
