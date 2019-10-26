@@ -96,6 +96,9 @@
         <strong>sit amet</strong>.
       </p>
       <img src="../assets/img/float-icons.webp" class="anim">
+      <div class="slider-hero">
+        <img src="../assets/img/modelo.png">
+      </div>
     </div>
   </section>
 </template>
