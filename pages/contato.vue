@@ -1,5 +1,16 @@
 <template>
-    <barra-menu-secundaria></barra-menu-secundaria>
+    <section class="hero is-primary is-medium is-bold contacts">
+        <div class="hero-head">
+            <barra-menu-secundaria></barra-menu-secundaria>
+        </div>
+        <div class="hero-body">
+            <p class="subtitle">
+            VOCÊ ESTÁ EM >> 
+            <strong>CONTATO</strong>.
+            </p>
+        </div>
+    </section>
+    
 </template>
 
 <script>
