@@ -1,7 +1,7 @@
 <template>
   <section class="hero is-primary is-large home">
     <div class="hero-head">
-      <barra-menu></barra-menu>
+      <barra-menu-primaria></barra-menu-primaria>
     </div>
 
     <div class="hero-body">
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import BarraMenu from '~/components/barra-menu.vue'
+import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
 
 export default {
   components: {
-    BarraMenu
+    BarraMenuPrimaria
   },
   data() {
     return {
