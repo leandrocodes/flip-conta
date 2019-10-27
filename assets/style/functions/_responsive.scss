@@ -18,6 +18,12 @@
 
 .hero {
 
+  @media only screen and (min-width: 1024px) {
+    .navbar {
+      padding: 20px 0;
+    }
+  }  
+
   @media only screen and (min-width: 1440px) {
     .navbar {
       padding: 25px 65px;
