@@ -11,9 +11,9 @@
         </p>
       </div>
     </section>
-    <div class="columns is-centered is-mobile">
+    <div class="columns first is-centered is-mobile">
       <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
-        <div class="texto-entrada has-text-centered">
+        <div class="texto-inicio has-text-centered">
           <h1 class="title has-text-primary has-text-weight-bold">Fale Conosco</h1>
           <h3 class="subtitle has-text-weight-semibold">Tire dúvidas, elogios e mais</h3>
         </div>
@@ -46,7 +46,15 @@
           </div>
         </form>
       </div>
+
+      <div class="columns second is-centered is-mobile">
+        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
+        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
+        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
+      </div> 
+
     </div>
+
   </div>
 </template>
 

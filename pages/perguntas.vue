@@ -13,7 +13,7 @@
     </section>
     <div class="columns is-centered is-mobile">
       <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
-        <div class="texto-entrada has-text-centered">
+        <div class="texto-inicio has-text-centered">
           <h1 class="title has-text-primary has-text-weight-bold">Perguntas Frequentes</h1>
         </div>
         <div class="contents">
@@ -68,7 +68,7 @@
             </div>  
         </div>
       </div>
-    </div>
+    </div>  
   </div>
 </template>
 

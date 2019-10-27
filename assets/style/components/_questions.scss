@@ -1,43 +1,50 @@
-.questions{
-    section.hero{
+.questions {
+    section.hero {
         height: 275px;
-        .hero-body{
-            
-        }
     }
 
-    .columns{
+    .columns {
         margin-top: -100px;
     }
-    .column{
+
+    .column {
+
         background-color: white;
-        box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
-        .texto-entrada{
-            margin: 12px 0;
+        box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+
+        .texto-inicio {
+            margin: 25px 0 12px 0;
         }
-        .contents{
+
+        .contents {
             margin: 50px 0 20px 50px;
-            h5{
+
+            h5 {
                 margin: 0px 20px;
             }
-            .card{
+
+            .card {
                 padding: 10px 20px;
                 box-shadow: none;
-                .card-header{
+
+                .card-header {
                     box-shadow: none;
-                    .card-header-title{
+
+                    .card-header-title {
                         padding: 0;
                     }
                 }
-                .card-content{
+
+                .card-content {
                     padding: 10px 0;
                 }
             }
-            .card-divider{
+
+            .card-divider {
                 margin: 0 20px;
             }
         }
     }
 
-    
+
 }
