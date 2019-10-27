@@ -12,7 +12,7 @@
       </div>
     </section>
     <div class="columns is-centered is-mobile">
-      <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd has-shadow">
+      <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
         <div class="texto-entrada has-text-centered">
           <h1 class="title has-text-primary has-text-weight-bold">Fale Conosco</h1>
           <h3 class="subtitle has-text-weight-semibold">Tire dúvidas, elogios e mais</h3>
