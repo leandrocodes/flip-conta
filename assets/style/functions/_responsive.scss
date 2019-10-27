@@ -1,4 +1,5 @@
 .home {
+
   /* teste */
   @media only screen and (max-width: 1366px) {
     .texto-entrada {
@@ -14,41 +15,43 @@
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .navbar {
-    margin: 25px 40px;
-    padding: 0 25px;
-  }
-
-  .anim {
-    width: 20em;
-    top: 15%;
-    animation-name: floatWide;
-  }
-
-  @keyframes floatWide {
-    0% {
-      top: 12%
-    }
-
-    50% {
-      top: 15%
-    }
-
-    100% {
-      top: 12%
-    }
-  }
-
-  .slider-hero {
-    img {
-      top: 5em;
-      width: 12em;
-    }
-  }
-}
 
 .hero {
+
+  @media only screen and (min-width: 1440px) {
+    .navbar {
+      margin: 25px 40px;
+      padding: 0 25px;
+    }
+
+    .anim {
+      width: 20em;
+      top: 15%;
+      animation-name: floatWide;
+    }
+
+    @keyframes floatWide {
+      0% {
+        top: 12%
+      }
+
+      50% {
+        top: 15%
+      }
+
+      100% {
+        top: 12%
+      }
+    }
+
+    .slider-hero {
+      img {
+        top: 5em;
+        width: 12em;
+      }
+    }
+  }
+
   @media only screen and (min-width: 1920px) {
     .navbar {
       margin: 35px 50px;
