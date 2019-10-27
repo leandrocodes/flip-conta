@@ -5,11 +5,13 @@
     </div>
 
     <div class="hero-body">
-      <p class="title">FLIPCONTA</p>
-      <p class="subtitle">
-        Lorem ipsum dolor
-        <strong>sit amet</strong>.
-      </p>
+      <div class="texto-entrada has-text-align-right">
+        <h1 class="title has-text-link">bem-vindo,</h1>
+        <h3 class="subtitle has-text-link">
+          nós somos a
+          <span>flip</span>conta
+        </h3>
+      </div>
       <img src="../assets/img/float-icons.webp" class="anim" />
       <div class="slider-hero">
         <img src="../assets/img/modelo.png" />
@@ -33,5 +35,5 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 </style>
