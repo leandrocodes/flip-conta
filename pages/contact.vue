@@ -11,56 +11,44 @@
                 </p>
             </div>
         </section>
-        <div class="columns">
-            <div class="column">
-                First column
-            </div>
-            <div class="column">
-                Second column
-            </div>
-            <div class="column">
-                Third column
-            </div>
-            <div class="column">
-                Fourth column
-            </div>
-        </div>
-        <!-- <div class="columns">
-            <div class="column is-half">
+        <div class="columns is-centered">
+            <div class="column is-one-quarter has-shadow">
                 <div class="texto-entrada has-text-centered">
-                    <h1 class="title has-text-link">Fale Conosco</h1>
-                    <h3 class="subtitle has-text-link">
-                    Tire dúvidas, elogios e mais Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus blanditiis sint ipsam ullam, perspiciatis suscipit. Accusamus doloremque quaerat rem dolor vero rerum consequuntur, id voluptas illo voluptatum quo itaque ab!]
+                    <h1 class="title has-text-primary has-text-weight-bold">Fale Conosco</h1>
+                    <h3 class="subtitle has-text-weight-semibold">
+                    Tire dúvidas, elogios e mais
                     </h3>
                 </div>
-                <div class="field is-grouped is-grouped-centered">
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Nome">
+                <form>
+                    <div class="field is-grouped is-grouped-centered">
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Nome">
+                        </div>
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Email">
+                        </div>
                     </div>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Email">
+                    <div class="field is-grouped is-grouped-centered">
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Celular">
+                        </div>
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Assunto">
+                        </div>
                     </div>
-                </div>
-                <div class="field is-grouped is-grouped-centered">
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Celular">
+                    <div class="field">
+                        <div class="control is-expanded">
+                            <textarea class="textarea" placeholder="Sua Mensagem"></textarea>
+                        </div>
                     </div>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Assunto">
+                    <div class="field">
+                        <div class="control">
+                            <a href class="button is-link is-rounded">Enviar Mensagem</a>
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <div class="control">
-                        <textarea class="textarea" placeholder="e.g. Hello world">Sua Mensagem</textarea>
-                    </div>
-                </div>
-                <div class="field">
-                    <div class="control">
-                        <a href class="button is-link is-rounded">Enviar Mensagem</a>
-                    </div>
-                </div>
+                </form>
             </div>
-        </div> -->
+        </div>
     </div>    
     </template>
 
