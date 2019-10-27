@@ -1,7 +1,6 @@
 .navbar.is-primary {
   margin: 10px 10px;
 
-
   .social {
     border-color: rgba(255, 255, 255, 0.85) !important;
     color: rgba(255, 255, 255, 0.85) !important;
@@ -48,6 +47,99 @@
           border-color: $beige-lighter !important;
           background-color: transparent !important;
           color: $beige-lighter !important;
+        }
+      }
+    }
+  }
+
+  .navbar-item {
+    .is-link {
+      &:hover {
+        color: $primary !important;
+      }
+    }
+  }
+
+  .navbar-dropdown {
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    svg {
+      margin: 0 10px;
+      font-size: 18px;
+    }
+
+    .horarios {
+      margin-left: 38px;
+
+      p {
+        margin-top: 10px;
+        font-weight: 900;
+      }
+
+      span {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.navbar.is-secondary {
+  margin: 0;
+  padding: 10px 20px;
+  background: white!important;
+  .social {
+    width: 2.25em;
+    height: 2.25em;
+    &.fb-link {
+      border-color: $fb-color !important;
+      color: $fb-color !important;
+      &:hover {
+        color: $fb-color !important;
+      }
+    }
+
+    &.twt-link {
+      border-color: $twt-color !important;
+      color: $twt-color !important;
+      &:hover {
+        color: $twt-color !important;
+      }
+    }
+  }
+
+  .navbar-dropdown .navbar-item:hover {
+    color: $primary !important;
+  }
+
+  .navbar-brand {
+    img {
+      height: 28px;
+      width: 178px;
+    }
+  }
+
+  .navbar-item {
+    .button {
+      border-width: 1px;
+      transition: all .1s ease;
+    }
+  }
+
+  .navbar-menu {
+    .nav-link {
+      .button {
+        border-color: transparent !important;
+        color: $primary;
+        &:hover {
+          border-color: $primary !important;
+          background-color: transparent !important;
+          color: $primary !important;
         }
       }
     }

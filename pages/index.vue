@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
+import BarraMenuPrimaria from '~/components/barra-menu-secundaria.vue'
 
 export default {
   components: {
