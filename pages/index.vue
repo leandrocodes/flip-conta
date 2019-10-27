@@ -14,13 +14,15 @@
       </div>
       <img src="../assets/img/float-icons.webp" class="anim" />
       <div class="slider-hero">
-        <img src="../assets/img/modelo.png" />
+        <img v-if="indexImage == 1" src="../assets/img/modelo.png" />
+        <img v-if="indexImage == 2" src="../assets/img/modelo2.png" />
+        <img v-if="indexImage == 3" src="../assets/img/modelo2.png" />
       </div>
       <div class="nav-buttons">
-        <a class="button is-rounded is-primary is-outlined">
+        <a class="button is-rounded is-primary is-outlined" @click="sliderImage('frente')">
           <font-awesome-icon :icon="['fas', 'angle-left']" />
         </a>
-        <a class="button is-rounded is-primary is-outlined">
+        <a class="button is-rounded is-primary is-outlined" @click="sliderImage('tras')">
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </a>
       </div>
@@ -37,7 +39,20 @@ export default {
   },
   data() {
     return {
-
+      indexImage: 1
+    }
+  },
+  methods: {
+    sliderImage(val) {
+      if (val == 'frente') {
+        this.indexImage++
+        if (this.indexImage > 3)
+          this.indexImage = 1
+      } else {
+        this.indexImage--
+        if (this.indexImage < 1)
+          this.indexImage = 3
+      }
     }
   }
 }
