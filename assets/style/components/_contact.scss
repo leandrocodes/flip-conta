@@ -20,7 +20,23 @@
             }
         }
         &.second{
-
+            margin-top: 50px;
+            .column{
+                margin: 0 20px;
+                .circle{
+                    display: inline-block;
+                    height: 64px;
+                    width: 64px;
+                    background-color: $grey-light;
+                    svg{
+                        font-size: 32px;
+                        color: $link;
+                    }
+                }   
+            }
+        }
+        h2{
+            margin: 10px 0;
         }
     }
 
