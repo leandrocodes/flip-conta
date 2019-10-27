@@ -1,14 +1,16 @@
-@media only screen and (max-width: 1366px) {
-  .texto-entrada{
-    margin-top: -7em;
-    margin-right: 20em;
-  }
+.home {
+  @media only screen and (max-width: 1366px) {
+    .texto-entrada {
+      margin-top: -7em;
+      margin-right: 20em;
+    }
 
-  .nav-buttons{
-    margin-top: 2em;
-    margin-left: 52em;
-  }
+    .nav-buttons {
+      margin-top: 2em;
+      margin-left: 52em;
+    }
 
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -45,70 +47,72 @@
   }
 }
 
-@media only screen and (min-width: 1920px) {
-  .navbar {
-    margin: 35px 50px;
-    padding: 0 125px;
-  }
-
-  .anim {
-    width: 27em;
-    top: 20%;
-    animation: floatFull 6s ease infinite;
-  }
-
-  @keyframes floatFull {
-    0% {
-      top: 15%
+.hero {
+  @media only screen and (min-width: 1920px) {
+    .navbar {
+      margin: 35px 50px;
+      padding: 0 125px;
     }
 
-    50% {
-      top: 20%
+    .anim {
+      width: 27em;
+      top: 20%;
+      animation: floatFull 6s ease infinite;
     }
 
-    100% {
-      top: 15%
-    }
-  }
+    @keyframes floatFull {
+      0% {
+        top: 15%
+      }
 
-  .slider-hero {
-    img {
-      top: 6em;
-      width: 16.5em;
-    }
-  }
-}
+      50% {
+        top: 20%
+      }
 
-@media only screen and (min-width: 2560px) {
-  .navbar {
-    margin: 35px 200px;
-    padding: 0 225px;
-  }
-
-  .anim {
-    width: 37em;
-    top: 25%;
-    animation: floatUltra 6s ease infinite;
-  }
-
-  @keyframes floatUltra {
-    0% {
-      top: 20%
+      100% {
+        top: 15%
+      }
     }
 
-    50% {
-      top: 25%
-    }
-
-    100% {
-      top: 20%
+    .slider-hero {
+      img {
+        top: 6em;
+        width: 16.5em;
+      }
     }
   }
 
-  .slider-hero {
-    img {
-      top: 5em;
-      width: 23em;
+  @media only screen and (min-width: 2560px) {
+    .navbar {
+      margin: 35px 200px;
+      padding: 0 225px;
+    }
+
+    .anim {
+      width: 37em;
+      top: 25%;
+      animation: floatUltra 6s ease infinite;
+    }
+
+    @keyframes floatUltra {
+      0% {
+        top: 20%
+      }
+
+      50% {
+        top: 25%
+      }
+
+      100% {
+        top: 20%
+      }
+    }
+
+    .slider-hero {
+      img {
+        top: 5em;
+        width: 23em;
+      }
     }
   }
 }
