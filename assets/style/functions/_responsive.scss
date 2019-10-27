@@ -15,267 +15,264 @@
 }
 
 .home {
-  &.hero {
+  .hero {
     @media only screen and (max-width: 425px) {
       height: 85vh;
       background-size: cover;
       background-position: center center;
     }
-  }
-}
-
-.hero {
-  @media only screen and (max-width: 320px) {
-    .texto-entrada {
-      margin: -2.5em auto!important;
-      .title {
-        font-size: 1.5rem;
+    @media only screen and (max-width: 320px) {
+      .texto-entrada {
+        margin: -12em auto!important;
+        .title {
+          font-size: 1.5rem;
+        }
+  
+        .subtitle {
+          font-size: 1rem;
+        }
       }
-
-      .subtitle {
-        font-size: 1rem;
+  
+      .nav-buttons {
+        margin-top: 12em;
+        margin-left: 12em;
       }
-    }
-
-    .nav-buttons {
-      margin-top: 23em;
-      margin-left: 10em;
-    }
-
-    .anim {
-      width: 20em;
-      top: 25%;
-      animation-name: floatSM;
-    }
-
-    @keyframes floatSM {
-      0% {
-        top: 20%
+  
+      .anim {
+        width: 20em;
+        top: 25%;
+        animation-name: floatSM;
       }
-
-      50% {
-        top: 25%
+  
+      @keyframes floatSM {
+        0% {
+          top: 20%
+        }
+  
+        50% {
+          top: 25%
+        }
+  
+        100% {
+          top: 20%
+        }
       }
-
-      100% {
-        top: 20%
-      }
-    }
-
-    .slider-hero {
-      img {
-        top: 8em;
-        width: 12em;
+  
+      .slider-hero {
+        img {
+          top: 8em;
+          width: 12em;
+        }
       }
     }
-  }
-
-  @media only screen and (max-width: 375px) and (min-width: 321px) {
-    .texto-entrada {
-      margin: -2em auto;
-
-      .title {
-        font-size: 1.5rem;
+  
+    @media only screen and (max-width: 375px) and (min-width: 321px) {
+      .texto-entrada {
+        margin: -11em auto;
+  
+        .title {
+          font-size: 1.5rem;
+        }
+  
+        .subtitle {
+          font-size: 1rem;
+        }
       }
-
-      .subtitle {
-        font-size: 1rem;
+  
+      .nav-buttons {
+        margin-top: 12em;
+        margin-left: 14em !important;
       }
-    }
-
-    .nav-buttons {
-      margin-top: 23em;
-      margin-left: 14em !important;
-    }
-
-    .anim {
-      width: 20em;
-      top: 25%;
-      animation-name: floatSM;
-    }
-
-    @keyframes floatSM {
-      0% {
-        top: 20%
+  
+      .anim {
+        width: 20em;
+        top: 25%;
+        animation-name: floatSM;
       }
-
-      50% {
-        top: 25%
+  
+      @keyframes floatSM {
+        0% {
+          top: 20%
+        }
+  
+        50% {
+          top: 25%
+        }
+  
+        100% {
+          top: 20%
+        }
       }
-
-      100% {
-        top: 20%
-      }
-    }
-
-    .slider-hero {
-      img {
-        top: 8em !important;
-        width: 12em;
-      }
-    }
-  }
-
-  @media screen and (max-width: 425px) and (min-width: 376px) {
-    .texto-entrada {
-      margin: -2em auto;
-
-      .title {
-        font-size: 1.5rem;
-      }
-
-      .subtitle {
-        font-size: 1rem;
+  
+      .slider-hero {
+        img {
+          top: 8em !important;
+          width: 12em;
+        }
       }
     }
-
-    .slider-hero {
-      img {
-        top: 7em !important;
-        width: 12em;
+  
+    @media screen and (max-width: 425px) and (min-width: 376px) {
+      .texto-entrada {
+        margin: -11em auto;
+  
+        .title {
+          font-size: 1.5rem;
+        }
+  
+        .subtitle {
+          font-size: 1rem;
+        }
+      }
+  
+      .slider-hero {
+        img {
+          top: 7em !important;
+          width: 12em;
+        }
+      }
+  
+      .nav-buttons {
+        margin-top: 12em;
+        margin-left: 16em;
+      }
+  
+      .anim {
+        width: 22em;
+        animation-name: floatSM;
+      }
+  
+      @keyframes floatSM {
+        0% {
+          top: 20%
+        }
+  
+        50% {
+          top: 25%
+        }
+  
+        100% {
+          top: 20%
+        }
       }
     }
-
-    .nav-buttons {
-      margin-top: 22em;
-      margin-left: 16em;
-    }
-
-    .anim {
-      width: 22em;
-      animation-name: floatSM;
-    }
-
-    @keyframes floatSM {
-      0% {
-        top: 20%
+  
+    @media only screen and (min-width: 1440px) {
+      .navbar {
+        padding: 25px 65px;
       }
-
-      50% {
-        top: 25%
+  
+      .anim {
+        width: 20em;
+        top: 15%;
+        animation-name: floatWide;
       }
-
-      100% {
-        top: 20%
+  
+      @keyframes floatWide {
+        0% {
+          top: 12%
+        }
+  
+        50% {
+          top: 15%
+        }
+  
+        100% {
+          top: 12%
+        }
       }
-    }
-  }
-
-  @media only screen and (min-width: 1440px) {
-    .navbar {
-      padding: 25px 65px;
-    }
-
-    .anim {
-      width: 20em;
-      top: 15%;
-      animation-name: floatWide;
-    }
-
-    @keyframes floatWide {
-      0% {
-        top: 12%
-      }
-
-      50% {
-        top: 15%
-      }
-
-      100% {
-        top: 12%
+  
+      .slider-hero {
+        img {
+          top: 5em;
+          width: 12em;
+        }
       }
     }
-
-    .slider-hero {
-      img {
-        top: 5em;
-        width: 12em;
+  
+    @media only screen and (min-width: 1920px) {
+      .navbar {
+        padding: 35px 175px;
+      }
+  
+      .anim {
+        width: 27em;
+        top: 20%;
+        animation: floatFull 6s ease infinite;
+      }
+  
+      @keyframes floatFull {
+        0% {
+          top: 15%
+        }
+  
+        50% {
+          top: 20%
+        }
+  
+        100% {
+          top: 15%
+        }
+      }
+  
+      .slider-hero {
+        img {
+          top: 6em;
+          width: 16.5em;
+        }
       }
     }
-  }
-
-  @media only screen and (min-width: 1920px) {
-    .navbar {
-      padding: 35px 175px;
-    }
-
-    .anim {
-      width: 27em;
-      top: 20%;
-      animation: floatFull 6s ease infinite;
-    }
-
-    @keyframes floatFull {
-      0% {
-        top: 15%
+  
+    @media only screen and (min-width: 2560px) {
+      .navbar {
+        padding: 35px 425px;
       }
-
-      50% {
-        top: 20%
+  
+      .anim {
+        width: 37em;
+        top: 25%;
+        animation: floatUltra 6s ease infinite;
       }
-
-      100% {
-        top: 15%
+  
+      @keyframes floatUltra {
+        0% {
+          top: 20%
+        }
+  
+        50% {
+          top: 25%
+        }
+  
+        100% {
+          top: 20%
+        }
       }
+  
+      .slider-hero {
+        img {
+          top: 5em;
+          width: 23em;
+        }
+      }
+  
+      .texto-entrada {
+        margin-top: -4em;
+        margin-right: 25em;
+  
+        .title {
+          font-size: 4rem;
+        }
+  
+        .subtitle {
+          font-size: 3.25rem;
+        }
+      }
+  
+      .nav-buttons {
+        margin-top: 15em;
+        margin-left: 102em;
+      }
+  
     }
-
-    .slider-hero {
-      img {
-        top: 6em;
-        width: 16.5em;
-      }
-    }
-  }
-
-  @media only screen and (min-width: 2560px) {
-    .navbar {
-      padding: 35px 425px;
-    }
-
-    .anim {
-      width: 37em;
-      top: 25%;
-      animation: floatUltra 6s ease infinite;
-    }
-
-    @keyframes floatUltra {
-      0% {
-        top: 20%
-      }
-
-      50% {
-        top: 25%
-      }
-
-      100% {
-        top: 20%
-      }
-    }
-
-    .slider-hero {
-      img {
-        top: 5em;
-        width: 23em;
-      }
-    }
-
-    .texto-entrada {
-      margin-top: -4em;
-      margin-right: 25em;
-
-      .title {
-        font-size: 4rem;
-      }
-
-      .subtitle {
-        font-size: 3.25rem;
-      }
-    }
-
-    .nav-buttons {
-      margin-top: 15em;
-      margin-left: 102em;
-    }
-
   }
 }

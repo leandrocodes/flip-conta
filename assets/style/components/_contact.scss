@@ -1,27 +1,33 @@
-.contact{
-    section.hero{
+.contact {
+    section.hero {
         height: 275px;
     }
 
-    .columns{
+    .columns {
         margin-top: -100px;
     }
-    .column{
+
+    .column {
         background-color: white;
-        box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
-        .texto-entrada{
+        box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+
+        .texto-entrada {
             margin: 12px 0;
         }
-        form{
+
+        form {
             padding: 20px;
-            input , .textarea{
-                box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
+
+            input,
+            .textarea {
+                box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
             }
-            a{
+
+            a {
                 margin: 10px 0;
             }
         }
     }
 
-    
+
 }

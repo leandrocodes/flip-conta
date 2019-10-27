@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-      <section class="hero is-primary is-large home">
+  <div class = "home">
+    <section class="hero is-primary is-large">
       <div class="hero-head">
         <barra-menu-primaria></barra-menu-primaria>
       </div>
@@ -35,9 +35,71 @@
         </div>
       </div>
     </section>
-    <section class="cards">
-      <h1 class="title">Leandro Viana</h1>
-    </section>
+    <div class="cards">
+      <h2 class="subtitle has-text-right">Confira nossas soluções</h2>
+      <div class="columns is-mobile has-text-centered is-centered">
+         <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div>
+          <img src="../assets/img/boleto.png" width="100px" />
+          <p>
+            o o menor custo para
+            <br />
+            <strong class="has-text-grey-dark">boleto registrado</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+      </div>
   </div>
 </template>
 
