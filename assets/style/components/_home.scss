@@ -70,6 +70,19 @@
     }
   }
 
+  @media only screen and (max-width: 1366px) {
+    .texto-entrada{
+      margin-top: -7em;
+      margin-right: 20em;
+    }
+  
+    .nav-buttons{
+      margin-top: 2em;
+      margin-left: 52em;
+    }
+
+  }
+
   @media only screen and (min-width: 1440px) {
     .navbar {
       margin: 25px 40px;
