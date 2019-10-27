@@ -1,12 +1,12 @@
 <template>
-    <section class="hero is-primary is-medium is-bold contact">
+    <section class="hero is-primary is-bold contact">
         <div class="hero-head">
             <barra-menu-secundaria></barra-menu-secundaria>
         </div>
         <div class="hero-body">
             <p class="subtitle">
             VOCÊ ESTÁ EM >> 
-            <strong>CONTATO</strong>.
+            <strong>CONTATO</strong>
             </p>
         </div>
     </section>
