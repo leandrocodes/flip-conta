@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-primary is-medium is-bold contacts">
+    <section class="hero is-primary is-medium is-bold contact">
         <div class="hero-head">
             <barra-menu-secundaria></barra-menu-secundaria>
         </div>
