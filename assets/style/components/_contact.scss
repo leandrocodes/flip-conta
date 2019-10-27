@@ -4,23 +4,29 @@
     }
 
     .columns{
-        margin-top: -100px;
+        &.first{
+            margin-top: -100px;
+            .texto-inicio{
+                margin: 25px 0 12px 0;
+            }
+            form{
+                padding: 20px;
+                input , .textarea{
+                    box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
+                }
+                a{
+                    margin: 10px 0;
+                }
+            }
+        }
+        &.second{
+
+        }
     }
+
     .column{
         background-color: white;
         box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
-        .texto-entrada{
-            margin: 12px 0;
-        }
-        form{
-            padding: 20px;
-            input , .textarea{
-                box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
-            }
-            a{
-                margin: 10px 0;
-            }
-        }
     }
 
     
