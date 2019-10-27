@@ -44,6 +44,32 @@
     }
   }
 
+  .texto-entrada{
+    float: right;
+    margin-top: -3em;
+    margin-right: 30em;
+  }
+  .title {
+    font-weight: bold;
+  }
+  .subtitle {
+    font-weight: unset;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .nav-buttons{
+    margin-top: 10em;
+    margin-left: 75em;
+    .button{
+      border-width: 1px;
+      width: 2.25em;
+      height: 2.25em;
+      transition: all .15s ease;
+    }
+  }
+
   @media only screen and (min-width: 1440px) {
     .navbar {
       margin: 25px 40px;
@@ -143,32 +169,6 @@
         top: 5em;
         width: 23em;
       }
-    }
-  }
-
-  .texto-entrada{
-    float: right;
-    margin-top: -3em;
-    margin-right: 30em;
-  }
-  .title {
-    font-weight: bold;
-  }
-  .subtitle {
-    font-weight: unset;
-    span {
-      font-weight: bold;
-    }
-  }
-
-  .nav-buttons{
-    margin-top: 10em;
-    margin-left: 75em;
-    .button{
-      border-width: 1px;
-      width: 2.25em;
-      height: 2.25em;
-      transition: all .15s ease;
     }
   }
 
