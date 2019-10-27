@@ -1,6 +1,9 @@
 .questions{
     section.hero{
         height: 275px;
+        .hero-body{
+            
+        }
     }
 
     .columns{
@@ -12,21 +15,27 @@
         .texto-entrada{
             margin: 12px 0;
         }
-        .card{
-            padding: 20px;
-            box-shadow: none;
-            .card-header{
+        .contents{
+            margin: 50px 0 20px 50px;
+            h5{
+                margin: 0px 20px;
+            }
+            .card{
+                padding: 10px 20px;
                 box-shadow: none;
-                .card-header-title{
-                    padding: 0;
+                .card-header{
+                    box-shadow: none;
+                    .card-header-title{
+                        padding: 0;
+                    }
+                }
+                .card-content{
+                    padding: 10px 0;
                 }
             }
-            .card-content{
-                padding: 0;
+            .card-divider{
+                margin: 0 20px;
             }
-        }
-        .card-divider{
-            margin: 0 20px;
         }
     }
 

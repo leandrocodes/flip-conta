@@ -5,7 +5,7 @@
         <barra-menu-secundaria></barra-menu-secundaria>
       </div>
       <div class="hero-body">
-        <p class="subtitle">
+        <p class="subtitle is-6">
           VOCÊ ESTÁ EM >>
           <strong>CONTATO</strong>
         </p>
