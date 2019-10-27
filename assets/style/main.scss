@@ -4,6 +4,7 @@
 @import "abstract/variables";
 @import "components/home";
 @import "components/contact";
+@import "components/questions";
 @import "components/navbar";
 
 @import "functions/responsive";
@@ -18,3 +19,4 @@
 @import "bulma/sass/layout/hero.sass";
 @import "bulma/sass/layout/section.sass";
 @import "bulma/sass/grid/_all.sass";
+@import "bulma/sass/components/card.sass";
