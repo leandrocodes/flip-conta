@@ -145,4 +145,19 @@
       }
     }
   }
+
+  .texto-entrada{
+    float: right;
+    margin-top: -3em;
+    margin-right: 30em;
+  }
+  .title {
+    font-weight: bold;
+  }
+  .subtitle {
+    font-weight: unset;
+    span {
+      font-weight: bold;
+    }
+  }
 }
