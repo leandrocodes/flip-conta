@@ -6,7 +6,7 @@
 
     <div class="hero-body">
       <div class="texto-entrada has-text-align-right">
-        <h1 class="title has-text-link">bem-vindo,</h1>
+        <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
         <h3 class="subtitle has-text-link">
           nós somos a
           <span>flip</span>conta
