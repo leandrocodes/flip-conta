@@ -1,6 +1,5 @@
 <template>
   <section class="hero is-primary is-large home">
-    <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <barra-menu></barra-menu>
     </div>
