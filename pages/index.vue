@@ -16,6 +16,14 @@
       <div class="slider-hero">
         <img src="../assets/img/modelo.png" />
       </div>
+      <div class="nav-buttons">
+        <a class="button is-rounded is-primary is-outlined">
+          <font-awesome-icon :icon="['fas', 'angle-left']" />
+        </a>
+        <a class="button is-rounded is-primary is-outlined">
+          <font-awesome-icon :icon="['fas', 'angle-right']" />
+        </a>
+      </div>
     </div>
   </section>
 </template>

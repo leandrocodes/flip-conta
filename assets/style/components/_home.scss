@@ -160,4 +160,16 @@
       font-weight: bold;
     }
   }
+
+  .nav-buttons{
+    margin-top: 10em;
+    margin-left: 75em;
+    .button{
+      border-width: 1px;
+      width: 2.25em;
+      height: 2.25em;
+      transition: all .15s ease;
+    }
+  }
+
 }
