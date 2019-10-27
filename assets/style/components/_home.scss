@@ -7,93 +7,6 @@
     background-position: top center;
   }
 
-  .navbar{
-    margin: 10px 10px;
-  }
-
-  .social {
-    border-color: rgba(255, 255, 255, 0.85) !important;
-    color: rgba(255, 255, 255, 0.85) !important;
-    width: 2.25em;
-    height: 2.25em;
-
-    &.fb-link {
-      &:hover {
-        color: $fb-color !important;
-      }
-    }
-
-    &.twt-link {
-      &:hover {
-        color: $twt-color !important;
-      }
-    }
-  }
-
-  .navbar-dropdown .navbar-item:hover {
-    color: $primary !important;
-  }
-
-  .navbar-brand {
-    img {
-      height: 28px;
-      width: 178px;
-    }
-  }
-
-  .navbar-item {
-    .button {
-      border-width: 1px;
-      transition: all .1s ease;
-    }
-  }
-
-  .navbar-menu {
-    .nav-link {
-      .button {
-        border-color: transparent !important;
-
-        &:hover {
-          border-color: $beige-lighter !important;
-          background-color: transparent !important;
-          color: $beige-lighter !important;
-        }
-      }
-    }
-  }
-
-  .navbar-item {
-    .is-link {
-      &:hover {
-        color: $primary !important;
-      }
-    }
-  }
-
-  .navbar-dropdown{
-    a{
-      display: flex;
-      align-items: center;
-      font-size: 16px;
-    }
-    svg{
-      margin: 0 10px;
-      font-size: 18px;
-    }
-    .horarios{
-      margin-left: 38px;
-      p{
-        margin-top: 10px;
-        font-weight: 900;
-      }
-      span{
-        display: inline-block;
-        margin-top: 10px;
-        font-size: 14px;
-      }
-    }
-  }
-
   .anim {
     width: 18em;
     margin-left: auto;
@@ -132,10 +45,11 @@
   }
 
   @media only screen and (min-width: 1440px) {
-    .navbar{
+    .navbar {
       margin: 25px 40px;
       padding: 0 25px;
     }
+
     .anim {
       width: 20em;
       top: 15%;
@@ -165,10 +79,11 @@
   }
 
   @media only screen and (min-width: 1920px) {
-    .navbar{
+    .navbar {
       margin: 35px 50px;
       padding: 0 125px;
     }
+
     .anim {
       width: 27em;
       top: 20%;
@@ -198,10 +113,11 @@
   }
 
   @media only screen and (min-width: 2560px) {
-    .navbar{
+    .navbar {
       margin: 35px 200px;
       padding: 0 225px;
     }
+
     .anim {
       width: 37em;
       top: 25%;
