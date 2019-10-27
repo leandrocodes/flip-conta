@@ -10,8 +10,18 @@
             </p>
         </div>
     </section>
-    
-</template>
+    <form>
+        <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+
+            </div>
+            <div class="control">
+                
+            </div>
+        </div>
+    </form>
+        
+    </template>
 
 <script>
 
