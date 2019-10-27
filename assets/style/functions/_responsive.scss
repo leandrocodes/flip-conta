@@ -1,4 +1,14 @@
 .home {
+  @media only screen and (max-width: 1025px) {
+    &.hero {
+      width: 100%!important;
+      background-color: transparent !important;
+      background-image: url(~@/assets/img/bg-gradient.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+    }
+  }
 
   /* teste */
   @media only screen and (max-width: 1366px) {
@@ -23,7 +33,7 @@
       padding: 20px 0;
     }
 
-  }  
+  }
 
   @media only screen and (min-width: 1440px) {
     .navbar {
@@ -126,10 +136,12 @@
     .texto-entrada {
       margin-top: -4em;
       margin-right: 25em;
-      .title{
+
+      .title {
         font-size: 4rem;
       }
-      .subtitle{
+
+      .subtitle {
         font-size: 3.25rem;
       }
     }
