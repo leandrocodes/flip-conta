@@ -1,24 +1,31 @@
-.contact{
-    section.hero{
+.contact {
+    section.hero {
         height: 275px;
     }
 
-    .columns{
-        &.first{
+    .columns {
+        margin-top: -100px;
+        &.first {
             margin-top: -100px;
-            .texto-inicio{
+
+            .texto-inicio {
                 margin: 25px 0 12px 0;
             }
-            form{
+
+            form {
                 padding: 20px;
-                input , .textarea{
-                    box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
+
+                input,
+                .textarea {
+                    box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
                 }
-                a{
+
+                a {
                     margin: 10px 0;
                 }
             }
         }
+    
         &.second{
             margin-top: 50px;
             .column{
@@ -29,7 +36,7 @@
                     display: inline-block;
                     background-color: $grey-light;
                     border-radius: 100%;
-                    align-items: center;
+                    text-align: center;
                     svg{
                         font-size: 32px;
                         color: $link;
@@ -42,10 +49,8 @@
         }
     }
 
-    .column{
+    .column {
         background-color: white;
-        box-shadow: 0 0.5em 1em -0.125em rgba(0,0,0, 0.1), 0 0px 0 1px rgba(0,0,0, 0.02);
+        box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
     }
-
-    
 }

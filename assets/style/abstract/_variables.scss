@@ -2,6 +2,7 @@
 
 // Set your brand colors
 $purple: #7510ED;
+$dark-purple: #2c0452;
 $cyan: #00E0CE;
 $brown: #757763;
 $beige-light: #D0D1CD;
@@ -11,7 +12,7 @@ $twt-color: #1DA1F2;
 
 // Update Bulma's global variables
 $font-family: 'Cairo', sans-serif;
-$grey-dark: $brown;
+$grey-dark: $dark-purple;
 $grey-light: $beige-light;
 $primary: $purple;
 $link: $cyan;
