@@ -1,5 +1,5 @@
 <template>
-  <div class = "home">
+  <div class="home">
     <section class="hero is-primary is-large">
       <div class="hero-head">
         <barra-menu-primaria></barra-menu-primaria>
@@ -37,69 +37,22 @@
     </section>
     <div class="cards">
       <h2 class="subtitle has-text-right">Confira nossas soluções</h2>
-      <div class="columns is-mobile has-text-centered is-centered">
-         <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
+      <div v-swiper:mySwiper="swiperOption">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="banner in banners" :key="banner">
+            <img :src="`${banner.img}`" width="100px" />
+            <p>{{banner.text}}</p>
+          </div>
         </div>
-      </div>
-      <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
+        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-button-prev">
+          <font-awesome-icon :icon="['fas', 'angle-left']" />
         </div>
-      </div>
-      <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
-        </div>
-      </div>
-      <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
-        </div>
-      </div>
-      <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
-        </div>
-      </div>
-      <div class="column is-2">
-        <div>
-          <img src="../assets/img/boleto.png" width="100px" />
-          <p>
-            o o menor custo para
-            <br />
-            <strong class="has-text-grey-dark">boleto registrado</strong>
-          </p>
+        <div class="swiper-button-next">
+          <font-awesome-icon :icon="['fas', 'angle-right']" />
         </div>
       </div>
     </div>
-      </div>
   </div>
 </template>
 
@@ -110,13 +63,26 @@ export default {
   components: {
     BarraMenuPrimaria
   },
-  data() {
+  data () {
     return {
-      indexImage: 1
+      indexImage: 1,
+      banners: [{ img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' }],
+      swiperOption: {
+        slidesPerView: 6,
+        centeredSlides: true,
+        spaceBetween: 30,
+        clickable: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      }
     }
   },
   methods: {
-    sliderImage(val) {
+    sliderImage (val) {
       if (val == 'frente') {
         this.indexImage++
         if (this.indexImage > 3)
@@ -132,4 +98,12 @@ export default {
 </script>
 
 <style lang="scss">
+.swiper-button-next {
+  background-image: none;
+  font-size: 48px;
+}
+.swiper-button-prev {
+  background-image: none;
+  font-size: 48px;
+}
 </style>

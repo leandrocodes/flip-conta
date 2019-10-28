@@ -3,10 +3,11 @@
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="banner in banners" :key="banner">
-        <img :src="banner" />
+        <img :src="`${banner.img}`" width="100px" />
+        <p>{{banner.text}}</p>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <!-- <div class="swiper-pagination"></div> -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
@@ -14,12 +15,15 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      banners: ['https://images.pexels.com/photos/2534475/pexels-photo-2534475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        'https://images.pexels.com/photos/2534475/pexels-photo-2534475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        'https://images.pexels.com/photos/2534475/pexels-photo-2534475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'],
+      banners: [{ img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' }],
       swiperOption: {
+        slidesPerView: 6,
+        centeredSlides: true,
+        spaceBetween: 30,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -28,14 +32,11 @@ export default {
       }
     }
   },
-  mounted() {
+  mounted () {
     setTimeout(() => {
-      this.banners.push('/4.jpg')
+      this.banners.push({ img: 'img/boleto.png', text: 'boleto' })
       console.log('banners update')
     }, 3000)
-    console.log(
-      'This is current swiper instance object', this.mySwiper,
-      'It will slideTo banners 3')
     this.mySwiper.slideTo(3, 1000, false)
   }
 }
@@ -43,11 +44,6 @@ export default {
 
 
 <style lang="scss" scoped>
-img {
-  display: block;
-  width: 400px;
-  margin: 0 auto;
-}
 .my-swiper {
   height: 300px;
   width: 100%;
@@ -58,8 +54,8 @@ img {
     background-color: #eee;
   }
   .swiper-pagination {
-    > .swiper-pagination-bullet {
-      background-color: red;
+    > .swiper-button-next {
+      color: red;
     }
   }
 }
