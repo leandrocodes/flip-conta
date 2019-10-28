@@ -25,26 +25,30 @@
                 }
             }
         }
-    
-        &.second{
+
+        &.second {
             margin-top: 50px;
-            .column{
+
+            .column {
                 margin: 0 20px;
-                .circle{
+
+                .circle {
                     height: 64px;
                     width: 64px;
                     display: inline-block;
                     background-color: $grey-light;
                     border-radius: 100%;
-                    text-align: center;
-                    svg{
+                    align-items: center;
+
+                    svg {
                         font-size: 32px;
                         color: $link;
                     }
-                }   
+                }
             }
         }
-        h2{
+
+        h2 {
             margin: 10px 0;
         }
     }
