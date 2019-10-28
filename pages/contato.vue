@@ -46,16 +46,39 @@
           </div>
         </form>
       </div>
+    </div>
 
-      <div class="columns second is-centered is-mobile">
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">Teste</div>
-      </div> 
+    <div class="columns second has-text-centered is-centered is-mobile is-multline ">
+      
+      <div class="column is-10-mobile is-8-tablet is-2-desktop">
+        <div class="circle ">
+          <font-awesome-icon :icon="['fas', 'envelope']" />
+        </div>
+        <h1 class="title  has-text-black has-text-weight-bold">Email</h1>
+        <h2 class="subtitle has-text-weight-semibold">admin@evolta.com</h2>
+        <h2 class="subtitle has-text-weight-semibold">info@evolta.com</h2>
+      </div>
+      <div class="column is-10-mobile is-8-tablet is-2-desktop">
+        <div class="circle ">
+          <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+        </div>
+        <h1 class="title has-text-black has-text-weight-bold">Localização</h1>
+        <h2 class="subtitle has-text-weight-semibold">2750 Quadra Steet Victoria, New York</h2>
+        <h2 class="subtitle has-text-weight-semibold">USA</h2>
+      </div>
+      <div class="column is-10-mobile is-8-tablet is-2-desktop">
+        <div class="circle is-vcentered">
+          <font-awesome-icon :icon="['fas', 'phone-alt']" />
+        </div>
+        <h1 class="title has-text-black has-text-weight-bold">Telefone</h1>
+        <h2 class="subtitle has-text-weight-semibold">(99) 99999 9999</h2>
+        <h2 class="subtitle has-text-weight-semibold">(99) 99999 9999</h2>
+      </div>
 
     </div>
 
   </div>
+
 </template>
 
 <script>
