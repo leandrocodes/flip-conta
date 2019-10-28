@@ -36,15 +36,17 @@
       </div>
     </section>
     <div class="cards">
-      <h2 class="subtitle has-text-right">Confira nossas soluções</h2>
+      <h2 class="subtitle has-text-right-desktop has-text-centered-mobile">Confira nossas soluções</h2>
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" v-for="banner in banners" :key="banner">
-            <img :src="`${banner.img}`" width="100px" />
-            <p>{{banner.text}}</p>
+          <div class="swiper-slide columns is-centered" v-for="banner in banners" :key="banner.text">
+            <div class="column">
+              <img :src="`${banner.img}`" width="100px" />
+              <p>{{banner.text}}</p>
+            </div>
           </div>
         </div>
-        <!-- <div class="swiper-pagination"></div> -->
+        <div class="swiper-pagination"></div>
         <div class="swiper-button-prev">
           <font-awesome-icon :icon="['fas', 'angle-left']" />
         </div>
@@ -58,7 +60,6 @@
 
 <script>
 import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
-
 export default {
   components: {
     BarraMenuPrimaria
@@ -68,17 +69,24 @@ export default {
       indexImage: 1,
       banners: [{ img: 'img/boleto.png', text: 'boleto' },
       { img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' },
+      { img: 'img/boleto.png', text: 'boleto' },
       { img: 'img/boleto.png', text: 'boleto' }],
       swiperOption: {
-        slidesPerView: 6,
+        slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: 30,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
         }
       }
+    }
+  },
+  created () {
+    if (this.$device.isDesktop) {
+      this.swiperOption.slidesPerView = 6
     }
   },
   methods: {
@@ -92,7 +100,7 @@ export default {
         if (this.indexImage < 1)
           this.indexImage = 3
       }
-    }
+    },
   }
 }
 </script>
@@ -101,9 +109,14 @@ export default {
 .swiper-button-next {
   background-image: none;
   font-size: 48px;
+  margin: 0;
 }
 .swiper-button-prev {
   background-image: none;
   font-size: 48px;
+  margin: 0;
+}
+.swiper-wrapper {
+  width: 80%;
 }
 </style>

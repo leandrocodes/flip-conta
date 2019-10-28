@@ -55,6 +55,7 @@ export default {
         ]
       }
     ],
+    '@nuxtjs/device'
   ],
   /*
   ** Build configuration
