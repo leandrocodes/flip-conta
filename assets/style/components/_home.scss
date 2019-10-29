@@ -79,6 +79,15 @@
     }
   }
   .cards{
+    .column{
+      p{
+        color: $dark-purple;
+        text-transform: uppercase;
+        strong{
+          color: $dark-purple;
+        }
+      }
+    }
     .subtitle{
       color: $blueish;
       font-weight: 700;

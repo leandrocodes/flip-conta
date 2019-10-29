@@ -8,10 +8,10 @@
       <div class="hero-body">
         <div class="texto-entrada has-text-align-right">
           <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
-          <h3 class="subtitle has-text-link">
+          <h2 class="subtitle has-text-link">
             nós somos a
             <span>flip</span>conta
-          </h3>
+          </h2>
         </div>
         <img src="../assets/img/float-icons.webp" class="anim" />
         <div class="slider-hero">
@@ -35,6 +35,7 @@
         </div>
       </div>
     </section>
+
     <div class="cards">
       <h2 class="subtitle has-text-right-desktop has-text-centered-mobile">
         Oferecemos as
@@ -63,6 +64,12 @@
         </div>
       </div>
     </div>
+
+    <section class="precos">
+      <h2 class="title has-text-white has-text-centered">taxas simples e transparentes</h2>
+      <p class="has-text-grey-lighter has-text-centered">Você só paga qundo recebe, sem mensalidade, taxa de adesão ou manutenção.</p>
+    </section>
+
   </div>
 </template>
 
@@ -127,4 +134,11 @@ export default {
     margin-right: 15em;
   }
 }
+
+.precos{
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(to right, #736efc, #6c75fd, #667bfe, #6181ff, #5c86ff, #3f93ff, #1f9fff, #00aaff, #00bdff, #00cfff, #00dfff, #00efff);
+}
+
 </style>
