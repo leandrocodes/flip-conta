@@ -37,10 +37,10 @@
     </section>
 
     <div class="cards">
-      <h2 class="subtitle has-text-right-desktop has-text-centered-mobile">
+      <h2 class="subtitle is-size-5-mobile has-text-right-desktop has-text-centered-mobile">
         Oferecemos as
         <br />
-        <span>melhores soluções para sua empresa</span>
+        <span class="is-size-7-mobile">melhores soluções para sua empresa</span>
       </h2>
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
@@ -76,7 +76,7 @@ export default {
     BarraMenuPrimaria,
     prices,
   },
-  data () {
+  data() {
     return {
       indexImage: 1,
       banners: [{ img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
@@ -87,7 +87,7 @@ export default {
       { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' }],
       swiperOption: {
         slidesPerView: 6,
-        centeredSlides: true,
+        centeredSlides: false,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -96,14 +96,14 @@ export default {
       }
     }
   },
-  created () {
+  created() {
     if (this.$device.isMobile) {
-      this.swiperOption.slidesPerView = 2
+      this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = false
     }
   },
   methods: {
-    sliderImage (val) {
+    sliderImage(val) {
       if (val == 'frente') {
         this.indexImage++
         if (this.indexImage > 3)
@@ -122,6 +122,9 @@ export default {
 .cards {
   .swiper-wrapper {
     width: 80%;
+    .swiper-slide {
+      margin: 0 auto;
+    }
   }
 }
 .cards {

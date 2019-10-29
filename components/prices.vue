@@ -1,8 +1,8 @@
 <template>
   <section class="precos">
-    <h2 class="is-size-3 has-text-weight-bold has-text-centered has-text-light">taxas simples e transparentes</h2>
+    <h2 class="is-size-3 has-text-weight-bold has-text-centered has-text-white">taxas simples e transparentes</h2>
     <p
-      class="is-size-5 has-text-weight-normal has-text-centered has-text-grey-lighter"
+      class="is-size-5 has-text-weight-normal has-text-centered has-text-light"
     >Você só paga quando recebe, sem mensalidade, taxa de adesão ou manutenção.</p>
     <div v-swiper:mySwiper="swiperOption">
       <div class="swiper-wrapper">
@@ -47,6 +47,12 @@ export default {
           prevEl: '.swiper-button-prev'
         }
       }
+    }
+  },
+    created () {
+    if (this.$device.isMobile) {
+      this.swiperOption.slidesPerView = 1
+      this.swiperOption.centeredSlides = false
     }
   }
 }
