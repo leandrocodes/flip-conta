@@ -7,7 +7,11 @@
 @import "components/questions";
 @import "components/navbar";
 
-@import "functions/responsive";
+
+//responsivo
+@import "responsive/navbar";
+@import "responsive/home-hero";
+
 // Import only what you need from Bulma
 @import "bulma/sass/utilities/_all.sass";
 @import "bulma/sass/base/_all.sass";

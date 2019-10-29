@@ -1,9 +1,8 @@
 .home {
-
-  /* teste */
+ 
   @media only screen and (max-width: 1366px) {
     .texto-entrada {
-      margin-top: -10em;
+      margin-top: -9em;
       margin-right: 12em;
     }
 
@@ -11,16 +10,74 @@
       margin-top: 2em;
       margin-left: 52em;
     }
+
+    .anim {
+      width: 18em;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .anim {
+      width: 20em;
+      top: 15%;
+      animation-name: floatWide;
+    }
+
+    @keyframes floatWide {
+      0% {
+        top: 12%
+      }
+
+      50% {
+        top: 15%
+      }
+
+      100% {
+        top: 12%
+      }
+    }
+
+    .slider-hero {
+      img {
+        top: 5em;
+        width: 12em;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1920px) {
+    .anim {
+      width: 27em;
+      top: 20%;
+      animation: floatFull 6s ease infinite;
+    }
+
+    @keyframes floatFull {
+      0% {
+        top: 15%
+      }
+
+      50% {
+        top: 20%
+      }
+
+      100% {
+        top: 15%
+      }
+    }
+
+    .slider-hero {
+      img {
+        top: 6em;
+        width: 16.5em;
+      }
+    }
   }
 }
 
+/* 
 .hero {
-  
   @media only screen and (min-width: 1440px) {
-    .navbar {
-      padding: 25px 65px;
-    }
-
     .anim {
       width: 20em;
       top: 15%;
@@ -50,10 +107,6 @@
   }
 
   @media only screen and (min-width: 1920px) {
-    .navbar {
-      padding: 35px 175px;
-    }
-
     .anim {
       width: 27em;
       top: 20%;
@@ -83,10 +136,6 @@
   }
 
   @media only screen and (min-width: 2560px) {
-    .navbar {
-      padding: 35px 425px;
-    }
-
     .anim {
       width: 37em;
       top: 25%;
@@ -489,4 +538,4 @@
     }
 
   }
-}
+} */
