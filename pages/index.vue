@@ -46,7 +46,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
             <div class="column has-text-centered">
-              <img :src="`${banner.img}`" width="100px" />
+              <img :src="`${banner.img}`" width="65px" />
               <p>
                 {{banner.text}}
                 <br />
@@ -56,10 +56,10 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev">
+        <div v-show="$device.isMobile" class="swiper-button-prev">
           <font-awesome-icon :icon="['fas', 'angle-left']" />
         </div>
-        <div class="swiper-button-next">
+        <div v-show="$device.isMobile" class="swiper-button-next">
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </div>
       </div>
