@@ -39,8 +39,8 @@ export default {
       { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
       { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' }],
       swiperOption: {
-        slidesPerView: 6,
-        centeredSlides: true,
+        slidesPerView: 3,
+        centeredSlides: false,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',

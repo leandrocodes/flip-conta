@@ -47,9 +47,9 @@
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
             <div class="column has-text-centered">
               <img :src="`${banner.img}`" width="100px" />
-              <p> 
-                {{banner.text}} 
-                <br>
+              <p>
+                {{banner.text}}
+                <br />
                 <strong>{{banner.boldtext}}</strong>
               </p>
             </div>
@@ -119,12 +119,11 @@ export default {
 </script>
 
 <style lang="scss">
-
-
-.swiper-wrapper {
-  width: 80%;
+.cards {
+  .swiper-wrapper {
+    width: 80%;
+  }
 }
-
 .cards {
   width: 100vw;
   .subtitle {

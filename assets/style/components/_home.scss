@@ -100,24 +100,27 @@
     }
   }
 
-  .swiper-button-next, .swiper-button-prev {
-    background-image: none;
-    font-size: 18px;
-    margin: 0;
-    color: $blueish;
-    border: 1px solid $blueish;
-    width: 1.8em;
-    height: 1.8em;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -50px 50px 0px 50px;
+  .cards{
+    .swiper-button-next, .swiper-button-prev {
+      background-image: none;
+      font-size: 18px;
+      margin: 0;
+      color: $blueish;
+      border: 1px solid $blueish;
+      width: 1.8em;
+      height: 1.8em;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: -50px 50px 0px 50px;
+    }
   }
 
   .precos{
     width: 100%;
     height: 350px;
+    padding: 1em 4em;
     background-image: linear-gradient(to right, #736efc, #6c75fd, #667bfe, #6181ff, #5c86ff, #3f93ff, #1f9fff, #00aaff, #00bdff, #00cfff, #00dfff, #00efff);
   }
   
