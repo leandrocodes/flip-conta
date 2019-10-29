@@ -64,20 +64,17 @@
         </div>
       </div>
     </div>
-
-    <section class="precos">
-      <h2 class="title has-text-white has-text-centered">taxas simples e transparentes</h2>
-      <p class="has-text-grey-lighter has-text-centered">Você só paga qundo recebe, sem mensalidade, taxa de adesão ou manutenção.</p>
-    </section>
-
+    <prices></prices>
   </div>
 </template>
 
 <script>
 import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
+import prices from '~/components/prices'
 export default {
   components: {
-    BarraMenuPrimaria
+    BarraMenuPrimaria,
+    prices,
   },
   data () {
     return {
@@ -134,11 +131,4 @@ export default {
     margin-right: 15em;
   }
 }
-
-.precos{
-  width: 100%;
-  height: 350px;
-  background-image: linear-gradient(to right, #736efc, #6c75fd, #667bfe, #6181ff, #5c86ff, #3f93ff, #1f9fff, #00aaff, #00bdff, #00cfff, #00dfff, #00efff);
-}
-
 </style>
