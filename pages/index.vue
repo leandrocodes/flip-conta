@@ -45,7 +45,7 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="column has-text-centered">
+            <div class="column is-10-desktop is-6-mobile has-text-centered">
               <img :src="`${banner.img}`" width="65px" />
               <p>
                 {{banner.text}}
@@ -121,7 +121,6 @@ export default {
 <style lang="scss">
 .cards {
   .swiper-wrapper {
-    width: 80%;
     .swiper-slide {
       margin: 0 auto;
     }
