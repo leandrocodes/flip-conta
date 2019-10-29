@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="columns second has-text-centered is-centered is-mobile is-multline ">
+    <div class="columns second has-text-centered is-centered is-mobile is-multiline ">
       
       <div class="column is-10-mobile is-8-tablet is-2-desktop">
         <div class="circle">
