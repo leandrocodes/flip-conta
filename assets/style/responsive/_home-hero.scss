@@ -45,8 +45,7 @@
     }
   }
 
-  @media only screen and (max-width: 1920px) {
-
+  @media only screen and (max-width: 1920px)  and (min-width: 1600px){
     .anim {
       width: 27em;
       top: 20%;
