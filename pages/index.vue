@@ -74,8 +74,8 @@ export default {
       { img: 'img/boleto.png', text: 'boleto' },
       { img: 'img/boleto.png', text: 'boleto' }],
       swiperOption: {
-        slidesPerView: 2,
-        centeredSlides: true,
+        slidesPerView: 6,
+        centeredSlides: false,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -85,8 +85,8 @@ export default {
     }
   },
   created () {
-    if (this.$device.isDesktop) {
-      this.swiperOption.slidesPerView = 6
+    if (this.$device.isMobile) {
+      this.swiperOption.slidesPerView = 2
     }
   },
   methods: {
