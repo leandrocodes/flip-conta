@@ -36,13 +36,21 @@
       </div>
     </section>
     <div class="cards">
-      <h2 class="subtitle has-text-right-desktop has-text-centered-mobile">Confira nossas soluções</h2>
+      <h2 class="subtitle has-text-right-desktop has-text-centered-mobile">
+        Oferecemos as
+        <br />
+        <span>melhores soluções para sua empresa</span>
+      </h2>
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
-          <div class="swiper-slide columns is-centered" v-for="banner in banners" :key="banner.text">
-            <div class="column">
+          <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
+            <div class="column has-text-centered">
               <img :src="`${banner.img}`" width="100px" />
-              <p>{{banner.text}}</p>
+              <p> 
+                {{banner.text}} 
+                <br>
+                <strong>{{banner.boldtext}}</strong>
+              </p>
             </div>
           </div>
         </div>
@@ -67,15 +75,15 @@ export default {
   data () {
     return {
       indexImage: 1,
-      banners: [{ img: 'img/boleto.png', text: 'boleto' },
-      { img: 'img/boleto.png', text: 'boleto' },
-      { img: 'img/boleto.png', text: 'boleto' },
-      { img: 'img/boleto.png', text: 'boleto' },
-      { img: 'img/boleto.png', text: 'boleto' },
-      { img: 'img/boleto.png', text: 'boleto' }],
+      banners: [{ img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
+      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
+      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
+      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
+      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
+      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' }],
       swiperOption: {
         slidesPerView: 6,
-        centeredSlides: false,
+        centeredSlides: true,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -87,6 +95,7 @@ export default {
   created () {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 2
+      this.swiperOption.centeredSlides = false
     }
   },
   methods: {
@@ -106,25 +115,16 @@ export default {
 </script>
 
 <style lang="scss">
-.swiper-button-next {
-  background-image: none;
-  font-size: 48px;
-  margin: 0;
-}
-.swiper-button-prev {
-  background-image: none;
-  font-size: 48px;
-  margin: 0;
-}
+
+
 .swiper-wrapper {
   width: 80%;
 }
 
-
-  .cards{
-    width: 100vw;
-    .subtitle{
+.cards {
+  width: 100vw;
+  .subtitle {
     margin-right: 15em;
-    }
   }
+}
 </style>

@@ -12,6 +12,13 @@
 .home {
 
   @media only screen and (max-width: 1366px) and (min-width: 1280px) {
+
+    .cards {
+      .subtitle {
+        margin-right: 5em;
+      }
+    }
+
     .texto-entrada {
       margin-top: -9em;
       margin-right: 12em;

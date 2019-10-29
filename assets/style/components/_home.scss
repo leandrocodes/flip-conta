@@ -58,11 +58,13 @@
     font-weight: bold;
     font-size: 2.25rem;
   }
-  .subtitle {
-    font-weight: unset;
-    font-size: 1.85rem;
-    span {
-      font-weight: bold;
+  .hero-body{
+    .subtitle {
+      font-weight: unset;
+      font-size: 1.85rem;
+      span {
+        font-weight: bold;
+      }
     }
   }
 
@@ -76,4 +78,32 @@
       transition: all .15s ease;
     }
   }
+  .cards{
+    .subtitle{
+      color: $blueish;
+      font-weight: 700;
+      font-size: 1.85rem;
+      span{
+        font-size: 1.55rem;
+        color: $dark-purple;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    background-image: none;
+    font-size: 18px;
+    margin: 0;
+    color: $blueish;
+    border: 1px solid $blueish;
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -50px 50px 0px 50px;
+  }
+
 }
