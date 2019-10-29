@@ -119,4 +119,12 @@ export default {
 .swiper-wrapper {
   width: 80%;
 }
+
+
+  .cards{
+    width: 100vw;
+    .subtitle{
+    margin-right: 15em;
+    }
+  }
 </style>
