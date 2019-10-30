@@ -65,16 +65,20 @@
       </div>
     </div>
     <prices></prices>
+
+    <rodape></rodape>
   </div>
 </template>
 
 <script>
 import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
 import prices from '~/components/prices'
+import rodape from '~/components/rodape'
 export default {
   components: {
     BarraMenuPrimaria,
     prices,
+    rodape
   },
   data() {
     return {
