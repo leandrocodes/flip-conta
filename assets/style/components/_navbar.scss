@@ -179,3 +179,35 @@
     }
   }
 }
+
+.navbar.is-terciaria {
+  margin: 0;
+
+  .navbar-brand {
+    img {
+      height: 28px;
+      width: 178px;
+    }
+  }
+
+  .navbar-item {
+    .button {
+      border-width: 1px;
+      transition: all .1s ease;
+    }
+  }
+
+  .navbar-menu {
+    .nav-link {
+      .button {
+        border-color: transparent !important;
+
+        &:hover {
+          border-color: $beige-lighter !important;
+          background-color: transparent !important;
+          color: $beige-lighter !important;
+        }
+      }
+    }
+  }
+}

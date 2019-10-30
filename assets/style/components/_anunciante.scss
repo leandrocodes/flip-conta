@@ -1,0 +1,53 @@
+.anunciante {
+  section.hero {
+      height: 275px;
+      background-image: linear-gradient( 300deg, rgb(63,242,113) 0%, rgb(16,179,209) 100%);
+      p{
+        color: white;
+        strong{
+          color: white;
+        }
+      }
+
+  }
+  
+  .columns {
+    margin-top: -150px;
+
+      .texto-inicio {
+        margin: 0;
+      }
+
+      form {
+        padding: 20px;
+
+        input {
+          box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.05), 0 0px 0 1px rgba(0, 0, 0, 0.01);
+          border-width: 1px;
+        }
+
+        input::placeholder {
+          text-align: center;
+          color: $primary;
+        }
+
+        a {
+          margin: 10px 0;
+          width: 100%;
+          
+        }
+
+
+          
+      }
+
+      h3 {
+          margin: 5px 0;
+      }
+  }
+
+  .column {
+      background-color: white;
+      box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+  }
+}
