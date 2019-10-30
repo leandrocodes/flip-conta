@@ -194,20 +194,15 @@
     .button {
       border-width: 1px;
       transition: all .1s ease;
-    }
-  }
-
-  .navbar-menu {
-    .nav-link {
-      .button {
-        border-color: transparent !important;
-
-        &:hover {
-          border-color: $beige-lighter !important;
-          background-color: transparent !important;
-          color: $beige-lighter !important;
+      &.entrar{
+        background-color: rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        color: white;
+        &:hover{
+          background-color: rgba(0, 0, 0, 0.2);
         }
       }
     }
   }
+
 }

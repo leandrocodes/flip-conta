@@ -1,5 +1,5 @@
 <template>
-  <div class="anunciante">
+  <div class="login-cliente">
     <section class="hero is-bold">
       <div class="hero-head">
         <barra-menu-terciaria></barra-menu-terciaria>
@@ -7,7 +7,7 @@
       <div class="hero-body">
         <p class="subtitle is-6 has-text-centered-mobile">
           você está em >>
-          <strong>cadastro do consultor</strong>
+          <strong>área de login</strong>
           <!-- Colocar no media -->
         </p>
       </div>
@@ -15,14 +15,9 @@
     <div class="columns is-centered is-mobile">
       <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
         <div class="texto-inicio has-text-centered">
-          <h4 class="subtitle is-black has-text-weight-bold">Insire seus dados para o cadastro</h4>
+          <h4 class="subtitle is-black has-text-weight-bold">Entre com seus dados para logar</h4>
         </div>
         <form>
-          <div class="field">
-            <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Insira seu nome completo" />
-            </div>
-          </div>
           <div class="field">
             <div class="control is-expanded">
               <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
@@ -30,22 +25,17 @@
           </div>
           <div class="field">
             <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Telefone" />
+              <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
             </div>
           </div>
           <div class="field">
             <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Cidade" />
+              <a href class="button is-primary is-rounded">Entrar</a>
             </div>
           </div>
           <div class="field">
             <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Numero de notas emitidas mês?" />
-            </div>
-          </div>
-          <div class="field">
-            <div class="control is-expanded">
-              <a href class="button is-primary is-rounded">Cadastrar</a>
+              <a href="#" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</a>
             </div>
           </div>
         </form>

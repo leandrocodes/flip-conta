@@ -1,5 +1,5 @@
 <template>
-  <div class="anunciante">
+  <div class="cadastro-fisica">
     <section class="hero is-bold">
       <div class="hero-head">
         <barra-menu-terciaria></barra-menu-terciaria>
@@ -7,7 +7,7 @@
       <div class="hero-body">
         <p class="subtitle is-6 has-text-centered-mobile">
           você está em >>
-          <strong>cadastro do consultor</strong>
+          <strong>abrir minha conta grátis</strong>
           <!-- Colocar no media -->
         </p>
       </div>
@@ -15,7 +15,7 @@
     <div class="columns is-centered is-mobile">
       <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
         <div class="texto-inicio has-text-centered">
-          <h4 class="subtitle is-black has-text-weight-bold">Insire seus dados para o cadastro</h4>
+          <h4 class="subtitle is-black has-text-weight-bold">Pessoa Física</h4>
         </div>
         <form>
           <div class="field">

@@ -1,21 +1,26 @@
 .anunciante {
   section.hero {
-      height: 275px;
+      height: 375px;
       background-image: linear-gradient( 300deg, rgb(63,242,113) 0%, rgb(16,179,209) 100%);
       p{
+        background-color: rgba(0, 0, 0, 0.3);
+        border-width: 0;
+        border-radius: 100px;
         color: white;
+        display: inline-block;
+        padding: 5px 30px;
         strong{
           color: white;
         }
-      }
+    }
 
   }
   
   .columns {
-    margin-top: -150px;
+    margin-top: -200px;
 
       .texto-inicio {
-        margin: 0;
+        margin: 10px 0;
       }
 
       form {
@@ -25,6 +30,8 @@
           //box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.05), 0 0px 0 1px rgba(0, 0, 0, 0.01);
           border-width: 1px;
           background-color: $beige-lighter ;
+          height: 50px;
+          font-size: 1.2rem;
         }
 
         input::placeholder {
@@ -34,6 +41,8 @@
 
         a {
           width: 100%;  
+          height: 50px;
+          font-size: 1.2rem;
         }
           
       }

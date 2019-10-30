@@ -14,10 +14,10 @@
     <div id="navbarHome" class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="#login" class="button is-link is-outlined is-rounded">Logar na minha conta</a>
+          <a href="#login" class="button entrar is-rounded">Logar na minha conta</a>
         </div>
         <div class="navbar-item">
-          <a href="#consultor" class="button is-link is-outlined is-rounded">Seja consultor</a>
+          <a href="#consultor" class="button is-white is-outlined is-rounded">Seja consultor</a>
         </div>
       </div>
     </div>
