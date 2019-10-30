@@ -73,7 +73,23 @@
           <div class="column is-5 is-12-mobile">
             <div class="texto">
               <h3 class="has-text-info is-size-3 has-text-weight-bold">Uma gestão completa para sua empresa.</h3>
-              <p class="has-text-grey-darker has-text-weight-semibold">Somos um gerenciador completo no mercado com tudo o que você precisa para a sua empresa.</p>
+
+              <p
+                class="has-text-grey-darker has-text-weight-semibold"
+              >Somos um gerenciador completo no mercado com tudo o que você precisa para a sua empresa.</p>
+
+              <div class="box">
+                <div class="icon-box">
+                  <font-awesome-icon :icon="['fas', 'check-double']" />
+                </div>
+                <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
+              </div>
+              <div class="box">
+                <div class="icon-box">
+                  <font-awesome-icon :icon="['fas', 'check-double']" />
+                </div>
+                <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
+              </div>
             </div>
           </div>
         </div>
