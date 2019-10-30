@@ -84,11 +84,11 @@ export default {
     return {
       indexImage: 1,
       banners: [{ img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
-      { img: 'img/boleto.png', text: 'cobrança', boldtext: 'recorrente' },
-      { img: 'img/boleto.png', text: 'nota fiscal de', boldtext: 'serviço' },
-      { img: 'img/boleto.png', text: 'integração via', boldtext: 'API' },
-      { img: 'img/boleto.png', text: 'seus pagamentos', boldtext: 'on-line protegidos' },
-      { img: 'img/boleto.png', text: 'juros e ', boldtext: 'multas' }],
+      { img: 'img/calendário.png', text: 'cobrança', boldtext: 'recorrente' },
+      { img: 'img/nf.png', text: 'nota fiscal de', boldtext: 'serviço' },
+      { img: 'img/api.png', text: 'integração via', boldtext: 'API' },
+      { img: 'img/segurança.png', text: 'seus pagamentos', boldtext: 'on-line protegidos' },
+      { img: 'img/calculadora.png', text: 'juros e ', boldtext: 'multas' }],
       swiperOption: {
         slidesPerView: 6,
         centeredSlides: false,
