@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo:200,400,600,700,900&display=swap');
 
 // Set your brand colors
+$success-purple: #8136f1;
 $purple: #7510ED;
 $dark-purple: #2c0452;
 $cyan: #00E0CE;
@@ -14,9 +15,10 @@ $blueish: #00669c;
 // Update Bulma's global variables
 $font-family: 'Cairo', sans-serif;
 $grey-dark: $dark-purple;
+$link: $cyan;
+$info: $success-purple;
 $grey-light: $beige-light;
 $primary: $purple;
-$link: $cyan;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 

@@ -64,6 +64,21 @@
         </div>
       </div>
     </div>
+    <section class="gestao">
+      <div class="container">
+        <div class="columns is-mobile is-multiline is-variable is-8">
+          <div class="column is-6 is-12-mobile">
+            <img src="img/gestao-completa.png" alt srcset />
+          </div>
+          <div class="column is-5 is-12-mobile">
+            <div class="texto">
+              <h3 class="has-text-info is-size-3 has-text-weight-bold">Uma gestão completa para sua empresa.</h3>
+              <p class="has-text-grey-darker has-text-weight-semibold">Somos um gerenciador completo no mercado com tudo o que você precisa para a sua empresa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <prices></prices>
 
     <rodape></rodape>
