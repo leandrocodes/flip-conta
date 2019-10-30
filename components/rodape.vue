@@ -18,9 +18,9 @@
           </p>
         </div>
       </div>
-      <div class="columns is-centered">
-        <div class="column is-2">
-          <h3 class="is-uppercase has-text-left">nossos serviços</h3>
+      <div class="columns is-centered is-multiline is-mobile">
+        <div class="column is-2-desktop is-12-mobile has-text-centered-mobile">
+          <h3 class="is-uppercase has-text-left has-text-centered-mobile">nossos serviços</h3>
           <div class="text" style="margin-top: 15px;">
             <a class="has-text-light" href>boletos</a>
             <br />
@@ -35,8 +35,8 @@
             <a class="has-text-light" href>data programada</a>
           </div>
         </div>
-        <div class="column is-4 is-offset-2">
-          <h3 class="is-uppercase has-text-left">sobre nós</h3>
+        <div class="column is-4-desktop is-offset-2-desktop is-12-mobile has-text-centered-mobile">
+          <h3 class="is-uppercase has-text-left has-text-centered-mobile">sobre nós</h3>
           <div class="text" style="margin-top: 15px;">
             <a class="has-text-light" href>flipconta</a>
             <br />
@@ -51,8 +51,8 @@
             <a class="has-text-light" href>contato</a>
           </div>
         </div>
-        <div class="column is-2">
-          <h3 class="is-uppercase has-text-left">baixe o flipconta</h3>
+        <div class="column is-2-desktop is-12-mobile has-text-centered-mobile">
+          <h3 class="is-uppercase has-text-left has-text-centered-mobile">baixe o flipconta</h3>
           <div class="text" style="margin-top: 15px;">
             <img src="~@/assets/img/selo-google.png" alt="">
             <img src="~@/assets/img/selo-apple.png" alt="">
