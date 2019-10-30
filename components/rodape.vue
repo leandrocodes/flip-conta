@@ -1,4 +1,7 @@
 <template>
+  <!-- TODO: 
+          font size responsivo
+  -->
   <footer class="has-text-light">
     <div class="container">
       <div class="columns is-centered">
@@ -54,8 +57,8 @@
         <div class="column is-2-desktop is-12-mobile has-text-centered-mobile">
           <h3 class="is-uppercase has-text-left has-text-centered-mobile">baixe o flipconta</h3>
           <div class="text" style="margin-top: 15px;">
-            <img src="~@/assets/img/selo-google.png" alt="">
-            <img src="~@/assets/img/selo-apple.png" alt="">
+            <img src="~@/assets/img/selo-google.png" alt />
+            <img src="~@/assets/img/selo-apple.png" alt />
           </div>
         </div>
       </div>
