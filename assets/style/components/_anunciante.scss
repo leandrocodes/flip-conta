@@ -19,11 +19,12 @@
       }
 
       form {
-        padding: 20px;
+        padding: 10px 20px;
 
         input {
-          box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.05), 0 0px 0 1px rgba(0, 0, 0, 0.01);
+          //box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.05), 0 0px 0 1px rgba(0, 0, 0, 0.01);
           border-width: 1px;
+          background-color: $beige-lighter ;
         }
 
         input::placeholder {
@@ -32,16 +33,12 @@
         }
 
         a {
-          margin: 10px 0;
-          width: 100%;
-          
+          width: 100%;  
         }
-
-
           
       }
-
-      h3 {
+      
+      h5 {
           margin: 5px 0;
       }
   }

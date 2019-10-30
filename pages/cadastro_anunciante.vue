@@ -15,7 +15,7 @@
     <div class="columns is-centered is-mobile">
       <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
         <div class="texto-inicio has-text-centered">
-          <h3 class="subtitle has-text-weight-semibold">Insire seus dados para o cadastro</h3>
+          <h5 class="subtitle is-6 is-black has-text-weight-bold">Insire seus dados para o cadastro</h5>
         </div>
         <form>
           <div class="field">
