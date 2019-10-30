@@ -30,17 +30,13 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       banners: [{ img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
-      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
-      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
-      { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
       { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
       { img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' }],
       swiperOption: {
         slidesPerView: 3,
-        centeredSlides: false,
         clickable: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -49,7 +45,7 @@ export default {
       }
     }
   },
-    created () {
+  created() {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = false
@@ -58,5 +54,24 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+.columns {
+  margin-top: 15px;
+  .column{
+      background: white;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 2px 1.5px 5px 2px rgba(0,0,0,0.15);
+  }
+}
+
+.swiper-container {
+  width: 80%;
+}
+.swiper-wrapper {
+  width: 80%;
+  .swiper-slide {
+    margin: 0 auto;
+  }
+}
 </style>

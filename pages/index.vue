@@ -128,6 +128,7 @@ export default {
 }
 .cards {
   width: 100vw;
+  margin-bottom: 50px;
   .subtitle {
     margin-right: 15em;
   }
