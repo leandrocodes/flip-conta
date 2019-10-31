@@ -72,10 +72,19 @@
         <div class="column is-2-desktop is-12-mobile is-offset-1-desktop has-text-centered">
           <h4 class="is-size-5 has-text-weight-semibold has-text-centered">SIGA-NOS</h4>
           <div class="social-links" style="margin-top: 10px;">
-            <font-awesome-icon class="is-size-3" :icon="['fab', 'facebook-square']" />
-            <font-awesome-icon class="is-size-3" :icon="['fab', 'instagram']" />
-            <font-awesome-icon class="is-size-3" :icon="['fab', 'twitter']" />
-            <font-awesome-icon class="is-size-3" :icon="['fab', 'youtube']" />
+
+            <a href="#facebook" class="fb-link button is-rounded is-light is-outlined social">
+              <font-awesome-icon class="is-size-3" :icon="['fab', 'facebook-f']" />
+            </a>
+            <a href="#instagram" class="fb-link button is-rounded is-light is-outlined social">
+              <font-awesome-icon class="is-size-3" :icon="['fab', 'instagram']" />
+            </a>
+            <a href="#twitter" class="fb-link button is-rounded is-light is-outlined social">
+              <font-awesome-icon class="is-size-3" :icon="['fab', 'twitter']" />
+            </a>
+            <a href="#youtube" class="fb-link button is-rounded is-light is-outlined social">
+              <font-awesome-icon class="is-size-3" :icon="['fab', 'youtube']" />
+            </a>
           </div>
         </div>
       </div>
