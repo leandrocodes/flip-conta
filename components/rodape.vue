@@ -62,14 +62,14 @@
           </div>
         </div>
       </div>
-      <div class="columns is-mobile is-multiline" style="margin-bottom: 100px">
-        <div class="column is-2 is-offset-1">
+      <div class="columns is-mobile is-multiline is-centered" style="margin-bottom: 100px">
+        <div class="column is-2-desktop is-12-mobile is-offset-1-desktop has-text-centered-mobile">
           <img src="~@/assets/img/flipconta-logo-white.png" alt="">
         </div>
-        <div class="column is-5 is-offset-1 has-text-left">
+        <div class="column is-5 is-offset-1 has-text-left has-text-centered-mobile">
           <p>somos uma startup que trouxe inovação na forma do seu financeiro trabalhar. ganhe tempo e agilidade no seu fluxo de cobrança regular.</p>
         </div>
-        <div class="column is-2  is-offset-1 has-text-align-center">
+        <div class="column is-2-desktop is-12-mobile is-offset-1-desktop has-text-centered">
           <h4 class="is-size-5 has-text-weight-semibold has-text-centered">SIGA-NOS</h4>
           <div class="social-links" style="margin-top: 10px;">
             <font-awesome-icon class="is-size-3" :icon="['fab', 'facebook-square']" />
@@ -79,8 +79,13 @@
           </div>
         </div>
       </div>
-      <div class="columns is-mobile is-centered">
-
+      <div class="direitos columns is-mobile is-centered is-multiline">
+        <div class="column is-4-desktop is-8-mobile">
+          <p class="has-text-light">2019. Todos os direitos reservados.</p>
+        </div>
+        <div class="column is-4-desktop is-offset-4-desktop is-2-mobile has-text-centered">
+          <img src="~@/assets/img/logo-vmais.png" alt="">
+        </div>
       </div>
     </div>
   </footer>

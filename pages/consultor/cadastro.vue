@@ -13,7 +13,7 @@
       </div>
     </section>
     <div class="columns is-centered is-mobile">
-      <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
+      <div class="column is-10-mobile is-8-tablet is-5-desktop is-3-fullhd">
         <div class="texto-inicio has-text-centered">
           <h4 class="subtitle is-black has-text-weight-bold">Insire seus dados para o cadastro</h4>
         </div>
@@ -51,6 +51,7 @@
         </form>
       </div>
     </div>
+    <img class="modelo-consultor" src="~@/assets/img/modelo-consultor.png" alt="" srcset="">
   </div>
 </template>
 

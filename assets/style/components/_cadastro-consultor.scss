@@ -9,11 +9,40 @@
         color: white;
         display: inline-block;
         padding: 5px 30px;
+        float: right;
+        margin-right: 33.3%;
+        margin-top: -2.5%;
+        @media screen and(max-width: 768px){
+          float: none;
+          margin: 0 auto;
+          width: 100%;
+        }
         strong{
           color: white;
         }
     }
 
+  }
+
+  .modelo-consultor{
+    position: absolute;
+    top: 10%;
+    left: 24.5%;
+    height: 610px;
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+      left: 12.5%;
+    }
+
+    @media screen and (min-width: 1366px) and (max-width: 1440px){
+      left: 16.5%;
+    }
+    @media screen and (min-width: 2560px){
+      left: 26.75%;
+    }
+    @media screen and (max-width: 768px){
+      display: none;
+    }
   }
   
   .columns {
