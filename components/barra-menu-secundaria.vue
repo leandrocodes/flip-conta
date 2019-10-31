@@ -72,7 +72,7 @@
               </a>
             </div>
             <div class="navbar-item">
-              <a href="#abrir-conta" class="button is-primary is-outlined is-rounded">Abrir minha conta grátis</a>
+                <nuxt-link to="/cliente/cadastro" class="button is-primary is-outlined is-rounded">Abrir minha conta grátis</nuxt-link>
             </div>
             <div class="navbar-item">
               <a href="#login" class="button is-primary is-outlined is-rounded">Logar na minha conta</a>

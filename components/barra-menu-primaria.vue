@@ -78,13 +78,13 @@
           </a>
         </div>
         <div class="navbar-item">
-          <a href="#abrir-conta" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</a>
+           <nuxt-link to="/cliente/cadastro" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</nuxt-link>
         </div>
         <div class="navbar-item">
-          <a href="#login" class="button is-link is-outlined is-rounded">Logar na minha conta</a>
+          <nuxt-link to="/cliente/login" class="button is-link is-outlined is-rounded">Logar na minha conta</nuxt-link>
         </div>
         <div class="navbar-item">
-          <a href="#consultor" class="button is-link is-outlined is-rounded">Seja consultor</a>
+          <nuxt-link to="consultor/cadastro" class="button is-link is-outlined is-rounded">Seja consultor</nuxt-link>
         </div>
       </div>
     </div>
