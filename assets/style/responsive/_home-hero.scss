@@ -88,6 +88,18 @@
         width: 16.5em !important;
       }
     }
+
+    .cards {
+      .swiper-container {
+        width: 90%;
+      }
+      .swiper-wrapper {
+        width: 90%;
+        .swiper-slide {
+          margin: 0 auto;
+        }
+      }
+    }
   }
 
 

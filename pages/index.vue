@@ -45,7 +45,7 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="column is-10-desktop is-6-mobile has-text-centered">
+            <div class="column is-6-fullhd is-10-desktop is-6-mobile has-text-centered">
               <img :src="`${banner.img}`" width="65px" />
               <p>
                 {{banner.text}}
@@ -101,6 +101,7 @@
         </div>
       </div>
     </section>
+    
     <prices></prices>
 
     <section class="clientes">
