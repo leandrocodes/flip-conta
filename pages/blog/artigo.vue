@@ -13,7 +13,7 @@
               </div>
               <div class="column is-4-mobile is-2-desktop has-text-centered">
                 <font-awesome-icon :icon="['fas', 'clock']" />
-                <span class="is-size-7-mobile">15/06/2018</span>
+                <span class="is-size-7-mobile">15/06/2018 às 12h08</span>
               </div>
               <div class="column is-4-mobile is-2-desktop has-text-centered">
                 <font-awesome-icon :icon="['fas', 'eye']" />
