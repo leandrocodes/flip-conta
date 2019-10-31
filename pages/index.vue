@@ -7,11 +7,33 @@
 
       <div class="hero-body">
         <div class="texto-entrada has-text-align-right">
-          <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
-          <h2 class="subtitle has-text-link">
-            nós somos a
-            <span>flip</span>conta
-          </h2>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 1" class="texto-a">
+              <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-link">
+                nós somos a
+                <span>flip</span>conta
+              </h2>
+            </div>
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 2" class="texto-a">
+              <h1 class="title has-text-link is-size-1-fullhd">amet</h1>
+              <h2 class="subtitle has-text-link">
+                consectetur
+                <span>adipisicing</span>elit.
+              </h2>
+            </div>
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 3" class="texto-a">
+              <h1 class="title has-text-link is-size-1-fullhd">lorem,</h1>
+              <h2 class="subtitle has-text-link">
+                ipsum
+                <span>dolor</span>sit
+              </h2>
+            </div>
+          </transition>
         </div>
         <img src="../assets/img/float-icons.webp" class="anim" />
         <div class="slider-hero">
@@ -291,14 +313,14 @@ export default {
           if (navbar.classList.contains("is-secondary") === false) {
             navbar.classList.toggle("is-primary")
             navbar.classList.toggle("is-secondary")
-            navLogo.src=("img/flipconta-logo-purple.png")
+            navLogo.src = ("img/flipconta-logo-purple.png")
           }
         }
         else {
           if (navbar.classList.contains("is-secondary") === true) {
             navbar.classList.toggle("is-primary")
             navbar.classList.toggle("is-secondary")
-            navLogo.src=("img/flipconta-logo-white.png")
+            navLogo.src = ("img/flipconta-logo-white.png")
           }
         }
       })
