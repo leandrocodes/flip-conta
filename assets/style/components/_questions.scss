@@ -1,69 +1,77 @@
 .questions {
     section.hero {
         height: 275px;
-        p{
-            background-color: rgba(0, 0, 0, 0.3);
-            border-width: 0;
-            border-radius: 100px;
-            color: white;
-            display: inline-block;
-            padding: 5px 30px;
-            float: left;
-            margin-left: 15%;
-            margin-top: -1%;
-            @media screen and(max-width: 768px){
-              float: none;
-              margin: 0 auto;
-              width: 100%;
-            }
-            strong{
-              color: white;
+        .hero-body{
+            p{
+                background-color: rgba(0, 0, 0, 0.3);
+                border-width: 0;
+                border-radius: 100px;
+                color: white;
+                display: inline-block;
+                padding: 5px 30px;
+                float: left;
+                margin-left: 15%;
+                margin-top: -1%;
+                @media screen and(max-width: 768px){
+                float: none;
+                margin: 0 auto;
+                width: 100%;
+                }
+                strong{
+                color: white;
+                }
             }
         }
     }
 
-    .columns {
-        margin-top: -100px;
-    }
+    .conteudo{
 
-    .column {
-
-        background-color: white;
-        box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
-
-        .texto-inicio {
-            margin: 25px 0 12px 0;
+        .columns {
+            margin-top: -100px;
         }
 
-        .contents {
-            margin: 50px 0 20px 50px;
+        .column {
 
-            h5 {
-                margin: 0px 20px;
+            background-color: white;
+            box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+
+            .texto-inicio {
+                margin: 25px 0 12px 0;
             }
 
-            .card {
-                padding: 10px 20px;
-                box-shadow: none;
+            .contents {
+                margin: 50px 0 20px 50px;
 
-                .card-header {
+                h5 {
+                    margin: 0px 20px;
+                }
+
+                .card {
+                    padding: 10px 20px;
                     box-shadow: none;
 
-                    .card-header-title {
-                        padding: 0;
+                    .card-header {
+                        box-shadow: none;
+
+                        .card-header-title {
+                            padding: 0;
+                        }
+                    }
+
+                    .card-content {
+                        padding: 10px 0;
                     }
                 }
 
-                .card-content {
-                    padding: 10px 0;
+                .card-divider {
+                    margin: 0 20px;
                 }
             }
-
-            .card-divider {
-                margin: 0 20px;
-            }
         }
+
     }
 
-
+    footer{
+        margin-top: 100px;
+    }
 }
