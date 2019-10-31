@@ -41,11 +41,15 @@
     }
 
     @media screen and(min-width: 1024px) and (max-width: 1366px) {
-      left: 10%;
+      left: 8.5%;
     }
 
     @media screen and(min-width: 1367px) and (max-width: 1440px) {
       left: 12.5%;
+    }
+    
+    @media screen and(max-width: 2560px) and (min-width: 1921px) {
+      left: 25%;
     }
   }
 
@@ -76,8 +80,20 @@
       }
     }
 
-    @media screen and (max-width: 1366px) and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) and (min-width: 1023px) {
       left: 26.15%;
+    }
+
+    @media screen and (max-width: 1024px) and (min-width: 769px) {
+      left: 24.55%;
+    }
+
+    @media screen and(min-width: 1367px) and (max-width: 1440px) {
+      left: 27%;
+    }
+
+    @media screen and(max-width: 2560px) and (min-width: 1921px) {
+      left: 31.55%;
     }
 
   }
