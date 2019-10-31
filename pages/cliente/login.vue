@@ -12,36 +12,38 @@
         </p>
       </div>
     </section>
-    <div class="columns is-centered is-mobile">
-      <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
-        <div class="texto-inicio has-text-centered">
-          <h4 class="subtitle is-black has-text-weight-bold">Entre com seus dados para logar</h4>
+    <div class="conteudo">
+      <div class="columns is-centered is-mobile">
+        <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
+          <div class="texto-inicio has-text-centered">
+            <h4 class="subtitle is-black has-text-weight-bold">Entre com seus dados para logar</h4>
+          </div>
+          <form>
+            <div class="field">
+              <div class="control is-expanded">
+                <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control is-expanded">
+                <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control is-expanded">
+                <a href class="button is-primary is-rounded">Entrar</a>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control is-expanded">
+                <a href="#" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</a>
+              </div>
+            </div>
+          </form>
         </div>
-        <form>
-          <div class="field">
-            <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
-            </div>
-          </div>
-          <div class="field">
-            <div class="control is-expanded">
-              <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
-            </div>
-          </div>
-          <div class="field">
-            <div class="control is-expanded">
-              <a href class="button is-primary is-rounded">Entrar</a>
-            </div>
-          </div>
-          <div class="field">
-            <div class="control is-expanded">
-              <a href="#" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</a>
-            </div>
-          </div>
-        </form>
       </div>
     </div>
-
+    <rodape></rodape>
   </div>
 
 </template>
@@ -49,10 +51,12 @@
 <script>
 
 import BarraMenuTerciaria from '~/components/barra-menu-terciaria.vue'
+import Rodape from '~/components/rodape.vue'
 
 export default {
   components: {
-    BarraMenuTerciaria
+    BarraMenuTerciaria,
+    Rodape
   },
   data() {
     return {
