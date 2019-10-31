@@ -7,15 +7,15 @@
       <div class="columns hero-body">
         <div class="column lead">
             <div class="columns info is-centered is-mobile">
-              <div class="column is-4-mobile is-1-desktop has-text-centered">
+              <div class="column is-4-mobile is-2-desktop has-text-centered">
                 <font-awesome-icon :icon="['fas', 'user-alt']" />
                 <span class="is-size-7-mobile">Charles Porto</span>
               </div>
-              <div class="column is-4-mobile is-1-desktop has-text-centered">
+              <div class="column is-4-mobile is-2-desktop has-text-centered">
                 <font-awesome-icon :icon="['fas', 'clock']" />
                 <span class="is-size-7-mobile">15/06/2018</span>
               </div>
-              <div class="column is-4-mobile is-1-desktop has-text-centered">
+              <div class="column is-4-mobile is-2-desktop has-text-centered">
                 <font-awesome-icon :icon="['fas', 'eye']" />
                 <span class="is-size-7-mobile">578</span>
               </div>
