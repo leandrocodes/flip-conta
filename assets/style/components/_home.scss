@@ -199,17 +199,21 @@
 
   .clientes {
     padding: 5em 0;
+
     .column {
-      h2{
+      h2 {
         color: $pink;
       }
-      .comentarios{
+
+      .comentarios {
         margin: 25px 0;
         display: flex;
+
         .comentario {
           display: flex;
           justify-content: center;
           align-items: center;
+
           .profile-pic {
             margin: 0 20px;
             background: white;
@@ -218,16 +222,42 @@
             width: 60px;
             height: 60px;
           }
-          p.job{
+
+          p.job {
             color: $pink;
           }
-          p.comentario-txt{
+
+          p.comentario-txt {
             border-radius: 5px;
             padding: 10px;
             background: white;
             box-shadow: 2px 1.5px 5px 2px rgba(0, 0, 0, 0.15);
           }
         }
+      }
+    }
+  }
+
+  .nosso-blog {
+    .card {
+      border-radius: 5px;
+
+      img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    }
+
+    .green-badge {
+      background-color: $success;
+      border-radius: 5px;
+      margin: 25px 0;
+      padding: 5px 15px;
+
+      time {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
     }
   }

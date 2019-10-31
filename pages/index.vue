@@ -134,6 +134,37 @@
       </div>
     </section>
 
+    <section class="nosso-blog">
+      <div class="container">
+        <h2 class="is-size-2 has-text-weight-bold has-text-centered has-text-success">Nosso blog</h2>
+        <div class="columns is-centered is-mobile is-multiline">
+          <div class="column is-4">
+            <div class="green-badge">
+              <time datetime="2016-1-1" class="is-size-7 has-text-light">Admin / 15 de agosto, 2019 <span class="is-size-2 has-text-light has-text-right"> <font-awesome-icon :icon="['fas', 'thumbtack']" /> </span> </time>
+              <h3 class="is-size-4 has-text-white">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <time datetime="2016-1-1" class="is-size-7 has-text-grey">Admin / 15 de agosto, 2019</time>
+                  <br />
+                  <h3 class="is-size-4 has-text-grey-dark">Lorem ipsum dolor sit amet.</h3>
+                  <p class="is-size-6 has-text-grey"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, blanditiis! </p>
+                  <br />
+                  <a href="" class="has-text-weight-bold has-text-grey-dark"> Ler mais <span class="has-text-weight-bold has-text-success is-size-4">+</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <rodape></rodape>
   </div>
 </template>
