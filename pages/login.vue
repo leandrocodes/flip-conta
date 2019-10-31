@@ -14,7 +14,7 @@
     </section>
     <div class="conteudo">
       <div class="columns is-centered is-mobile">
-        <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
+        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
           <div class="texto-inicio has-text-centered">
             <h4 class="subtitle is-black has-text-weight-bold">Entre com seus dados para logar</h4>
           </div>
@@ -42,6 +42,13 @@
           </form>
         </div>
       </div>
+    </div>
+        <div class="modelo-bg">
+      <img src="~@/assets/img/modelo-cliente.png" alt />
+    </div>
+    <div class="tabs">
+      <div class="tab has-text-weight-semibold" @click="fisica=true">Pessoa Física</div>
+      <div class="tab has-text-weight-semibold" @click="fisica=false">Pessoa Jurídica</div>
     </div>
     <rodape></rodape>
   </div>

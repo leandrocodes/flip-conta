@@ -75,10 +75,10 @@
                 <nuxt-link to="/cliente/cadastro" class="button is-primary is-outlined is-rounded">Abrir minha conta grátis</nuxt-link>
             </div>
             <div class="navbar-item">
-              <a href="#login" class="button is-primary is-outlined is-rounded">Logar na minha conta</a>
+              <nuxt-link to="/login" class="button is-primary is-outlined is-rounded">Logar na minha conta</nuxt-link>
             </div>
             <div class="navbar-item">
-              <a href="#consultor" class="button is-primary is-outlined is-rounded">Seja consultor</a>
+               <nuxt-link to="/consultor/cadastro" class="button is-primary is-outlined is-rounded">Logar na minha conta</nuxt-link>
             </div>
           </div>
         </div>
