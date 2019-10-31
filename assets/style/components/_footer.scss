@@ -18,6 +18,38 @@ footer{
         cursor: pointer;
       }
     }
+    .social {
+      margin: 2px;
+      border-color: rgba(255, 255, 255, 0.85) !important;
+      color: rgba(255, 255, 255, 0.85) !important;
+      width: 3em;
+      height: 3em;
+  
+      &.fb-link {
+        &:hover {
+          color: $fb-color !important;
+        }
+      }
+
+      &.insta-link {
+        &:hover {
+          color: $insta-color !important;
+        }
+      }
+  
+      &.twt-link {
+        &:hover {
+          color: $twt-color !important;
+        }
+      }
+
+      &.yt-link {
+        &:hover {
+          color: $yt-color !important;
+        }
+      }
+
+    }
   }
   .container{
     background-image: url(~@/assets/img/people.png);

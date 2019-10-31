@@ -76,13 +76,13 @@
             <a href="#facebook" class="fb-link button is-rounded is-light is-outlined social">
               <font-awesome-icon class="is-size-3" :icon="['fab', 'facebook-f']" />
             </a>
-            <a href="#instagram" class="fb-link button is-rounded is-light is-outlined social">
+            <a href="#instagram" class="insta-link button is-rounded is-light is-outlined social">
               <font-awesome-icon class="is-size-3" :icon="['fab', 'instagram']" />
             </a>
-            <a href="#twitter" class="fb-link button is-rounded is-light is-outlined social">
+            <a href="#twitter" class="twt-link button is-rounded is-light is-outlined social">
               <font-awesome-icon class="is-size-3" :icon="['fab', 'twitter']" />
             </a>
-            <a href="#youtube" class="fb-link button is-rounded is-light is-outlined social">
+            <a href="#youtube" class="yt-link button is-rounded is-light is-outlined social">
               <font-awesome-icon class="is-size-3" :icon="['fab', 'youtube']" />
             </a>
           </div>
