@@ -1,6 +1,6 @@
 <template>
   <div class="questions">
-      <section class="hero is-primary is-bold">
+      <section class="hero">
       <div class="hero-head">
         <barra-menu-secundaria></barra-menu-secundaria>
       </div>
@@ -70,6 +70,9 @@
           </div>
         </div>
       </div>  
+    </div>
+    <div class="questions-img">
+      <img src="~@/assets/img/perguntas.png" alt="" srcset="">
     </div> 
     <rodape></rodape>
   </div>

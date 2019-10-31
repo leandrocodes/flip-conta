@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <section class="hero is-primary is-bold">
+    <section class="hero">
       <div class="hero-head">
         <barra-menu-secundaria></barra-menu-secundaria>
       </div>
