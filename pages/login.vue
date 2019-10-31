@@ -47,8 +47,8 @@
       <img src="~@/assets/img/modelo-cliente.png" alt />
     </div>
     <div class="tabs">
-      <div class="tab has-text-weight-semibold" @click="fisica=true">Pessoa Física</div>
-      <div class="tab has-text-weight-semibold" @click="fisica=false">Pessoa Jurídica</div>
+      <div class="tab has-text-weight-semibold" @click="fisica=true">Cliente</div>
+      <div class="tab has-text-weight-semibold" @click="fisica=false">Consultor</div>
     </div>
     <rodape></rodape>
   </div>
