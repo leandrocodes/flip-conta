@@ -17,11 +17,16 @@
         }
         
     }
-
+    
+   
     .blog-posts{
-
+        border-radius: 5px;
+        margin-top: -175px;
+        background-color: white;
         .card-image{
+
             .data{
+                border-radius: 5px;
                 height: 70px;
                 width: 60px;
                 margin: 10px 10px -20px 10px;
@@ -36,28 +41,29 @@
                    }
                 }
             }
+
+            img{
+                border-radius: 5px;
+            }
         }
 
 
         .columns {
-            &.first{
-                margin-top: -175px;
-            }
-    
+            width: fit-content; 
             .column {
-                
-                background-color: white;
                 .card {
                     box-shadow: none;
                     position: relative;
+
+                    .card-image{
+                        img{
+                            width: 100%;
+                        }
+                    }
                     .card-content {
                         padding: 10px 0;
                     }
                     
-        
-                    .card-divider {
-                        margin: 0 20px;
-                    }
                 }
         
             }
