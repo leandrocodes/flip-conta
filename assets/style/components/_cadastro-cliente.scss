@@ -3,7 +3,7 @@
     height: 375px;
     background-image: linear-gradient(246deg, rgb(227, 13, 219) 0%, rgb(255, 72, 0) 100%);
 
-    p{
+    p {
       background-color: rgba(0, 0, 0, 0.3);
       border-width: 0;
       border-radius: 100px;
@@ -13,12 +13,14 @@
       float: right;
       margin-right: 33.3%;
       margin-top: -2.5%;
-      @media screen and(max-width: 768px){
+
+      @media screen and(max-width: 768px) {
         float: none;
         margin: 0 auto;
         width: 100%;
       }
-      strong{
+
+      strong {
         color: white;
       }
     }
@@ -29,16 +31,30 @@
     position: absolute;
     top: 75px;
     left: 20%;
-    img{
+
+    img {
       height: 300px;
+    }
+
+    @media screen and(max-width: 768px) {
+      display: none;
+    }
+
+    @media screen and(min-width: 1024px) and (max-width: 1366px) {
+      left: 10%;
+    }
+
+    @media screen and(min-width: 1367px) and (max-width: 1440px) {
+      left: 12.5%;
     }
   }
 
-  .tabs{
+  .tabs {
     position: absolute;
     top: 187.5px;
     left: 29.5%;
-    .tab{
+
+    .tab {
       margin-bottom: 15px;
       height: 50px;
       width: 150px;
@@ -50,12 +66,34 @@
       background-color: white;
       box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
       color: $orange;
-      &.active{
+
+      &.active {
         background-color: $beige-lighter;
       }
-      &:hover{
+
+      &:hover {
         cursor: pointer;
       }
+    }
+  }
+
+  @media screen and(max-width: 768px) {
+    .tabs {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      left: auto;
+      right: auto;
+      margin: 0 auto;
+      top: 185px;
+    }
+
+    .tab {
+      border-radius: 8px;
+    }
+
+    .columns {
+      margin-top: -125px!important;
     }
   }
 
