@@ -1,0 +1,47 @@
+.ler-blog {
+    section.hero {
+        height: 375px;
+        background-image: linear-gradient( 300deg, rgb(63,242,113) 0%, rgb(16,179,209) 100%);
+        .hero-body{
+            p{
+                background-color: rgba(0, 0, 0, 0.3);
+                border-width: 0;
+                border-radius: 100px;
+                color: white;
+                display: inline-block;
+                padding: 5px 30px;
+                strong{
+                  color: white;
+                }
+              }
+        }
+        
+    }
+
+    .columns {
+        &.first{
+            margin-top: -150px;
+        }
+    }
+
+    .column {
+
+        background-color: white;
+
+    
+        .card {
+            box-shadow: none;
+
+            .card-content {
+                padding: 10px 0;
+            }
+            
+
+            .card-divider {
+                margin: 0 20px;
+            }
+        }
+    }
+
+
+}
