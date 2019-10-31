@@ -105,30 +105,29 @@
 
     <section class="clientes">
       <div class="container is-fluid">
-        <div class="columns is-mobile is-centered is-4">
-          <div class="column is-6">
-            <div class="comentario 1">
-              <img src="img/profile.png" alt class="profile-pic" />
-              <div class="txt">
-                <p class="has-text-dark-grey">Vanessa Santos</p>
-                <p class="job">Fitdance</p>
-                <p class="comentario-txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
-                </p>
+        <div class="columns is-mobile is-centered is-4 is-multiline">
+          <div class="column is-6-desktop is-12-monile">
+            <h2 class="is-size-3 has-text-weight-bold has-text-centered">Quem usa, recomenda</h2>
+            <div class="comentarios columns is-mobile is-multiline is-centered">
+              <div class="column is-12-mobile comentario 1">
+                <img src="img/profile.png" alt class="profile-pic" />
+                <div class="txt">
+                  <p class="has-text-dark-grey">Vanessa Santos</p>
+                  <p class="job">Fitdance</p>
+                  <p class="comentario-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.</p>
+                </div>
               </div>
-            </div>
-            <div class="comentario 2">
-              <img src="img/profile.png" alt class="profile-pic" />
-              <div class="txt">
-                <p class="has-text-dark-grey">Vanessa Santos</p>
-                <p class="job">Fitdance</p>
-                <p class="comentario-txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
-                </p>
+              <div class="column is-12-mobile comentario 2">
+                <img src="img/profile.png" alt class="profile-pic" />
+                <div class="txt">
+                  <p class="has-text-dark-grey">Vanessa Santos</p>
+                  <p class="job">Fitdance</p>
+                  <p class="comentario-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="column is-4">
+          <div class="column is-4-desktop is-12-mobile">
             <img src="~@/assets/img/clientes.png" />
           </div>
         </div>
