@@ -239,6 +239,10 @@
   }
 
   .nosso-blog {
+    padding-bottom: 5em;
+    .columns{
+      margin-top: 1em;
+    }
     .card {
       border-radius: 5px;
 
@@ -250,6 +254,32 @@
 
     .green-badge {
       background-color: $success;
+      border-radius: 5px;
+      margin: 25px 0;
+      padding: 5px 15px;
+
+      time {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .brown-badge {
+      background-color: $brown;
+      border-radius: 5px;
+      margin: 25px 0;
+      padding: 5px 15px;
+
+      time {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .grey-badge {
+      background-color: $silver-grey;
       border-radius: 5px;
       margin: 25px 0;
       padding: 5px 15px;
