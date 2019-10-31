@@ -32,6 +32,22 @@
         position: absolute;
         top: 200px;
         left: 17.5%;
+
+        @media screen and (max-width: 1440px) and (min-width: 1367px){
+            left: 20%;
+        }
+        @media screen and (max-width: 1024px) and (min-width: 769px){
+            left: 10%;
+        }
+        @media screen and (max-width: 2560px) and (min-width: 1921px){
+            left: 25%;
+        }
+        @media screen and (max-width: 1920px) and (min-width: 1441px){
+            left: 23%;
+        }
+        @media screen and (max-width: 768px){
+            display: none;
+        }
     }
 
     .conteudo {
