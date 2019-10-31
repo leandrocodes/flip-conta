@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar is-secondary is-transparent" id="nav2">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+          <nuxt-link to="/" class="navbar-item" href="#">
             <img src="~@/assets/img/flipconta-logo-purple.png" alt="Flip Conta" width="112" height="28" />
-          </a>
+          </nuxt-link>
           <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
