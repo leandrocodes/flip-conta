@@ -2,7 +2,6 @@ footer{
   background-image: linear-gradient( 150deg, rgb(63,20,200) 1%, rgb(130,55,244) 100%);
   padding-top: 2.5em;
   .column{
-    margin-top: 15px;
     p{
       display: flex;
       align-items: center;
@@ -25,6 +24,14 @@ footer{
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: 5em;
+  }
+
+  @media only screen and (max-width: 425px){
+    .direitos{
+      align-items: center;
+      margin-top: -100px;
+      padding-bottom: 75px;
+    }
   }
 
 }
