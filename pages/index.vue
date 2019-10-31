@@ -101,7 +101,7 @@
         </div>
       </div>
     </section>
-    
+
     <prices></prices>
 
     <section class="clientes">
@@ -109,7 +109,7 @@
         <div class="columns is-mobile is-centered is-4 is-multiline">
           <div class="column is-6-desktop is-12-monile">
             <h2 class="is-size-3 has-text-weight-bold has-text-left">Quem usa, recomenda</h2>
-            <p class="has-text-weight-semibold has-text-left has-text-grey"> Potencielize você também no mercado, alguns de nossos clientes. </p>
+            <p class="has-text-weight-semibold has-text-left has-text-grey">Potencielize você também no mercado, alguns de nossos clientes.</p>
             <div class="comentarios columns is-mobile is-multiline is-centered">
               <div class="column is-12-mobile comentario 1">
                 <img src="img/profile.png" alt class="profile-pic" />
@@ -139,7 +139,7 @@
     <section class="nosso-blog">
       <div class="container">
         <h2 class="is-size-2 has-text-weight-bold has-text-centered has-text-success">Nosso blog</h2>
-        <p class="has-text-weight-semibold has-text-centered has-text-grey"> Dicas valiosas do mercado financeiro </p>
+        <p class="has-text-weight-semibold has-text-centered has-text-grey">Dicas valiosas do mercado financeiro</p>
         <div class="columns is-centered is-mobile is-multiline">
           <div class="column is-4-desktop is-8-mobile">
             <div class="green-badge">
@@ -246,11 +246,13 @@
 
 <script>
 import BarraMenuPrimaria from '~/components/barra-menu-primaria.vue'
+import BarraMenuSecundaria from '~/components/barra-menu-secundaria.vue'
 import prices from '~/components/prices'
 import rodape from '~/components/rodape'
 export default {
   components: {
     BarraMenuPrimaria,
+    BarraMenuSecundaria,
     prices,
     rodape
   },
@@ -279,6 +281,28 @@ export default {
       this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = false
     }
+  },
+  mounted() {
+    this.$nextTick(function () {
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("nav")
+        var navLogo = document.getElementById("nav-logo")
+        if (document.documentElement.scrollTop >= 150) {
+          if (navbar.classList.contains("is-secondary") === false) {
+            navbar.classList.toggle("is-primary")
+            navbar.classList.toggle("is-secondary")
+            navLogo.src=("img/flipconta-logo-purple.png")
+          }
+        }
+        else {
+          if (navbar.classList.contains("is-secondary") === true) {
+            navbar.classList.toggle("is-primary")
+            navbar.classList.toggle("is-secondary")
+            navLogo.src=("img/flipconta-logo-white.png")
+          }
+        }
+      })
+    })
   },
   methods: {
     sliderImage(val) {

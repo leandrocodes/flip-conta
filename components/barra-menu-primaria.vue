@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar is-primary is-transparent">
+  <nav class="navbar is-primary is-transparent is-fixed-top" id="nav">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
-        <img src="~@/assets/img/flipconta-logo-white.png" alt="Flip Conta" width="112" height="28" />
+        <img id="nav-logo" src="~@/assets/img/flipconta-logo-white.png" alt="Flip Conta" width="112" height="28" />
       </a>
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
@@ -93,9 +93,11 @@
 
 <script>
 export default {
-
 }
 </script>
 
 <style>
+.navbar {
+  transition: all .3s ease-in-out;
+}
 </style>

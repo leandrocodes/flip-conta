@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-secondary is-transparent">
+  <nav class="navbar is-secondary is-transparent" id="nav2">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
             <img src="~@/assets/img/flipconta-logo-purple.png" alt="Flip Conta" width="112" height="28" />
