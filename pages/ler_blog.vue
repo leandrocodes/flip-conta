@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <div class="columns first is-centered is-mobile">
+    <div class="columns first is-centered is-mobile is-multiline">
         <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
           <div class="card">
             <div class="card-image">
@@ -115,7 +115,7 @@
         </div>
     </div>
 
-    <div class="columns is-centered is-mobile">
+    <div class="columns is-centered is-mobile is-multiline"> 
         <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
           <div class="card">
             <div class="card-image">
