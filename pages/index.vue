@@ -111,7 +111,7 @@
               <img src="img/profile.png" alt class="profile-pic" />
               <div class="txt">
                 <p class="has-text-dark-grey">Vanessa Santos</p>
-                <p class="has-text-info">Fitdance</p>
+                <p class="job">Fitdance</p>
                 <p class="comentario-txt">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
                 </p>
@@ -121,7 +121,7 @@
               <img src="img/profile.png" alt class="profile-pic" />
               <div class="txt">
                 <p class="has-text-dark-grey">Vanessa Santos</p>
-                <p class="has-text-info">Fitdance</p>
+                <p class="job">Fitdance</p>
                 <p class="comentario-txt">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
                 </p>

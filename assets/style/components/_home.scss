@@ -198,6 +198,7 @@
   }
 
   .clientes {
+    padding: 5em 0;
     .column {
       display: flex;
 
@@ -212,6 +213,15 @@
           border-radius: 50%;
           width: 60px;
           height: 60px;
+        }
+        p.job{
+          color: $pink;
+        }
+        p.comentario-txt{
+          border-radius: 5px;
+          padding: 10px;
+          background: white;
+          box-shadow: 2px 1.5px 5px 2px rgba(0, 0, 0, 0.15);
         }
       }
     }
