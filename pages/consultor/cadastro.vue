@@ -51,6 +51,7 @@
         </form>
       </div>
     </div>
+    <img class="modelo-consultor" src="~@/assets/img/modelo-consultor.png" alt="" srcset="">
   </div>
 </template>
 
