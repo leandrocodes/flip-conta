@@ -21,9 +21,34 @@
   .modelo-bg {
     position: absolute;
     top: 75px;
-    left: 25%;
+    left: 20%;
     img{
       height: 300px;
+    }
+  }
+
+  .tabs{
+    position: absolute;
+    top: 187.5px;
+    left: 29.5%;
+    .tab{
+      margin-bottom: 15px;
+      height: 50px;
+      width: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom-left-radius: 8px;
+      border-top-left-radius: 8px;
+      background-color: white;
+      box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+      color: $orange;
+      &.active{
+        background-color: $beige-lighter;
+      }
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
 
