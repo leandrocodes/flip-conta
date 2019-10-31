@@ -18,29 +18,47 @@
         
     }
 
-    .columns {
-        &.first{
-            margin-top: -175px;
+    .blog-posts{
+
+        .card-image{
+            .data{
+                height: 50px;
+                width: 50px;
+                margin: 10px 10px -20px 10px;
+                position: absolute;
+                z-index: 10;
+                background-color: white;
+            }
+        }
+
+
+        .columns {
+            &.first{
+                margin-top: -175px;
+            }
+    
+            .column {
+                
+                background-color: white;
+                .card {
+                    box-shadow: none;
+                    position: relative;
+                    .card-content {
+                        padding: 10px 0;
+                    }
+                    
+        
+                    .card-divider {
+                        margin: 0 20px;
+                    }
+                }
+        
+            }
         }
     }
 
-    .column {
-
-        background-color: white;
-
-    
-        .card {
-            box-shadow: none;
-
-            .card-content {
-                padding: 10px 0;
-            }
-            
-
-            .card-divider {
-                margin: 0 20px;
-            }
-        }
+    footer{
+        margin-top: 100px;
     }
 
 
