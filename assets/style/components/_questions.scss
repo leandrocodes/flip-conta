@@ -1,8 +1,10 @@
 .questions {
     section.hero {
+        background-color: $success-purple;
         height: 275px;
-        .hero-body{
-            p{
+
+        .hero-body {
+            p {
                 background-color: rgba(0, 0, 0, 0.3);
                 border-width: 0;
                 border-radius: 100px;
@@ -12,19 +14,27 @@
                 float: left;
                 margin-left: 15%;
                 margin-top: -1%;
-                @media screen and(max-width: 768px){
-                float: none;
-                margin: 0 auto;
-                width: 100%;
+
+                @media screen and(max-width: 768px) {
+                    float: none;
+                    margin: 0 auto;
+                    width: 100%;
                 }
-                strong{
-                color: white;
+
+                strong {
+                    color: white;
                 }
             }
         }
     }
 
-    .conteudo{
+    .questions-img{
+        position: absolute;
+        top: 200px;
+        left: 17.5%;
+    }
+
+    .conteudo {
 
         .columns {
             margin-top: -100px;
@@ -71,7 +81,7 @@
 
     }
 
-    footer{
+    footer {
         margin-top: 100px;
     }
 }
