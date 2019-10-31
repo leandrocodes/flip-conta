@@ -1,7 +1,7 @@
 <template>
   <div class="cadastro-fisica">
     <section class="hero is-bold">
-      <div class="hero-head">
+              <div class="hero-head">
         <barra-menu-terciaria></barra-menu-terciaria>
       </div>
       <div class="hero-body">
@@ -13,7 +13,7 @@
       </div>
     </section>
     <div class="columns is-centered is-mobile">
-      <div class="column is-10-mobile is-8-tablet is-4-desktop is-3-fullhd">
+      <div class="column is-9-mobile is-6-tablet is-3-desktop is-3-fullhd">
         <div class="texto-inicio has-text-centered">
           <h4 class="subtitle is-black has-text-weight-bold">Pessoa Física</h4>
         </div>
@@ -52,6 +52,9 @@
       </div>
     </div>
 
+  <div class="modelo-bg">
+    <img src="~@/assets/img/modelo-cliente.png" alt="" >
+  </div>
   </div>
 
 </template>
