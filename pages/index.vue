@@ -103,6 +103,38 @@
     </section>
     <prices></prices>
 
+    <section class="clientes">
+      <div class="container is-fluid">
+        <div class="columns is-mobile is-centered is-4">
+          <div class="column is-6">
+            <div class="comentario 1">
+              <img src="img/profile.png" alt class="profile-pic" />
+              <div class="txt">
+                <p class="has-text-dark-grey">Vanessa Santos</p>
+                <p class="job">Fitdance</p>
+                <p class="comentario-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
+                </p>
+              </div>
+            </div>
+            <div class="comentario 2">
+              <img src="img/profile.png" alt class="profile-pic" />
+              <div class="txt">
+                <p class="has-text-dark-grey">Vanessa Santos</p>
+                <p class="job">Fitdance</p>
+                <p class="comentario-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <img src="~@/assets/img/clientes.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <rodape></rodape>
   </div>
 </template>
