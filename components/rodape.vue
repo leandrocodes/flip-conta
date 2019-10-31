@@ -62,6 +62,26 @@
           </div>
         </div>
       </div>
+      <div class="columns is-mobile is-multiline" style="margin-bottom: 100px">
+        <div class="column is-2 is-offset-1">
+          <img src="~@/assets/img/flipconta-logo-white.png" alt="">
+        </div>
+        <div class="column is-5 is-offset-1 has-text-left">
+          <p>somos uma startup que trouxe inovação na forma do seu financeiro trabalhar. ganhe tempo e agilidade no seu fluxo de cobrança regular.</p>
+        </div>
+        <div class="column is-2  is-offset-1 has-text-align-center">
+          <h4 class="is-size-5 has-text-weight-semibold-has-text-li">SIGA-NOS</h4>
+          <div class="social-links" style="margin-top: 25px;">
+            <font-awesome-icon class="is-size-3" :icon="['fab', 'facebook-square']" />
+            <font-awesome-icon class="is-size-3" :icon="['fab', 'instagram']" />
+            <font-awesome-icon class="is-size-3" :icon="['fab', 'twitter']" />
+            <font-awesome-icon class="is-size-3" :icon="['fab', 'youtube']" />
+          </div>
+        </div>
+      </div>
+      <div class="columns is-mobile is-centered">
+        
+      </div>
     </div>
   </footer>
 </template>
