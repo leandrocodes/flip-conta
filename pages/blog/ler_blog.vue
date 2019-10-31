@@ -18,10 +18,9 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
+                    <div class="data has-text-centered">
+                        <span class="title is-3 has-text-weight-bold">16</span> 
+                        <span class="subtitle is-3 has-text-weight-bold">AGO</span>
                     </div>
                     <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
@@ -72,10 +71,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
@@ -97,10 +98,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
@@ -124,10 +127,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
@@ -149,10 +154,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
@@ -174,10 +181,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
@@ -199,10 +208,12 @@
             <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-16by9">
                     <div class="data">
-                        16 AUG
+                        <span class="title is-4">16</span> 
+                        <br>
+                        <span class="subtitle is-6">AGO</span>
                     </div>
+                    <figure class="image is-16by9">
                     <img src="https://bulma.io/images/placeholders/640x360.png">
                     </figure>
                 </div>
