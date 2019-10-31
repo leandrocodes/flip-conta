@@ -3,15 +3,22 @@
     height: 375px;
     background-image: linear-gradient(246deg, rgb(227, 13, 219) 0%, rgb(255, 72, 0) 100%);
 
-    p {
+    p{
       background-color: rgba(0, 0, 0, 0.3);
       border-width: 0;
       border-radius: 100px;
       color: white;
       display: inline-block;
       padding: 5px 30px;
-
-      strong {
+      float: right;
+      margin-right: 33.3%;
+      margin-top: -2.5%;
+      @media screen and(max-width: 768px){
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+      }
+      strong{
         color: white;
       }
     }
