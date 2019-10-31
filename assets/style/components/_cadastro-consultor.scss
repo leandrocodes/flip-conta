@@ -29,11 +29,19 @@
     top: 10%;
     left: 24.5%;
     height: 610px;
-    @media screen and (min-width: 1440px){
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+      left: 12.5%;
+    }
+
+    @media screen and (min-width: 1366px) and (max-width: 1440px){
       left: 21.5%;
     }
     @media screen and (min-width: 2560px){
       left: 26.75%;
+    }
+    @media screen and (max-width: 768px){
+      display: none;
     }
   }
   
