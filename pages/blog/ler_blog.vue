@@ -13,227 +13,222 @@
       </div>
     </section>
 
-    <div class="blog-posts">
-        <div class="columns first is-centered is-mobile is-multiline">
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data has-text-centered">
-                        <span class="title is-3 has-text-weight-bold">16</span> 
-                        <span class="subtitle is-3 has-text-weight-bold">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
-                        </div>
+    <div class="columns is-centered is-mobile">
+        <div class="column blog-posts is-11-mobile is-12-tablet is-8-desktop">
+            <div class="columns is-centered is-mobile is-multiline">
+                <div class="column is-12-mobile is-3-desktop">
 
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
+                    <div class="card">
+                        <div class="card-image">
+                            <div class="data has-text-centered">
+                                <span class="title is-3 has-text-weight-bold">16</span> 
+                                <span class="subtitle is-3 has-text-weight-bold">AGO</span>
+                            </div>
+                            <figure class="image is-16by9">
+                            <img src="https://bulma.io/images/placeholders/640x360.png">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
+                        </div>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
+                    </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
+
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
+                        </div>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
+                    </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
+
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
+                        </div>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
+                    </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
+
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+            <div class="columns is-centered is-mobile is-multiline"> 
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
                     </div>
-                </div>
-            </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
                     </div>
                 </div>
-            </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
                     </div>
-                </div>
-            </div>
-        </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
 
-        <div class="columns is-centered is-mobile is-multiline"> 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
                     </div>
                 </div>
-            </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
                     </div>
-                </div>
-            </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
                         </div>
-
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
                     </div>
                 </div>
-            </div>
 
-            <div class="column is-10-mobile is-8-tablet is-2-desktop is-3-fullhd">
-            <div class="card">
-                <div class="card-image">
-                    <div class="data">
-                        <span class="title is-4">16</span> 
-                        <br>
-                        <span class="subtitle is-6">AGO</span>
-                    </div>
-                    <figure class="image is-16by9">
-                    <img src="https://bulma.io/images/placeholders/640x360.png">
-                    </figure>
-                </div>
-                    <div class="card-content">
-                        <div class="tag">
-                            <a href="#" class="subtitle is-6">Events</a>
-                            <a href="#" class="subtitle is-6">Design</a>
+                <div class="column is-12-mobile is-3-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="data has-text-centered">
+                            <span class="title is-3 has-text-weight-bold">16</span> 
+                            <span class="subtitle is-3 has-text-weight-bold">AGO</span>
                         </div>
+                        <figure class="image is-16by9">
+                        <img src="https://bulma.io/images/placeholders/640x360.png">
+                        </figure>
+                    </div>
+                        <div class="card-content">
+                            <div class="tag">
+                                <a href="#" class="subtitle is-6">Events</a>
+                                <a href="#" class="subtitle is-6">Design</a>
+                            </div>
 
-                        <a href="#" class="content">
-                            <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
-                            <br>
-                            <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
-                        </a>
+                            <a href="#" class="content">
+                                <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
+                                <br>
+                                <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <rodape></rodape>
 
   </div>
