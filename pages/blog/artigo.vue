@@ -1,31 +1,32 @@
 <template>
   <div class="artigo">
-    <section class="hero is-bold">
+    <section class="hero is-bold is-small-desktop">
       <div class="hero-head">
         <barra-menu-secundaria></barra-menu-secundaria>
       </div>
-      <div class="hero-body">
+      <div class="columns hero-body">
+        <div class="column lead">
+            <div class="columns is-centered is-mobile">
+              <div class="column is-4-mobile is-1-desktop has-text-centered">Charles Porto</div>
+              <div class="column is-4-mobile is-1-desktop has-text-centered">15/06/2018</div>
+              <div class="column is-4-mobile is-1-desktop has-text-centered">578</div>
+            </div>
+            <h1 class="title is-2-desktop is-6-mobile has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, centralizando</h1>
+            <h2 class="subtitle is-4-desktop is-8-mobile has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, permite que você e sua equipe façam projeções de gastos e investimentos, centralizando informações sobre cliente, fornecedores, vencimentos e muito mais.</h2>
+        </div>
         <!-- <p class="subtitle is-6 has-text-centered-mobile">
           você está em >>
           <strong>post</strong>
         </p> -->
-        <div class="lead">
-            <div class="columns">
-              <div class="column">Charles Porto</div>
-              <div class="column">15/06/2018</div>
-              <div class="column">578</div>
-            </div>
-            <h1 class="title is-1 has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, centralizando</h1>
-            <h2 class="subtitle is-2 has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, permite que você e sua equipe façam projeções de gastos e investimentos, centralizando informações sobre cliente, fornecedores, vencimentos e muito mais.</h2>
-        </div>
       </div>
     </section>
+
     <div class="conteudo">
       <div class="columns is-centered is-mobile is-multiline">
         <div class="column post is-11-mobile is-12-tablet is-8-desktop">
             
         </div>
-    </div>
+      </div>
     </div>
     
     <rodape></rodape>

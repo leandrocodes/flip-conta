@@ -3,6 +3,7 @@
       height: 375px;
       background-image: linear-gradient( 300deg, rgb(146,32,212) 0%, rgb(102,16,209) 100%);
       .hero-body{
+        padding: 24px 24px;
           p{
               background-color: rgba(0, 0, 0, 0.3);
               border-width: 0;
@@ -21,6 +22,14 @@
               strong{
                 color: white;
               }
+          }
+
+          .lead{
+            padding: 0px;
+            color: white;
+            h1, h2{
+              color: white;
+            }
           }
       }
       
