@@ -75,6 +75,31 @@
         cursor: pointer;
       }
     }
+
+    @media screen and (max-width: 1366px) and (min-width: 1024px) {
+      left: 26.15%;
+    }
+
+  }
+
+  @media screen and(max-width: 768px) {
+    .tabs {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      left: auto;
+      right: auto;
+      margin: 0 auto;
+      top: 185px;
+    }
+
+    .tab {
+      border-radius: 8px;
+    }
+
+    .columns {
+      margin-top: -125px!important;
+    }
   }
 
   @media screen and(max-width: 768px) {
