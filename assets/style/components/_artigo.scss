@@ -4,30 +4,18 @@
       background-image: linear-gradient( 300deg, rgb(146,32,212) 0%, rgb(102,16,209) 100%);
       .hero-body{
         padding: 24px 24px;
-          p{
-              background-color: rgba(0, 0, 0, 0.3);
-              border-width: 0;
-              border-radius: 100px;
-              color: white;
-              display: inline-block;
-              padding: 5px 30px;
-              float: left;
-              margin-left: 15%;
-              margin-top: -1%;
-              @media screen and(max-width: 768px){
-                float: none;
-                margin: 0 auto;
-                width: 100%;
-              }
-              strong{
-                color: white;
-              }
-          }
-
           .lead{
             padding: 0px;
             color: white;
-
+            @media only screen and (min-width: 1360px) {
+              max-width: 1248px;
+            }
+            .info{
+              margin: 0px;
+              .column{
+                padding: 20px 0px 0px 0px;
+              }
+            }
             svg{
               color: orange;
             }
@@ -38,18 +26,22 @@
       }
       
   }
-  
- 
-  .conteudo{
-      background-color: white;
 
-      .columns {
-          // width: fit-content; 
-          .column {
-              
-      
-          }
+  .article{
+    background-color: white;
+    .article_organizer{
+      margin-top: 10px;
+      background-color: white;
+      @media only screen and (min-width: 1360px) {
+        max-width: 1248px;
       }
+      .article_body{
+        img{
+          width: 100%;
+        }
+      }
+
+    }
   }
 
   footer{
