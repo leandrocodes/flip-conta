@@ -40,12 +40,31 @@
           width: 100%;
         }
       }
+      .article_footer{
+        .article_slider{
+          // CSS do Slider
+        }
+        .article_references{
+          border-bottom: 1px solid $orange;
+          .references_title , .references_link{
+            color: $orange;
+          }
+        }
+      }
+      .article_comments{
+        .comments_fb{
+          margin: 50px 0px;
+          p{
+            
+          }
+        }
+      }
 
     }
   }
 
   footer{
-      margin-top: 100px;
+      margin-top: 0px;
   }
 
 

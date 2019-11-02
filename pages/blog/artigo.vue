@@ -31,12 +31,12 @@
     <div class="columns article is-centered">
       <div class="column article_organizer">
         <div class="columns article_body is-centered is-mobile is-multiline">
-          <div class="column has-text-justified post is-11-mobile is-6-desktop">
+          <div class="column has-text-justified is-11-mobile is-6-desktop">
             <figure class="image is-16by9 ">
               <img src="https://bulma.io/images/placeholders/640x360.png">
             </figure>
           </div>
-          <div class="column has-text-justified post is-11-mobile is-6-desktop">
+          <div class="column has-text-justified is-11-mobile is-6-desktop">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non repellendus natus molestias, consequuntur nesciunt suscipit dolorem optio quibusdam sit odit sapiente dicta esse, libero deleniti aliquam! Unde totam sequi earum?    
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quibusdam incidunt veniam, perspiciatis dolorem quisquam, quo, necessitatibus a minus amet dolore recusandae sequi doloribus consequatur qui. Est, totam. Quos, ullam?
             <br/>
@@ -45,10 +45,21 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis, possimus ipsam error nam debitis provident. Assumenda repellendus quasi, distinctio neque dolores, eligendi placeat sapiente harum expedita quisquam est reprehenderit?
           </div>
         </div>
-        <div class="columns article_footer"> 
-          <!-- TODO: 
-          Slider
-          -->
+        <div class="columns article_footer is-12 is-mobile is-multiline"> 
+          <div class="column article_slider">
+            <!-- TODO: 
+            Slider
+            -->
+          </div>
+          <div class="column article_references is-12">
+            <span class="references_title subtitle is-size-6 has-text-weight-light">Fonte</span>
+            <span class="references_link subtitle is-size-6 has-text-weight-light">Ministério da Economia</span>
+          </div>
+        </div>
+        <div class="columns article_comments is-centered is-mobile is-multiline">
+          <div class="column is-10 comments_fb has-background-white-ter has-text-centered">
+            <p>Comentarios do Facebook</p>
+          </div>
         </div>
       </div>  
     </div>
