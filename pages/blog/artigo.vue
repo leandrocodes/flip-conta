@@ -45,13 +45,13 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis, possimus ipsam error nam debitis provident. Assumenda repellendus quasi, distinctio neque dolores, eligendi placeat sapiente harum expedita quisquam est reprehenderit?
           </div>
         </div>
-        <div class="columns article_footer is-12 is-mobile is-multiline"> 
-          <div class="column article_slider">
+        <div class="columns article_footer is-centered is-mobile is-multiline"> 
+          <div class="column article_slider is-10-mobile is-12-desktop">
             <!-- TODO: 
             Slider
             -->
           </div>
-          <div class="column article_references is-12">
+          <div class="column article_references is-10-mobile is-12-desktop">
             <span class="references_title subtitle is-size-6 has-text-weight-light">Fonte</span>
             <span class="references_link subtitle is-size-6 has-text-weight-light">Ministério da Economia</span>
           </div>
