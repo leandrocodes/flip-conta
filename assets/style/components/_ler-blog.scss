@@ -31,40 +31,33 @@
         border-radius: 5px;
         margin-top: -175px;
         background-color: white;
-        .card-image{
 
-            .data{
-                border-radius: 5px;
-                height: 70px;
-                width: 60px;
-                margin: 10px 10px -20px 10px;
-                padding: 4px;
-                position: absolute;
-                z-index: 10;
-                background-color: white;
-                span{
-                   margin: 0;
-                   &.subtitle{
-                       font-size: 15px;
-                   }
-                }
-            }
-
-            img{
-                border-radius: 5px;
-            }
-        }
-
-
-        .columns {
-            width: fit-content; 
+        .card-organizer {
             .column {
                 .card {
                     box-shadow: none;
                     position: relative;
 
                     .card-image{
+                        .data{
+                            border-radius: 5px;
+                            height: 70px;
+                            width: 60px;
+                            margin: 10px 10px -20px 10px;
+                            padding: 4px;
+                            position: absolute;
+                            z-index: 10;
+                            background-color: white;
+                            span{
+                               margin: 0;
+                               &.subtitle{
+                                   font-size: 15px;
+                               }
+                            }
+                        }
+            
                         img{
+                            border-radius: 5px;
                             width: 100%;
                         }
                     }
@@ -73,7 +66,20 @@
                     }
                     
                 }
-        
+            }
+        }
+
+        .card-navigator{
+            .pagination{
+                .pagination-list{
+                    width: fit-content;
+                    .pagination-link{
+                        &.is-current{
+                            background-color: $primary;
+                            border-color: $primary;
+                        }
+                    }
+                }
             }
         }
     }

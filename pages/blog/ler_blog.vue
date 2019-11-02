@@ -15,7 +15,7 @@
 
     <div class="columns is-centered is-mobile">
         <div class="column blog-posts is-11-mobile is-12-tablet is-8-desktop">
-            <div class="columns is-centered is-mobile is-multiline">
+            <div class="columns card-organizer is-centered is-mobile is-multiline">
                 <div class="column is-12-mobile is-3-desktop">
 
                     <div class="card">
@@ -122,7 +122,7 @@
                 </div>
             </div>
 
-            <div class="columns is-centered is-mobile is-multiline"> 
+            <div class="columns card-organizer is-centered is-mobile is-multiline"> 
                 <div class="column is-12-mobile is-3-desktop">
                 <div class="card">
                     <div class="card-image">
@@ -227,7 +227,26 @@
                     </div>
                 </div>
             </div>
+            <div class="columns card-navigator is-centered is-mobile">
+                <div class="column is-12">
+                    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                        <a class="pagination-previous">Previous</a>
+                        <a class="pagination-next has-background-white-ter">Next page</a>
+                        <ul class="pagination-list">
+                            <!-- <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                            <li><span class="pagination-ellipsis">&hellip;</span></li> -->
+                            <li><a class="pagination-link is-current" aria-label="Página 1">1</a></li>
+                            <li><a class="pagination-link" aria-label="Ir para Página 2" aria-current="Página">2</a></li>
+                            <li><a class="pagination-link" aria-label="Ir para Página 3">3</a></li>
+                            <!-- <li><span class="pagination-ellipsis">&hellip;</span></li>
+                            <li><a class="pagination-link" aria-label="Goto page 86">86</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
+        
+
     </div>
     <rodape></rodape>
 

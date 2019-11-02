@@ -21,8 +21,8 @@
               </div>
             </div>
             <div class="column has-text-centered">
-              <h1 class="title is-size-2-desktop is-size-5-mobile has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem</h1>
-              <h2 class="subtitle is-size-5-desktop is-size-6-mobile has-text-centered has-text-white-ter">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, permite que você e sua equipe façam projeções de gastos e investimentos, centralizando informações sobre cliente, fornecedores, vencimentos e muito mais.</h2>
+              <h1 class="title is-size-2-desktop is-size-3-tablet is-size-5-mobile has-text-centered">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem</h1>
+              <h2 class="subtitle is-size-5-desktop is-size-5-tablet is-size-6-mobile has-text-centered has-text-white-ter">O recurso de controle de contas a pagar do nosso Sistema ERP em Nuvem, permite que você e sua equipe façam projeções de gastos e investimentos, centralizando informações sobre cliente, fornecedores, vencimentos e muito mais.</h2>
             </div>
         </div>
       </div>
@@ -31,12 +31,12 @@
     <div class="columns article is-centered">
       <div class="column article_organizer">
         <div class="columns article_body is-centered is-mobile is-multiline">
-          <div class="column has-text-justified is-11-mobile is-6-desktop">
+          <div class="column has-text-justified is-11-mobile is-5-tablet is-6-desktop">
             <figure class="image is-16by9 ">
               <img src="https://bulma.io/images/placeholders/640x360.png">
             </figure>
           </div>
-          <div class="column has-text-justified is-11-mobile is-6-desktop">
+          <div class="column has-text-justified is-11-mobile is-5-tablet is-6-desktop">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non repellendus natus molestias, consequuntur nesciunt suscipit dolorem optio quibusdam sit odit sapiente dicta esse, libero deleniti aliquam! Unde totam sequi earum?    
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quibusdam incidunt veniam, perspiciatis dolorem quisquam, quo, necessitatibus a minus amet dolore recusandae sequi doloribus consequatur qui. Est, totam. Quos, ullam?
             <br/>
@@ -46,12 +46,12 @@
           </div>
         </div>
         <div class="columns article_footer is-centered is-mobile is-multiline"> 
-          <div class="column article_slider is-10-mobile is-12-desktop">
+          <div class="column article_slider is-10-mobile is-10-tablet is-12-desktop">
             <!-- TODO: 
             Slider
             -->
           </div>
-          <div class="column article_references is-10-mobile is-12-desktop">
+          <div class="column article_references is-10-mobile is-10-tablet is-12-desktop">
             <span class="references_title subtitle is-size-6 has-text-weight-light">Fonte</span>
             <span class="references_link subtitle is-size-6 has-text-weight-light">Ministério da Economia</span>
           </div>
