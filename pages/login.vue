@@ -13,10 +13,10 @@
       </div>
     </section>
     <div class="conteudo">
-      <div class="columns is-centered is-mobile">
+      <div v-if="cliente" class="columns is-centered is-mobile">
         <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
           <div class="texto-inicio has-text-centered">
-            <h4 class="subtitle is-black has-text-weight-bold">Entre com seus dados para logar</h4>
+            <h4 class="subtitle is-black has-text-weight-bold">Login do Cliente</h4>
           </div>
           <form>
             <div class="field">
@@ -42,17 +42,45 @@
           </form>
         </div>
       </div>
+      <div v-else class="columns is-centered is-mobile">
+        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
+          <div class="texto-inicio has-text-centered">
+            <h4 class="subtitle is-black has-text-weight-bold">Login do Consultor</h4>
+          </div>
+          <form>
+            <div class="field">
+              <div class="control is-expanded">
+                <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control is-expanded">
+                <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control is-expanded">
+                <a href class="button is-primary is-rounded">Entrar</a>
+              </div>
+            </div>
+            <div class="field">
+              <div>
+                <nuxt-link to="/esqueci"><a class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</a></nuxt-link>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-        <div class="modelo-bg">
+    <div class="modelo-bg">
       <img src="~@/assets/img/modelo-cliente.png" alt />
     </div>
     <div class="tabs">
-      <div class="tab has-text-weight-semibold" @click="fisica=true">Cliente</div>
-      <div class="tab has-text-weight-semibold" @click="fisica=false">Consultor</div>
+      <div class="tab has-text-weight-semibold" @click="cliente=true">Cliente</div>
+      <div class="tab has-text-weight-semibold" @click="cliente=false">Consultor</div>
     </div>
     <rodape></rodape>
   </div>
-
 </template>
 
 <script>
@@ -65,9 +93,9 @@ export default {
     BarraMenuTerciaria,
     Rodape
   },
-  data() {
+  data () {
     return {
-
+      cliente: true
     }
   }
 }

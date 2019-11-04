@@ -41,17 +41,17 @@
         <div class="column is-4-desktop is-offset-2-desktop is-12-mobile has-text-centered-mobile">
           <h3 class="is-uppercase has-text-left has-text-centered-mobile">sobre nós</h3>
           <div class="text" style="margin-top: 15px;">
-            <a class="has-text-light" href>flipconta</a>
+            <nuxt-link to="/" class="has-text-light" href>flipconta</nuxt-link>
             <br />
             <a class="has-text-light" href>termos de uso</a>
             <br />
             <a class="has-text-light" href>politicas de privacidade</a>
             <br />
-            <a class="has-text-light" href>blog</a>
+            <nuxt-link to="/blog/ler_blog" class="has-text-light" href>blog</nuxt-link>
             <br />
-            <a class="has-text-light" href>berguntas frequentes</a>
+            <nuxt-link to='/perguntas' class="has-text-light" href>berguntas frequentes</nuxt-link>
             <br />
-            <a class="has-text-light" href>contato</a>
+            <nuxt-link to="/contato" class="has-text-light" href>contato</nuxt-link>
           </div>
         </div>
         <div class="column is-2-desktop is-12-mobile has-text-centered-mobile">

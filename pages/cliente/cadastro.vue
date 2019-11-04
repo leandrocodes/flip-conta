@@ -11,7 +11,7 @@
           <!-- Colocar no media -->
         </p>
       </div>
-    </section>]
+    </section>
     <div class="conteudo">
       <div v-if="fisica" class="columns is-centered is-mobile">
         <div class="column is-9-mobile is-6-tablet is-3-desktop is-3-fullhd">
@@ -116,7 +116,7 @@ export default {
   },
   data() {
     return {
-
+      fisica: true
     }
   }
 }

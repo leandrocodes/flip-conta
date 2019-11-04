@@ -33,11 +33,13 @@
                                 <a href="#" class="subtitle is-6">Events</a>
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
 
@@ -60,11 +62,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -86,11 +90,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -112,11 +118,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -140,11 +148,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -166,11 +176,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -192,11 +204,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -218,11 +232,13 @@
                                 <a href="#" class="subtitle is-6">Design</a>
                             </div>
 
-                            <a href="#" class="content">
+                            <nuxt-link to="/blog/artigo">
+                                <a class="content">
                                 <span class="title is-6 has-text-weight-bold">Make your Marketing website</span> 
                                 <br>
                                 <span class="subtitle is-6 has-text-justified">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
                             </a>
+                            </nuxt-link>
                         </div>
                     </div>
                 </div>
