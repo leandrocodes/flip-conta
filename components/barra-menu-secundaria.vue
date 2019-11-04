@@ -19,14 +19,14 @@
           </nuxt-link>
         </div>
         <div class="nav-link navbar-item">
-          <a href class="button is-light is-outlined is-rounded">soluções</a>
+          <a href='/' class="button is-light is-outlined is-rounded">soluções</a>
         </div>
         <div class="nav-link navbar-item">
-          <a href class="button is-light is-outlined is-rounded">preços</a>
+          <a href='/' class="button is-light is-outlined is-rounded">preços</a>
         </div>
         <div class="nav-link navbar-item has-dropdown is-hoverable">
           <div class="navbar-link is-arrowless is-rounded">
-            <a href class="button is-light is-outlined is-rounded">suporte</a>
+            <a class="button is-light is-outlined is-rounded">suporte</a>
           </div>
           <div class="navbar-dropdown is-boxed">
             <nuxt-link to="/contato">

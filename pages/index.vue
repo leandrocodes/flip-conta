@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <div class="cards">
+    <div class="cards" id="solutions">
       <h2 class="subtitle is-size-5-mobile has-text-right-desktop has-text-centered-mobile">
         Oferecemos as
         <br />
@@ -124,7 +124,7 @@
       </div>
     </section>
 
-    <prices></prices>
+    <prices id="prices"></prices>
 
     <section class="clientes">
       <div class="container is-fluid">

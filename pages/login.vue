@@ -47,7 +47,7 @@
           <div class="texto-inicio has-text-centered">
             <h4 class="subtitle is-black has-text-weight-bold">Login do Consultor</h4>
           </div>
-          <form>
+          
             <div class="field">
               <div class="control is-expanded">
                 <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
@@ -64,11 +64,8 @@
               </div>
             </div>
             <div class="field">
-              <div>
-                <nuxt-link to="/esqueci"><a class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</a></nuxt-link>
-              </div>
+              <nuxt-link to="/esqueci" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</nuxt-link>
             </div>
-          </form>
         </div>
       </div>
     </div>
