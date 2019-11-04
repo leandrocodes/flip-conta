@@ -12,9 +12,16 @@
               <img :src="`${slider.img}`" width="150px" />
               <h4 class="subtitle has-text-weight-bold">{{ slider.title }}</h4>
               <a style="margin-bottom: 10px;" class="button is-info is-rounded has-text-light has-text-weight-semibold">{{ slider.price }}</a>
-              <ul class="has-text-left" v-for="topic in slider.topics" :key="topic">
-                <li class="has-text-info">  <font-awesome-icon :icon="['fas', 'check-circle']" /> {{ topic }} </li>
-              </ul>
+              <div class="columns is-centered">
+                <div class="column is-8" style="box-shadow: none;">
+                  <ul class="has-text-left" v-for="topic in slider.topics" :key="topic">
+                    <li class="has-text-info">
+                      <font-awesome-icon :icon="['fas', 'check-circle']" />
+                      {{ topic }}
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -32,7 +39,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       pricesSliders: [
         { img: 'img/price-boleto.png', title: 'boleto bancário', price: 'R$ 1,00', topics: ['por boleto pago', 'sem taxas de emissão', 'receba em 2 dias'] },
@@ -49,7 +56,7 @@ export default {
       }
     }
   },
-  created() {
+  created () {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = false
