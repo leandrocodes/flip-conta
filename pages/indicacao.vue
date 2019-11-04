@@ -9,13 +9,13 @@
           <div class="columns">
             <div class="column is-offset-2 is-5 has-text-left">
               <p class="has-text-light">código do convite</p>
-              <a class="button is-light has-text-weight-bold">CHARLES101</a>
+              <a class="button is-medium is-light has-text-weight-bold" style="margin: 0.5em 0;">CHARLES101</a>
               <p class="is-size-4 has-text-white has-text-weight-bold">
                 <span>Charles</span> convidou você
                 <br />para conhecer a flipconta.
               </p>
               <p class="is-size-4 has-text-white has-text-weight-bold">uma simplicidade na sua gestão.</p>
-              <a class="button is-primary has-text-white has-text-weight-semibold">cadastrar</a>
+              <a class="button is-medium is-primary has-text-white has-text-weight-semibold" style="margin-top: 0.5em;">cadastrar</a>
             </div>
           </div>
         </div>
