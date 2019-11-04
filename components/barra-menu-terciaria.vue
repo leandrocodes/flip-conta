@@ -14,10 +14,10 @@
     <div id="navbarHome" class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <nuxt-link to="/login" class="button is-primary is-outlined is-rounded">Logar na minha conta</nuxt-link>
+          <nuxt-link to="/login" class="button is-primary is-outlined is-rounded entrar">Logar na minha conta</nuxt-link>
         </div>
         <div class="navbar-item">
-          <nuxt-link to="/consultor/cadastro" class="button is-primary is-outlined is-rounded">Logar na minha conta</nuxt-link>
+          <nuxt-link to="/consultor/cadastro" class="button is-light is-outlined is-rounded">Seja Consultor</nuxt-link>
         </div>
       </div>
     </div>
