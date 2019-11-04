@@ -84,7 +84,7 @@
           <nuxt-link to="/login" class="button is-link is-outlined is-rounded">Logar na minha conta</nuxt-link>
         </div>
         <div class="navbar-item">
-          <nuxt-link to="consultor/cadastro" class="button is-link is-outlined is-rounded">Seja consultor</nuxt-link>
+          <nuxt-link to="/consultor/cadastro" class="button is-link is-outlined is-rounded">Seja consultor</nuxt-link>
         </div>
       </div>
     </div>
