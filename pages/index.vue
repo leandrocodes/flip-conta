@@ -48,10 +48,10 @@
           </transition>
         </div>
         <div class="nav-buttons">
-          <a class="button is-rounded is-primary is-outlined" @click="sliderImage('frente')">
+          <a class="button is-rounded is-light is-outlined" @click="sliderImage('frente')">
             <font-awesome-icon :icon="['fas', 'angle-left']" />
           </a>
-          <a class="button is-rounded is-primary is-outlined" @click="sliderImage('tras')">
+          <a class="button is-rounded is-light is-outlined" @click="sliderImage('tras')">
             <font-awesome-icon :icon="['fas', 'angle-right']" />
           </a>
         </div>
