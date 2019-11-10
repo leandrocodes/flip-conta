@@ -59,6 +59,12 @@
         width: 12em;
       }
     }
+    
+    .texto-entrada {
+      float: right;
+      margin-top: -4.5em;
+      margin-right: 10em;
+    }
   }
 
   @media only screen and (max-width: 1920px) and (min-width: 1600px) {
@@ -104,6 +110,11 @@
 
 
   @media only screen and (max-width: 2560px) and (min-width: 2133px) {
+
+    .hero{
+      height: 80vh;
+    }
+
     .cards {
       .subtitle {
         margin-right: 15em;
