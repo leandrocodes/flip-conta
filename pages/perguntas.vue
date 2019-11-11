@@ -24,12 +24,13 @@
                       <p class="card-header-title has-text-primary">
                       Como funciona a polica de ressarcimento?
                       </p>
-                      <a href="#" class="card-header-icon has-text-primary" aria-label="Resposta">
-                          <font-awesome-icon :icon="['fas', 'minus']" />
+                      <a @click="resposta1 = !resposta1" class="card-header-icon has-text-primary" aria-label="Resposta">
+                          <font-awesome-icon v-if="resposta1 === true" :icon="['fas', 'plus']" />
+                          <font-awesome-icon v-else :icon="['fas', 'minus']" />
                       </a>
                   </header>
                   <div class="card-content">
-                      <div class="content has-text-justified">
+                      <div v-if="resposta1 === true" class="content has-text-justified">
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.
                       </div>
                   </div>
@@ -90,7 +91,7 @@ export default {
   },
   data() {
     return {
-
+      resposta1: false, resposta2: false, resposta3: false, resposta4: false
     }
   }
 }
