@@ -67,13 +67,16 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile has-text-centered">
-              <img :src="`${banner.img}`" width="65px" height="65px" />
-              <p>
-                {{banner.text}}
-                <br />
-                <strong>{{banner.boldtext}}</strong>
-              </p>
+            <div @mouseenter="active = true" @mouseleave="active = null" class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile has-text-centered">
+              <div v-if="active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
+              <div v-else>
+                <img :src="`${banner.img}`" width="65px" height="65px" />
+                <p>
+                  {{banner.text}}
+                  <br />
+                  <strong>{{banner.boldtext}}</strong>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -295,7 +298,8 @@ export default {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
         }
-      }
+      },
+      active: null
     }
   },
   created() {
@@ -338,6 +342,10 @@ export default {
           this.indexImage = 3
       }
     },
+    entrou() {
+      this.active = !this.active
+      console.log(this.active)
+    }
   }
 }
 </script>

@@ -121,6 +121,20 @@
 
   .cards {
 
+    .swiper-z{
+      transition: all .3s ease;
+      &:hover{
+        transition: all .3s ease;
+        .cardz{
+          animation-duration: 1s;
+          animation-delay: 0s;
+          animation-iteration-count: forwards;
+          transition: all .3s ease;
+          opacity: 0;
+        }
+      }
+    }
+
     .swiper-button-next,
     .swiper-button-prev {
       background-image: none;
