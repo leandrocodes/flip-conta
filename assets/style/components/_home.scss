@@ -123,14 +123,16 @@
 
     .swiper-z{
       transition: all .3s ease;
+      .texto{
+        display: none;
+      }
       &:hover{
         transition: all .3s ease;
-        .cardz{
-          animation-duration: 1s;
-          animation-delay: 0s;
-          animation-iteration-count: forwards;
-          transition: all .3s ease;
-          opacity: 0;
+        .texto{
+          display: block;
+        }
+        .data{
+          display: none;
         }
       }
     }
