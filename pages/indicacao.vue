@@ -30,7 +30,7 @@
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
           <p>Cadastre-se agora.</p>
         </div>
-        <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
+        <div class="card-txt column is-offset-6-desktop is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
           <ol>
             <li>Entre no site e baixe o app;</li>
             <li>Escolha a opção TENHO UM CONVITE;</li>
