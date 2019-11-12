@@ -27,13 +27,11 @@
 
     <div class="container cadastro">
       <div class="columns is-multiline is-mobile">
-        <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
-          <p>Cadastre-se agora.</p>
-        </div>
         <div class="column is-6-desktop is-6-fullhd is-6-widescreen is-12-mobile is-8-tablet">
           <img src="~@/assets/img/indicar-check.png" alt srcset />
         </div>
-        <div style="height: 175px; margin-top: 10%;" class="card-txt column is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
+        <div style="height: auto; margin-top: 10%;" class="card-txt column is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
+          <p class="has-text-weight-bold is-size-4 has-text-centered">Cadastre-se agora.</p>
           <ol style="display: flex; flex-direction: column; justify-content: center;">
             <li>Entre no site e baixe o app;</li>
             <li>Escolha a opção TENHO UM CONVITE;</li>
@@ -41,9 +39,10 @@
             <li>Faça o cadastro;</li>
             <li>Pronto! Você e a pessoa que te indicou ganha dinheiro! ;)</li>
           </ol>
+           <p class="is-size-5 has-text-justified" style="margin-top: .75em;">É melhor correr! Esse código so pode ser usado por 1 pessoa.</p>
         </div>
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
-          <p>É melhor correr! Esse código so pode ser usado por 1 pessoa.</p>
+         
         </div>
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet indication-pic">
           <img src="~@/assets/img/indicacao.png" alt srcset />
