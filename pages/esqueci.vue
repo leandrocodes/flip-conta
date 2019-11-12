@@ -18,7 +18,7 @@
           <div class="texto-inicio has-text-centered">
             <h4 class="subtitle is-black has-text-weight-bold">Recuperar conta</h4>
           </div>
-          <form>
+          <form style="padding: 40px 30px 50px;">
             <div class="field">
               <div class="control is-expanded">
                 <input class="input is-primary is-rounded" type="text" placeholder="Digite o e-mail da sua conta" />
