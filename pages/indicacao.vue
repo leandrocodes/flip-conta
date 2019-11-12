@@ -30,8 +30,11 @@
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
           <p>Cadastre-se agora.</p>
         </div>
-        <div class="card-txt column is-offset-6-desktop is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
-          <ol>
+        <div class="column is-6-desktop is-6-fullhd is-6-widescreen is-12-mobile is-8-tablet">
+          <img src="~@/assets/img/indicar-check.png" alt srcset />
+        </div>
+        <div style="height: 175px; margin-top: 10%;" class="card-txt column is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
+          <ol style="display: flex; flex-direction: column; justify-content: center;">
             <li>Entre no site e baixe o app;</li>
             <li>Escolha a opção TENHO UM CONVITE;</li>
             <li>Use o código CHARLES101;</li>
@@ -76,5 +79,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+  footer{
+    margin-top: 30px;
+  }
 </style>
