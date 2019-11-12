@@ -29,7 +29,7 @@
     .modelo-consultor{
       position: absolute;
       top: 10%;
-      left: 24.5%;
+      left: 20.5%;
       height: 610px;
 
       @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -45,7 +45,7 @@
       }
 
       @media screen and (min-width: 2560px){
-        left: 26.75%;
+        left: 22.5%;
       }
       @media screen and (max-width: 768px){
         display: none;
@@ -55,6 +55,9 @@
     .columns {
       margin-top: -200px;
       margin-bottom: -165px;
+      @media screen and (max-width: 1920px) and (min-width: 1440px){
+        margin-bottom: -135px;
+      }
 
         .texto-inicio {
           margin: 10px 0;
