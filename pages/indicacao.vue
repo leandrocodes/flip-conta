@@ -26,11 +26,11 @@
     </section>
 
     <div class="container cadastro">
-      <div class="columns is-multiline is-mobile">
+      <div class="container columns is-multiline is-mobile is-centered mobile">
         <div class="column is-6-desktop is-6-fullhd is-6-widescreen is-12-mobile is-8-tablet">
           <img src="~@/assets/img/indica-check.png" alt srcset />
         </div>
-        <div style="height: auto; margin-top: 10%;" class="card-txt column is-6-desktop is-6-full-hd is-6-widescreen is-12-mobile is-8-tablet has-text-grey-dark">
+        <div style="height: auto; margin-top: 10%;" class="card-txt column is-6-desktop is-6-full-hd is-6-widescreen is-10-mobile is-8-tablet has-text-grey-dark">
           <p class="has-text-weight-bold is-size-4 has-text-centered">Cadastre-se agora.</p>
           <ol style="display: flex; flex-direction: column; justify-content: center;">
             <li>Entre no site e baixe o app;</li>
