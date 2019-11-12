@@ -75,6 +75,10 @@
 
       &.active {
         background-color: $beige-lighter;
+        border-left: 2px solid $orange;
+        border-top: 2px solid $orange;
+        border-bottom: 2px solid $orange;
+        font-weight: bold!important;
       }
 
       &:hover {

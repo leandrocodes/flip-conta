@@ -76,8 +76,8 @@
       <img src="~@/assets/img/modelo-cliente.png" alt />
     </div>
     <div class="tabs">
-      <div class="tab has-text-weight-semibold" @click="cliente=true">Cliente</div>
-      <div class="tab has-text-weight-semibold" @click="cliente=false">Consultor</div>
+      <div :class="{active: cliente}" class="tab has-text-weight-semibold" @click="cliente=true">Cliente</div>
+      <div :class="{active: !cliente}" class="tab has-text-weight-semibold" @click="cliente=false">Consultor</div>
     </div>
     <rodape></rodape>
   </div>
@@ -95,7 +95,7 @@ export default {
   },
   data () {
     return {
-      cliente: true
+      cliente: true,
     }
   }
 }
