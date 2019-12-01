@@ -64,11 +64,11 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile has-text-centered">
+            <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
                 <img :src="`${banner.img}`" width="65px" height="65px" />
-                <p>
+                <p class="is-size-4">
                   {{banner.text}}
                   <br />
                   <strong>{{banner.boldtext}}</strong>
@@ -281,12 +281,10 @@ export default {
   data() {
     return {
       indexImage: 1,
-      banners: [{ img: 'img/boleto.png', text: 'o menor custo para', boldtext: 'boleto registrado' },
-      { img: 'img/calendário.png', text: 'cobrança', boldtext: 'recorrente' },
-      { img: 'img/nf.png', text: 'nota fiscal de', boldtext: 'serviço' },
-      { img: 'img/api.png', text: 'integração via', boldtext: 'API' },
-      { img: 'img/segurança.png', text: 'seus pagamentos', boldtext: 'on-line protegidos' },
-      { img: 'img/calculadora.png', text: 'juros e ', boldtext: 'multas' }],
+      banners: [{ img: 'img/boleto.png', text: 'cadastre-se', boldtext: 'agora' },
+      { img: 'img/calendário.png', text: 'indicar um', boldtext: 'cliente' },
+      { img: 'img/nf.png', text: 'baixar o', boldtext: 'mediakit' },
+      { img: 'img/calculadora.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
       swiperOption: {
         slidesPerView: 6,
         centeredSlides: false,
