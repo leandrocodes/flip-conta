@@ -67,7 +67,7 @@
             <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
-                <img :src="`${banner.img}`" width="65px" height="65px" />
+                <img :src="`${banner.img}`" width="85px" height="85px" />
                 <p class="is-size-4">
                   {{banner.text}}
                   <br />
@@ -281,10 +281,10 @@ export default {
   data() {
     return {
       indexImage: 1,
-      banners: [{ img: 'img/boleto.png', text: 'cadastre-se', boldtext: 'agora' },
-      { img: 'img/calendário.png', text: 'indicar um', boldtext: 'cliente' },
-      { img: 'img/nf.png', text: 'baixar o', boldtext: 'mediakit' },
-      { img: 'img/calculadora.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
+      banners: [{ img: 'img/cadastro.png', text: 'cadastre-se', boldtext: 'agora' },
+      { img: 'img/indica-cliente.png', text: 'indicar um', boldtext: 'cliente' },
+      { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit' },
+      { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
       swiperOption: {
         slidesPerView: 6,
         centeredSlides: false,
