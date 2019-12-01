@@ -17,6 +17,7 @@ html {
 @import "components/ler-blog";
 @import "components/artigo";
 @import "components/indication";
+@import "components/consultor";
 
 
 
@@ -24,6 +25,7 @@ html {
 //responsivo
 @import "responsive/navbar";
 @import "responsive/home-hero";
+@import "responsive/consultor-hero";
 
 // Import only what you need from Bulma
 @import "bulma/sass/utilities/_all.sass";
