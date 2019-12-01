@@ -67,7 +67,7 @@
             <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
-                <img :src="`${banner.img}`" width="85px" height="85px" />
+                <img :src="`${banner.img}`" width="75px" height="75px" />
                 <p class="is-size-4">
                   {{banner.text}}
                   <br />

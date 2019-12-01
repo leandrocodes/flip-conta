@@ -140,13 +140,12 @@
       padding: 10% 5%;
       margin: 0 -30%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
 
       p {
         float: right;
-        margin-top: 10%;
         margin-left: 15px;
         color: $orange;
         text-transform: uppercase;
