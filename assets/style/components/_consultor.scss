@@ -226,4 +226,38 @@
     height: 6px;
   }
 
+  .card-txt {
+    background: white;
+    box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+    padding: .5em .75em;
+    border-radius: 8px;
+  }
+
+  .card-txt1 {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    background: white;
+    box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+    padding: 1em;
+    border-radius: 8px;
+    @media screen and (max-width: 425px) {
+      position: initial;
+      margin: 1em;
+    }
+  }
+  .card-txt2 {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    background: white;
+    box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
+    padding: 1em;
+    border-radius: 8px;
+    @media screen and (max-width: 425px) {
+      position: initial;
+      margin: 1em;
+    }
+  }
+
 }

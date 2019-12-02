@@ -44,6 +44,7 @@
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet has-text-grey-dark">
          
         </div>
+
         <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet indication-pic">
           <img src="~@/assets/img/indicacao.png" alt srcset />
           <div class="card-txt1">
@@ -61,6 +62,7 @@
             </p>
           </div>
         </div>
+        
       </div>
     </div>
     <rodape></rodape>

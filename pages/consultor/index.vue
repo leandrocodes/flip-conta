@@ -42,13 +42,13 @@
         </div>
         <div class="slider-hero">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 1" src="../assets/img/consultor-teste.png" />
+            <img v-if="indexImage == 1" src="@/assets/img/consultor-teste.png" />
           </transition>
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 2" src="../assets/img/consultor-teste.png" />
+            <img v-if="indexImage == 2" src="@/assets/img/consultor-teste.png" />
           </transition>
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 3" src="../assets/img/consultor-teste.png" />
+            <img v-if="indexImage == 3" src="@/assets/img/consultor-teste.png" />
           </transition>
         </div>
       </div>
@@ -96,28 +96,49 @@
           Como
           <span class="has-text-weight-bold">funciona!</span>
         </h3>
-        <p class="has-text-grey has-text-centered">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sunt minima eos officiis odit dolores cum magni. Voluptas, eum veritatis.  
-        </p>
+        <p
+          class="has-text-grey has-text-centered"
+        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sunt minima eos officiis odit dolores cum magni. Voluptas, eum veritatis.</p>
         <div class="dash-gradient"></div>
       </div>
+      <how-works></how-works>
     </section>
 
-    <rodape></rodape>
+    <div class="container" style="margin-top: 5em;">
+      <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet indication-pic">
+      <img src="~@/assets/img/indicacao.png" alt srcset />
+      <div class="card-txt1">
+        <h4 class="has-text-weight-bold is-size-4 is-uppercase">agora é só sombra e água fresca!!!</h4>
+        <p>
+          Agora é descansar
+          <br />e esperar a minha conta engordar!!! 😏🤑
+        </p>
+      </div>
+      <div class="card-txt2">
+        <h4 class="has-text-weight-bold is-size-4 is-uppercase">Vida boa é assim!!!</h4>
+        <p>
+          Agora é deixa que a Flipconta
+          <br />trabalhe por mim... 😏🤑
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <rodape style="margin-top: 5em;"></rodape>
   </div>
 </template>
 
 <script>
 import BarraMenuPrimaria from '~/components/barra-consultor.vue'
 import BarraMenuSecundaria from '~/components/barra-menu-secundaria.vue'
-import prices from '~/components/prices'
 import rodape from '~/components/rodape'
+import howWorks from '~/components/how-works'
 export default {
   components: {
     BarraMenuPrimaria,
     BarraMenuSecundaria,
-    prices,
-    rodape
+    rodape,
+    howWorks
   },
   data() {
     return {
