@@ -23,19 +23,29 @@
           </transition>
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 2" class="texto-a">
-              <h1 class="title has-text-link is-size-1-fullhd">amet</h1>
-              <h2 class="subtitle has-text-link">
-                consectetur
-                <span>adipisicing</span>elit.
+              <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-success">
+                nós somos a
+                <span>flip</span>conta.
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
               </h2>
             </div>
           </transition>
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 3" class="texto-a">
-              <h1 class="title has-text-link is-size-1-fullhd">lorem,</h1>
-              <h2 class="subtitle has-text-link">
-                ipsum
-                <span>dolor</span>sit
+              <h1 class="title has-text-dark is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-danger">
+                nós somos a
+                <span>flip</span>conta.
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
               </h2>
             </div>
           </transition>
@@ -66,7 +76,7 @@
     <div class="cards" id="solutions" style="margin-top: 6rem">
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
-          <div class="swiper-slide columns is-mobile" v-for="banner in banners" :key="banner.text">
+          <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
             <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
