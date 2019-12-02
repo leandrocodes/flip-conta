@@ -177,8 +177,9 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+
     .swiper-slide {
-      margin: 0 3.5em!important;
+      margin: 0 3.5em !important;
     }
 
     .swiper-z {
@@ -218,164 +219,11 @@
     }
   }
 
-  .precos {
-    background-image: linear-gradient(-90deg, rgb(83, 245, 255) 1%, rgb(113, 110, 248) 100%);
-
-    .conteudo {
-      padding: 1em 4em;
-      background-image: url(~@/assets/img/rocket-bg.png);
-      background-position: bottom right;
-      background-repeat: no-repeat;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-      background-image: none;
-      background: white;
-      font-size: 18px;
-      margin: 0 -10px;
-      color: $success-purple;
-      border: 1px solid $success-purple;
-      width: 1.8em;
-      height: 1.8em;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .price {
-      display: inline-block;
-      background: $success-purple;
-    }
-
-    /*     ul{
-      margin-left: 25%;
-    } */
-  }
-
-  .gestao {
-    padding: 3em 0;
-
-    .box {
-      margin-top: 10px;
-      display: flex;
-      align-items: center;
-      background-color: $beige-light;
-      border-radius: 5px;
-    }
-
-    .icon-box {
-      justify-self: flex-start;
-      margin: 10px;
-      background-color: $info;
-      color: white;
-      width: 35px;
-      height: 35px;
-      font-size: 20px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 5px;
-    }
-  }
-
-  .clientes {
-    padding: 5em 0;
-
-    .column {
-      h2 {
-        color: $pink;
-      }
-
-      .comentarios {
-        margin: 25px 0;
-        display: flex;
-
-        .comentario {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          .profile-pic {
-            margin: 0 20px;
-            background: white;
-            box-shadow: 2px 1.5px 10px 2px rgba(0, 0, 0, 0.15);
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
-          }
-
-          p.job {
-            color: $pink;
-          }
-
-          p.comentario-txt {
-            border-radius: 5px;
-            padding: 10px;
-            background: white;
-            box-shadow: 2px 1.5px 5px 2px rgba(0, 0, 0, 0.15);
-          }
-        }
-      }
-    }
-  }
-
-  .nosso-blog {
-    padding-bottom: 5em;
-
-    .columns {
-      margin-top: 1em;
-    }
-
-    .card {
-      border-radius: 5px;
-
-      img {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-    }
-
-    .green-badge {
-      background-color: $success;
-      border-radius: 5px;
-      margin: 25px 0;
-      padding: 5px 15px;
-
-      time {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-    }
-
-    .brown-badge {
-      background-color: $brown;
-      border-radius: 5px;
-      margin: 25px 0;
-      padding: 5px 15px;
-
-      time {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-    }
-
-    .grey-badge {
-      background-color: $silver-grey;
-      border-radius: 5px;
-      margin: 25px 0;
-      padding: 5px 15px;
-
-      time {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-    }
+  .dash-gradient {
+    margin: 1.5em auto;
+    background-image: linear-gradient(90deg, rgb(237, 231, 254) 0%, rgb(144, 127, 199) 71%, rgb(51, 22, 144) 100%);
+    width: 100px;
+    height: 6px;
   }
 
 }

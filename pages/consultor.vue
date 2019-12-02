@@ -90,6 +90,19 @@
       </div>
     </div>
 
+    <section class="how-works">
+      <div class="container">
+        <h3 class="is-size-3 has-text-grey-darker has-text-weight-medium is-uppercase has-text-centered">
+          Como
+          <span class="has-text-weight-bold">funciona!</span>
+        </h3>
+        <p class="has-text-grey has-text-centered">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sunt minima eos officiis odit dolores cum magni. Voluptas, eum veritatis.  
+        </p>
+        <div class="dash-gradient"></div>
+      </div>
+    </section>
+
     <rodape></rodape>
   </div>
 </template>
