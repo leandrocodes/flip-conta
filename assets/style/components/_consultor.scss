@@ -190,15 +190,7 @@
       }
 
       &:hover {
-        transition: all .3s ease;
-
-        .texto {
-          display: block;
-        }
-
-        .data {
-          display: none;
-        }
+        cursor: pointer;
       }
     }
 

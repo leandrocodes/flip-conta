@@ -14,7 +14,7 @@
     <div id="navbarHome" class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <nuxt-link to="/cliente/cadastro" class="button is-outlined is-rounded">
+          <nuxt-link to="/consultor" class="button is-outlined is-rounded">
             <p>Início <font-awesome-icon :icon="['fas', 'home']" /> </p>
           </nuxt-link>
         </div>

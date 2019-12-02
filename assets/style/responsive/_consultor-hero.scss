@@ -10,8 +10,12 @@
   }
 
   @media only screen and (max-width: 1440px) and (min-width: 1240px) {
-    .text-entrada{
-      margin-left: 15em;
+    .texto-entrada{
+      margin-top: -3em;
+      margin-left: 10em;
+    }
+    .nav-buttons{
+      margin-top: -9em;
     }
   }
 
@@ -20,8 +24,8 @@
 
 
   @media only screen and (max-width: 2560px) and (min-width: 2133px) {
-    .text-entrada{
-      margin-left: 15em;
+    .texto-entrada{
+      margin-left: 30em;
     }
 
   }
