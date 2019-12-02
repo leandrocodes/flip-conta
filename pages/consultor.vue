@@ -66,7 +66,7 @@
     <div class="cards" id="solutions" style="margin-top: 6rem">
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
-          <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
+          <div class="swiper-slide columns is-mobile" v-for="banner in banners" :key="banner.text">
             <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">

@@ -131,24 +131,28 @@
     margin-top: -100px;
 
     .column {
-      border: 1px solid $primary;
+
+      border: 1px solid $success-purple;
       background: white;
-      border-radius: 5px;
-      box-shadow: 0px 0px 35px -10px rgba(227, 125, 227, 0.55);
+      border-radius: 4px;
+      box-shadow: 0px 0px 35px -10px rgba(134, 80, 134, 0.55);
       height: 120px;
       width: 300px;
       padding: 10% 5%;
       display: flex;
       justify-content: center;
       align-items: center;
-      .data{
+
+      .data {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
         p {
           color: $orange;
           text-transform: uppercase;
+
           strong {
             color: $orange;
           }
@@ -174,8 +178,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .swiper-slide{
-      margin: 0!important;
+
+    .swiper-slide {
+      margin: 0 1em!important;
     }
 
     .swiper-z {
