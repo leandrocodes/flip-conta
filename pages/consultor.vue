@@ -13,8 +13,11 @@
               <h2 class="subtitle has-text-primary">
                 nós somos a
                 <span>flip</span>conta.
-                <br>
-                <span class="is-orange has-text-weight-medium">venha ser um <span>consultor</span>!</span>
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
               </h2>
             </div>
           </transition>
