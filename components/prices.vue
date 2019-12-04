@@ -8,7 +8,7 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="slider in pricesSliders" :key="slider.text">
-            <div class="column is-8-desktop is-11-mobile has-text-centered">
+            <div class="column is-8-desktop is-12-mobile has-text-centered">
               <img :src="`${slider.img}`" width="150px" />
               <h4 class="subtitle has-text-weight-bold">{{ slider.title }}</h4>
               <a style="margin-bottom: 10px;" class="button is-info is-rounded has-text-light has-text-weight-semibold">{{ slider.price }}</a>

@@ -195,7 +195,9 @@
 
   @media only screen and (max-width: 320px) {
     .texto-entrada {
-      margin: -12em auto !important;
+      width: 100%;
+      text-align: center;
+      margin: -7.5em auto !important;
 
       .title {
         font-size: 1.5rem;
@@ -207,8 +209,9 @@
     }
 
     .nav-buttons {
-      margin-top: 12em;
-      margin-left: 12em;
+      width: 100%;
+      text-align: center;
+      margin: 16em auto;
     }
 
     .anim {
@@ -235,6 +238,16 @@
       img {
         top: 8em;
         width: 12em;
+      }
+    }
+
+    .cards{
+      margin-top: 2rem;
+    }
+
+    .precos{
+      .conteudo{
+        background-image: none;
       }
     }
   }

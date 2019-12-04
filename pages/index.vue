@@ -6,7 +6,7 @@
       </div>
 
       <div class="hero-body">
-        <div class="texto-entrada has-text-align-right">
+        <div class="texto-entrada has-text-centered-mobile-only">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 1" class="texto-a">
               <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
