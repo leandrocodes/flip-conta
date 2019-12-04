@@ -51,7 +51,7 @@ export default {
   created() {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
-      this.swiperOption.centeredSlides = false
+      this.swiperOption.centeredSlides = true
     }
   }
 }

@@ -6,7 +6,7 @@
       </div>
 
       <div class="hero-body">
-        <div class="texto-entrada has-text-align-right">
+        <div class="texto-entrada has-text-centered-mobile-only">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 1" class="texto-a">
               <h1 class="title has-text-primary is-size-1-fullhd">bem-vindo,</h1>
@@ -73,15 +73,15 @@
       </a>
     </div>
 
-    <div class="cards" id="solutions" style="margin-top: 6rem">
+    <div class="cards" id="solutions">
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="swiper-z column is-6-fullhd is-6-desktop is-6-widescreen is-6-tablet is-12-mobile">
+            <div class="swiper-z column is-12-desktop is-8-mobile has-text-centered">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
-                <img :src="`${banner.img}`" width="75px" height="75px" />
-                <p class="is-size-4">
+                <img :src="`${banner.img}`" width="65px" height="65px" />
+                <p>
                   {{banner.text}}
                   <br />
                   <strong>{{banner.boldtext}}</strong>
@@ -158,7 +158,7 @@ export default {
       { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit' },
       { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
       swiperOption: {
-        slidesPerView: 6,
+        slidesPerView: 4,
         centeredSlides: false,
         clickable: true,
         navigation: {
@@ -172,7 +172,7 @@ export default {
   created() {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
-      this.swiperOption.centeredSlides = false
+      this.swiperOption.centeredSlides = true
     }
   },
   mounted() {

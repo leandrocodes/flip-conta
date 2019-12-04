@@ -46,31 +46,6 @@
     } */
   }
 
-  .anim {
-    width: 18em;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 20%;
-    animation: float 3s ease infinite;
-    position: absolute;
-  }
-
-  @keyframes float {
-    0% {
-      top: 18%
-    }
-
-    50% {
-      top: 20%
-    }
-
-    100% {
-      top: 18%
-    }
-  }
-
   .slider-hero {
     margin-top: -10em;
 
@@ -128,16 +103,14 @@
   }
 
   .cards {
-    margin-top: -100px;
+    margin-top: 6rem;
 
     .column {
-
       border: 1px solid $success-purple;
       background: white;
       border-radius: 4px;
       box-shadow: 0px 0px 35px -10px rgba(134, 80, 134, 0.55);
       height: 120px;
-      width: 300px;
       padding: 10% 5%;
       display: flex;
       justify-content: center;
@@ -199,15 +172,34 @@
       background-image: none;
       font-size: 18px;
       margin: 0;
-      color: $blueish;
-      border: 1px solid $blueish;
+      color: $orange;
+      border: 1px solid $orange;
       width: 1.8em;
       height: 1.8em;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: -50px 50px 0px 50px;
+      margin: -25px 0px 0px 0px;
+    }
+  }
+
+  .how-works {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      background-image: none;
+      background: white;
+      font-size: 18px;
+      margin: -25px 0px 0px 0px;
+      color: $primary;
+      border: 1px solid $primary;
+      width: 1.8em;
+      height: 1.8em;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
@@ -233,11 +225,13 @@
     box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
     padding: 1em;
     border-radius: 8px;
+
     @media screen and (max-width: 425px) {
       position: initial;
       margin: 1em;
     }
   }
+
   .card-txt2 {
     position: absolute;
     top: 30%;
@@ -246,6 +240,7 @@
     box-shadow: 0 0.5em 1em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02);
     padding: 1em;
     border-radius: 8px;
+
     @media screen and (max-width: 425px) {
       position: initial;
       margin: 1em;
