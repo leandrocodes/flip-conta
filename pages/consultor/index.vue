@@ -77,7 +77,7 @@
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div class="swiper-z column is-12-desktop is-8-mobile has-text-centered">
+            <div class="swiper-z column is-12-desktop is-8-mobile has-text-centered" @click="modal = banner.modal">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
                 <img :src="`${banner.img}`" width="65px" height="65px" />
@@ -116,22 +116,58 @@
 
     <div class="container" style="margin-top: 5em;">
       <div class="column is-12-desktop is-12-full-hd is-12-widescreen is-12-mobile is-12-tablet indication-pic">
-      <img src="~@/assets/img/indicacao.png" alt srcset />
-      <div class="card-txt1">
-        <h4 class="has-text-weight-bold is-size-4 is-uppercase">agora é só sombra e água fresca!!!</h4>
-        <p>
-          Agora é descansar
-          <br />e esperar a minha conta engordar!!! 😏🤑
-        </p>
-      </div>
-      <div class="card-txt2">
-        <h4 class="has-text-weight-bold is-size-4 is-uppercase">Vida boa é assim!!!</h4>
-        <p>
-          Agora é deixa que a Flipconta
-          <br />trabalhe por mim... 😏🤑
-        </p>
+        <img src="~@/assets/img/indicacao.png" alt srcset />
+        <div class="card-txt1">
+          <h4 class="has-text-weight-bold is-size-4 is-uppercase">agora é só sombra e água fresca!!!</h4>
+          <p>
+            Agora é descansar
+            <br />e esperar a minha conta engordar!!! 😏🤑
+          </p>
+        </div>
+        <div class="card-txt2">
+          <h4 class="has-text-weight-bold is-size-4 is-uppercase">Vida boa é assim!!!</h4>
+          <p>
+            Agora é deixa que a Flipconta
+            <br />trabalhe por mim... 😏🤑
+          </p>
+        </div>
       </div>
     </div>
+
+    <div class="modal is-active">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="card">
+          <h3 class="has-text-primary is-size-3">
+            Olá,
+            <strong class="has-text-primary">Charles</strong> seu link foi gerado e você já pode enviar para o seu cliente.
+          </h3>
+          <p class="is-size-5 has-text-dark" style="margin: 1em 0;">Compartilhe o link do seu convite</p>
+          <div class="field has-addons">
+            <div class="control" style="width: 100%;">
+              <input class="input has-text-grey" type="text" value="www.flipconta.com/indicacao/charles001" />
+            </div>
+            <div class="control">
+              <a class="button is-inverted is-primary">Copiar</a>
+            </div>
+            <a href="#facebook" class="fb-link button is-rounded social">
+              <font-awesome-icon :icon="['fab', 'facebook-messenger']" />
+            </a>
+            <a href="#twitter" class="twt-link button is-rounded social">
+              <font-awesome-icon :icon="['fab', 'whatsapp']" />
+            </a>
+          </div>
+          <p class="is-size-5 has-text-dark" style="margin: 1em 0;">Ou envie o link usando o email do seu cliente</p>
+          <div class="field has-addons">
+            <div class="control" style="width: 100%;">
+              <input class="input has-text-grey" type="text" value="vmaisresultado@gmail.com" />
+            </div>
+            <div class="control">
+              <a class="button is-primary">Enviar convite</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <rodape style="margin-top: 5em;"></rodape>
@@ -148,15 +184,16 @@ export default {
     BarraMenuPrimaria,
     BarraMenuSecundaria,
     rodape,
-    howWorks
+    howWorks,
   },
   data() {
     return {
+      modal: '',
       indexImage: 1,
-      banners: [{ img: 'img/cadastro.png', text: 'cadastre-se', boldtext: 'agora' },
-      { img: 'img/indica-cliente.png', text: 'indicar um', boldtext: 'cliente' },
-      { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit' },
-      { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
+      banners: [{ img: 'img/cadastro.png', text: 'cadastre-se', boldtext: 'agora', modal: '' },
+      { img: 'img/indica-cliente.png', text: 'indicar um', boldtext: 'cliente', modal: 'indicaCliente' },
+      { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit', modal: '' },
+      { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo', modal: '' }],
       swiperOption: {
         slidesPerView: 5,
         centeredSlides: false,
@@ -220,6 +257,52 @@ export default {
   margin-bottom: 50px;
   .subtitle {
     margin-right: 15em;
+  }
+}
+.modal {
+  .card {
+    padding: 5em;
+    border-radius: 10px;
+  }
+  .field {
+    display: flex;
+    align-items: center;
+    .input {
+      border: black;
+    }
+  }
+  .fb-link {
+    background-color: #0084ff;
+    color: white;
+    width: 2.75em;
+    height: 2.75em;
+    font-size: 1.25em;
+  }
+  .twt-link {
+    background-color: #14d110;
+    color: white;
+    width: 2.75em;
+    height: 2.75em;
+    font-size: 1.25em;
+  }
+  .control{
+    .button{
+      background-color: #519399;
+      font-weight: bold;
+      transition: background-color .1s ease-in-out;
+      &:hover{
+        background-color: #406c70;
+      }
+      &.is-inverted{
+        background-color: transparent;
+        color: #519399;
+        transition: background-color color .1s ease-in-out;
+        &:hover{
+          color: #406c70;
+          background-color: #f5f5f5;
+        }
+      }
+    }
   }
 }
 </style>
