@@ -59,7 +59,7 @@
         width: 12em;
       }
     }
-    
+
     .texto-entrada {
       float: right;
       margin-top: -4.5em;
@@ -69,7 +69,7 @@
 
   @media only screen and (max-width: 1920px) and (min-width: 1600px) {
 
-    .hero{
+    .hero {
       height: 70vh;
     }
 
@@ -104,8 +104,10 @@
       .swiper-container {
         width: 90%;
       }
+
       .swiper-wrapper {
         width: 90%;
+
         .swiper-slide {
           margin: 0 auto;
         }
@@ -116,7 +118,7 @@
 
   @media only screen and (max-width: 2560px) and (min-width: 2133px) {
 
-    .hero{
+    .hero {
       height: 80vh;
     }
 
@@ -175,8 +177,10 @@
       .swiper-container {
         width: 80%;
       }
+
       .swiper-wrapper {
         width: 80%;
+
         .swiper-slide {
           margin: 0 auto;
         }
@@ -241,12 +245,12 @@
       }
     }
 
-    .cards{
+    .cards {
       margin-top: 2rem;
     }
 
-    .precos{
-      .conteudo{
+    .precos {
+      .conteudo {
         background-image: none;
       }
     }
@@ -254,7 +258,9 @@
 
   @media only screen and (max-width: 375px) and (min-width: 321px) {
     .texto-entrada {
-      margin: -11em auto;
+      width: 100%;
+      text-align: center;
+      margin: -7.5em auto !important;
 
       .title {
         font-size: 1.5rem;
@@ -266,8 +272,9 @@
     }
 
     .nav-buttons {
-      margin-top: 12em;
-      margin-left: 14em !important;
+      width: 100%;
+      text-align: center;
+      margin: 16em auto;
     }
 
     .anim {
@@ -296,6 +303,18 @@
         width: 12em;
       }
     }
+
+    .cards {
+      margin-top: 2rem;
+    }
+
+    .precos {
+      .conteudo {
+        background-image: none;
+      }
+    }
+
+
   }
 
   @media screen and (max-width: 425px) and (min-width: 376px) {
@@ -306,7 +325,9 @@
     }
 
     .texto-entrada {
-      margin: -11em auto;
+      width: 100%;
+      text-align: center;
+      margin: -8.25em auto !important;
 
       .title {
         font-size: 1.5rem;
@@ -325,8 +346,9 @@
     }
 
     .nav-buttons {
-      margin-top: 12em;
-      margin-left: 16em;
+      width: 100%;
+      text-align: center;
+      margin: 16em auto;
     }
 
     .anim {
@@ -345,6 +367,16 @@
 
       100% {
         top: 20%
+      }
+    }
+
+    .cards {
+      margin-top: 2rem;
+    }
+
+    .precos {
+      .conteudo {
+        background-image: none;
       }
     }
   }
