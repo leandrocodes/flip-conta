@@ -136,7 +136,7 @@
 
     <transition name="fade">
       <div v-if="modal == 'indicaCliente'" class="modal is-active">
-        <div class="modal-background"></div>
+        <div class="modal-background" @click="modal = ''"></div>
         <div class="modal-content">
           <div class="card">
             <h3 class="has-text-primary is-size-3">
