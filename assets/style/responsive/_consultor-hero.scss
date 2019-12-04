@@ -84,69 +84,69 @@
     }
 
     .cards {
-      margin: 3rem 0 0 0!important;
-      .swiper-slide{
-        margin: 0!important;
+      margin: 3rem 0 0 0 !important;
+
+      .swiper-slide {
+        margin: 0 !important;
       }
     }
 
     .how-works {
-      margin: 3rem 0 0 0!important;
-      .swiper-slide{
-        margin: 0!important;
+      margin: 3rem 0 0 0 !important;
+
+      .swiper-slide {
+        margin: 0 !important;
       }
     }
 
   }
 
   @media only screen and (max-width: 375px) and (min-width: 321px) {
-    .texto-entrada {
-      margin: -11em auto;
-
-      .title {
-        font-size: 1.5rem;
+      .texto-entrada {
+        width: 100%;
+        margin: 1.5em auto !important;
+        text-align: center;
+  
+        .title {
+          font-size: 1.76rem;
+        }
+  
+        .subtitle {
+          font-size: 1.25rem;
+        }
+      }
+  
+      .nav-buttons {
+        margin-top: -8.5em;
+      }
+  
+      .slider-hero {
+        img {
+          top: 10.5em;
+          width: 16em;
+        }
+      }
+  
+      .cards {
+        margin: 3rem 0 0 0 !important;
+  
+        .swiper-slide {
+          margin: 0 !important;
+        }
+      }
+  
+      .how-works {
+        margin: 3rem 0 0 0 !important;
+  
+        .swiper-slide {
+          margin: 0 !important;
+        }
       }
 
-      .subtitle {
-        font-size: 1rem;
-      }
-    }
-
-    .nav-buttons {
-      margin-top: 12em;
-      margin-left: 14em !important;
-    }
-
-    .anim {
-      width: 20em;
-      top: 25%;
-      animation-name: floatSM;
-    }
-
-    @keyframes floatSM {
-      0% {
-        top: 20%
-      }
-
-      50% {
-        top: 25%
-      }
-
-      100% {
-        top: 20%
-      }
-    }
-
-    .slider-hero {
-      img {
-        top: 8em !important;
-        width: 12em;
-      }
-    }
   }
 
   @media screen and (max-width: 425px) and (min-width: 376px) {
-    .cards {
+    /*    .cards {
       .subtitle {
         margin-right: 0em;
       }
@@ -194,96 +194,52 @@
         top: 20%
       }
     }
-  }
-}
-
-@media only screen and (max-width: 375px) and (min-width: 321px) {
-  .texto-entrada {
-    margin: -2em auto;
-
-    .title {
-      font-size: 1.5rem;
-    }
-
-    .subtitle {
-      font-size: 1rem;
-    }
+  } */
   }
 
-  .nav-buttons {
-    margin-top: 23em;
-    margin-left: 14em !important;
-  }
 
-  .anim {
-    width: 20em;
-    top: 25%;
-    animation-name: floatSM;
-  }
+  @media screen and (max-width: 425px) and (min-width: 376px) {
+    .texto-entrada {
+      margin: -2em auto;
 
-  @keyframes floatSM {
-    0% {
-      top: 20%
+      .title {
+        font-size: 1.5rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
     }
 
-    50% {
-      top: 25%
+    .slider-hero {
+      img {
+        top: 7em !important;
+        width: 12em;
+      }
     }
 
-    100% {
-      top: 20%
-    }
-  }
-
-  .slider-hero {
-    img {
-      top: 8em !important;
-      width: 12em;
-    }
-  }
-}
-
-@media screen and (max-width: 425px) and (min-width: 376px) {
-  .texto-entrada {
-    margin: -2em auto;
-
-    .title {
-      font-size: 1.5rem;
+    .nav-buttons {
+      margin-top: 22em;
+      margin-left: 16em;
     }
 
-    .subtitle {
-      font-size: 1rem;
-    }
-  }
-
-  .slider-hero {
-    img {
-      top: 7em !important;
-      width: 12em;
-    }
-  }
-
-  .nav-buttons {
-    margin-top: 22em;
-    margin-left: 16em;
-  }
-
-  .anim {
-    width: 22em;
-    animation-name: floatSM;
-  }
-
-  @keyframes floatSM {
-    0% {
-      top: 20%
+    .anim {
+      width: 22em;
+      animation-name: floatSM;
     }
 
-    50% {
-      top: 25%
-    }
+    @keyframes floatSM {
+      0% {
+        top: 20%
+      }
 
-    100% {
-      top: 20%
+      50% {
+        top: 25%
+      }
+
+      100% {
+        top: 20%
+      }
     }
   }
 }
