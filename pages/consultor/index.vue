@@ -173,6 +173,26 @@
       </div>
     </transition>
 
+    <transition name="fade">
+      <div v-if="modal == 'videoYT'" class="modal is-active">
+        <div class="modal-background" @click="modal = ''"></div>
+        <div class="modal-content" style="width:50vw!important; height: 50vh;">
+          <div class="video" style="width:50vw!important; height: 50vh;">
+            <iframe
+              style="width:50vw!important; height: 50vh;"
+              width="1280"
+              height="50rem"
+              src="https://www.youtube.com/embed/wQcchdeS4QY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <button @click="modal = ''" class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </transition>
+
     <rodape style="margin-top: 5em;"></rodape>
   </div>
 </template>
@@ -196,7 +216,7 @@ export default {
       banners: [{ img: 'img/cadastro.png', text: 'cadastre-se', boldtext: 'agora', modal: '' },
       { img: 'img/indica-cliente.png', text: 'indicar um', boldtext: 'cliente', modal: 'indicaCliente' },
       { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit', modal: '' },
-      { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo', modal: '' }],
+      { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo', modal: 'videoYT' }],
       swiperOption: {
         slidesPerView: 5,
         centeredSlides: false,
@@ -266,6 +286,9 @@ export default {
   .card {
     padding: 5em;
     border-radius: 10px;
+    iframe {
+      max-height: unset;
+    }
   }
   .field {
     display: flex;
