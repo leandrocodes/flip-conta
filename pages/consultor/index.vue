@@ -176,10 +176,10 @@
     <transition name="fade">
       <div v-if="modal == 'videoYT'" class="modal is-active">
         <div class="modal-background" @click="modal = ''"></div>
-        <div class="modal-content" style="width:50vw!important; height: 50vh;">
-          <div class="video" style="width:50vw!important; height: 50vh;">
+        <div class="modal-content" style="width:50vw; height: 60vh;">
+          <div class="video" style="width:50vw; height: 60vh;">
             <iframe
-              style="width:50vw!important; height: 50vh;"
+              style="width:50vw; height: 60vh;"
               width="1280"
               height="50rem"
               src="https://www.youtube.com/embed/wQcchdeS4QY"
@@ -283,11 +283,21 @@ export default {
   }
 }
 .modal {
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    .modal-content {
+      width: 100vw !important;
+      .video {
+        width: 100vw !important;
+        iframe {
+          width: 100vw !important;
+        }
+      }
+    }
+  }
   .card {
     padding: 5em;
     border-radius: 10px;
     iframe {
-      max-height: unset;
     }
   }
   .field {
