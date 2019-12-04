@@ -45,6 +45,15 @@
               </div>
             </div>
             <div class="field">
+              <div class="control is-expanded" style="display: flex; align-items: center; justify-content: center;">
+                <input type="checkbox" />
+                <div style="margin-left: 1em;">
+                  Eu concodo com os
+                  <a href="#" class="has-text-primary">termos e dondições</a> de uso
+                </div>
+              </div>
+            </div>
+            <div class="field">
               <div class="control is-expanded">
                 <a href class="button is-primary is-rounded">Cadastrar</a>
               </div>
@@ -52,8 +61,8 @@
           </form>
         </div>
       </div>
-      <img class="modelo-consultor" src="~@/assets/img/modelo-consultor.png" alt="" srcset="">
-    </div>  
+      <img class="modelo-consultor" src="~@/assets/img/modelo-consultor.png" alt srcset />
+    </div>
     <rodape></rodape>
   </div>
 </template>
