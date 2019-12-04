@@ -158,7 +158,7 @@ export default {
       { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit' },
       { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo' }],
       swiperOption: {
-        slidesPerView: 4,
+        slidesPerView: 5,
         centeredSlides: false,
         clickable: true,
         navigation: {

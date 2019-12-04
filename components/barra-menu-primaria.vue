@@ -67,12 +67,12 @@
             </a>
           </div>
         </div>
-        <div class="navbar-item">
+        <div class="navbar-item social-btn">
           <a href="#facebook" class="fb-link button is-rounded is-light is-outlined social">
             <font-awesome-icon :icon="['fab', 'facebook-f']" />
           </a>
         </div>
-        <div class="navbar-item">
+        <div class="navbar-item social-btn">
           <a href="#twitter" class="twt-link button is-rounded is-light is-outlined social">
             <font-awesome-icon :icon="['fab', 'twitter']" />
           </a>
@@ -99,5 +99,10 @@ export default {
 <style>
 .navbar {
   transition: all .3s ease-in-out;
+}
+@media screen and (width: 1024px) {
+  .social-btn{
+    display: none;
+  }
 }
 </style>

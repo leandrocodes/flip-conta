@@ -28,10 +28,12 @@
                 </a>
               </header>
               <div class="card-content">
-                <div
-                  v-if="resposta1 === true"
-                  class="content has-text-justified"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                <transition name="slide">
+                  <div
+                    v-if="resposta1 === true"
+                    class="content has-text-justified"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                </transition>
               </div>
             </div>
             <hr class="card-divider" />
@@ -44,10 +46,12 @@
                 </a>
               </header>
               <div class="card-content">
-                <div
-                  v-if="resposta2 === true"
-                  class="content has-text-justified"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                <transition name="slide">
+                  <div
+                    v-if="resposta2 === true"
+                    class="content has-text-justified"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                </transition>
               </div>
             </div>
             <hr class="card-divider" />
@@ -60,10 +64,12 @@
                 </a>
               </header>
               <div class="card-content">
-                <div
-                  v-if="resposta3 === true"
-                  class="content has-text-justified"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                <transition name="slide">
+                  <div
+                    v-if="resposta3 === true"
+                    class="content has-text-justified"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                </transition>
               </div>
             </div>
             <hr class="card-divider" />
@@ -76,10 +82,12 @@
                 </a>
               </header>
               <div class="card-content">
-                <div
-                  v-if="resposta4 === true"
-                  class="content has-text-justified"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                <transition name="slide">
+                  <div
+                    v-if="resposta4 === true"
+                    class="content has-text-justified"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla impedit ducimus, odio quos eius excepturi enim itaque accusamus dolore nostrum eligendi velit veritatis iure sequi at, nesciunt repellendus soluta perspiciatis.</div>
+                </transition>
               </div>
             </div>
           </div>
@@ -112,4 +120,14 @@ export default {
 </script>
 
 <style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.2s;
+  max-height: 230px;
+}
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  max-height: 0px;
+}
 </style>
