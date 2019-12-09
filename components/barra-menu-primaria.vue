@@ -100,7 +100,7 @@ export default {
 .navbar {
   transition: all .3s ease-in-out;
 }
-@media screen and (width: 1024px) {
+@media screen and (max-width: 1280px) {
   .social-btn{
     display: none;
   }

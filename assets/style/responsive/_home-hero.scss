@@ -10,15 +10,47 @@
 
 
 .home {
-  @media only screen and (max-width: 1366px) and (min-width: 1280px) {
+
+  @media only screen and (max-width: 1280px) and (min-width: 1024px) {
+
+    .slider-hero {
+      img {
+        top: 3.5em;
+        width: 12em;
+      }
+    }
+
+    .texto-entrada {
+      margin-top: -6.5em;
+      margin-right: 10em;
+    }
+
+    .nav-buttons {
+      margin-top: 2.55em;
+      margin-left: 52em;
+    }
+    .cards{
+      margin-top: 1rem!important;
+    }
+
+  }
+
+  @media only screen and (max-width: 1366px) and (min-width: 1366px) {
     .cards {
       .subtitle {
         margin-right: 5em;
       }
     }
 
+    .slider-hero {
+      img {
+        top: 3.5em;
+        width: 12em;
+      }
+    }
+
     .texto-entrada {
-      margin-top: -5em;
+      margin-top: -6em;
       margin-right: 10em;
     }
 
@@ -32,7 +64,7 @@
     }
   }
 
-  @media only screen and (max-width: 1440px) and (min-width: 1240px) {
+  @media only screen and (max-width: 1440px) and (min-width: 1367px) {
     .anim {
       width: 20em;
       top: 15%;

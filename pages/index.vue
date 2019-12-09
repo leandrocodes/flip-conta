@@ -59,7 +59,7 @@
     </section>
 
     <div class="cards" id="solutions">
-      <h2 class="subtitle is-size-5-mobile has-text-right-desktop has-text-centered-mobile">
+      <h2 class="subtitle is-size-5-mobile has-text-right-desktop has-text-right-widescreen has-text-right-fullhd has-text-centered-mobile-only">
         Oferecemos as
         <br />
         <span class="is-size-7-mobile">melhores soluções para sua empresa</span>
