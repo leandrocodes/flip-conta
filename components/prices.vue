@@ -26,10 +26,10 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
-        <div v-show="$device.isMobile" class="swiper-button-prev">
+        <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-prev">
           <font-awesome-icon :icon="['fas', 'angle-left']" />
         </div>
-        <div v-show="$device.isMobile" class="swiper-button-next">
+        <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-next">
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </div>
       </div>
@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       pricesSliders: [
         { img: 'img/price-boleto.png', title: 'boleto bancário', price: 'R$ 1,00', topics: ['por boleto pago', 'sem taxas de emissão', 'receba em 2 dias'] },
@@ -56,8 +56,12 @@ export default {
       }
     }
   },
-  created () {
+  created() {
     if (this.$device.isMobile) {
+      this.swiperOption.slidesPerView = 1
+      this.swiperOption.centeredSlides = false
+    }
+    if (this.$device.isTablet) {
       this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = false
     }

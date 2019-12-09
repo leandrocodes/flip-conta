@@ -92,10 +92,10 @@
             </div>
           </div>
           <div class="swiper-pagination"></div>
-          <div v-show="$device.isMobile" class="swiper-button-prev">
+          <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-prev">
             <font-awesome-icon :icon="['fas', 'angle-left']" />
           </div>
-          <div v-show="$device.isMobile" class="swiper-button-next">
+          <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-next">
             <font-awesome-icon :icon="['fas', 'angle-right']" />
           </div>
         </div>
@@ -220,7 +220,7 @@ export default {
       { img: 'img/pdf.png', text: 'baixar o', boldtext: 'mediakit', modal: '' },
       { img: 'img/play-video.png', text: 'assistir o', boldtext: 'nosso vídeo', modal: 'videoYT' }],
       swiperOption: {
-        slidesPerView: 5,
+        slidesPerView: 6,
         centeredSlides: false,
         clickable: true,
         navigation: {
@@ -233,6 +233,10 @@ export default {
   },
   created() {
     if (this.$device.isMobile) {
+      this.swiperOption.slidesPerView = 1
+      this.swiperOption.centeredSlides = true
+    }
+    if (this.$device.isTablet) {
       this.swiperOption.slidesPerView = 1
       this.swiperOption.centeredSlides = true
     }

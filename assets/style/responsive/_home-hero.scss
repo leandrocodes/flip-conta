@@ -10,7 +10,6 @@
 
 
 .home {
-
   @media only screen and (max-width: 1280px) and (min-width: 1024px) {
 
     .slider-hero {
@@ -29,8 +28,9 @@
       margin-top: 2.55em;
       margin-left: 52em;
     }
-    .cards{
-      margin-top: 1rem!important;
+
+    .cards {
+      margin-top: 1rem !important;
     }
 
   }
@@ -227,6 +227,12 @@
       background-size: cover;
       background-position: center center;
     }
+
+    @media only screen and (max-width: 800px) {
+      height: 55vh;
+      background-size: cover;
+      background-position: center center;
+    }
   }
 
   @media only screen and (max-width: 320px) {
@@ -412,6 +418,63 @@
       }
     }
   }
+
+  @media screen and (max-width: 780px) and (min-width: 600px) {
+    .cards {
+      .subtitle {
+        //margin-right: 0em;
+      }
+    }
+
+    .texto-entrada {
+      width: 100%;
+      text-align: center;
+      margin: -8.75em auto !important;
+    }
+
+    .slider-hero {
+      img {
+        top: 8em !important;
+        width: 16em;
+      }
+    }
+
+    .nav-buttons {
+      width: 100%;
+      text-align: center;
+      margin: 20em auto;
+    }
+
+    .anim {
+      width: 22em;
+      animation-name: floatSM;
+    }
+
+    @keyframes floatSM {
+      0% {
+        top: 20%
+      }
+
+      50% {
+        top: 25%
+      }
+
+      100% {
+        top: 20%
+      }
+    }
+
+    .cards {
+      margin-top: 2rem;
+    }
+
+    .precos {
+      .conteudo {
+        background-image: none;
+      }
+    }
+  }
+
 }
 
 /* @media only screen and (max-width: 375px) and (min-width: 321px) {

@@ -189,4 +189,48 @@
       }
     }
   }
+
+  @media screen and (max-width: 800px) and (min-width: 600px) {
+
+    .texto-entrada {
+      width: 100%;
+      margin: 1.5em auto !important;
+      text-align: center;
+
+      .title {
+        font-size: 1.76rem;
+      }
+
+      .subtitle {
+        font-size: 1.25rem;
+      }
+    }
+
+    .nav-buttons {
+      margin-top: 10em;
+    }
+
+    .slider-hero {
+      img {
+        top: 10.5em;
+        width: 16em;
+      }
+    }
+
+    .cards {
+      margin: 5rem 0 0 0 !important;
+      height: 25vh;
+      .swiper-slide {
+        margin: 0 !important;
+      }
+    }
+
+    .how-works {
+      margin: 5rem 0 0 0 !important;
+
+      .swiper-slide {
+        margin: 0 !important;
+      }
+    }
+  }
 }

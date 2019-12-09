@@ -6,7 +6,7 @@
       </div>
 
       <div class="hero-body">
-        <div class="texto-entrada has-text-centered-mobile-only">
+        <div class="texto-entrada has-text-centered-mobile has-text-centered-tablet">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 1" class="texto-a">
               <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
@@ -81,10 +81,10 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
-        <div v-show="$device.isMobile" class="swiper-button-prev">
+        <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-prev">
           <font-awesome-icon :icon="['fas', 'angle-left']" />
         </div>
-        <div v-show="$device.isMobile" class="swiper-button-next">
+        <div v-show="$device.isMobile || $device.isTablet" class="swiper-button-next">
           <font-awesome-icon :icon="['fas', 'angle-right']" />
         </div>
       </div>
@@ -305,6 +305,10 @@ export default {
   created() {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
+      this.swiperOption.centeredSlides = false
+    }
+    if (this.$device.isTablet) {
+      this.swiperOption.slidesPerView = 2
       this.swiperOption.centeredSlides = false
     }
   },
