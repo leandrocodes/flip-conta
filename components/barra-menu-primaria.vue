@@ -4,14 +4,14 @@
       <nuxt-link to="/" class="navbar-item" href="#">
         <img id="nav-logo" src="~@/assets/img/flipconta-logo-white.png" alt="Flip Conta" width="112" height="28" />
       </nuxt-link>
-      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <div class="navbar-burger burger" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
 
-    <div id="navbarHome" class="navbar-menu">
+    <div id="navbarHome" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
         <div class="nav-link navbar-item">
           <nuxt-link to="/">
@@ -93,6 +93,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      showNav: false
+    }
+  }
 }
 </script>
 

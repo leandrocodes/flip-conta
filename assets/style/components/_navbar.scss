@@ -1,4 +1,19 @@
 .navbar.is-primary {
+  .navbar-menu{
+    &.is-active{
+      background: white!important;
+      .button.is-light{
+        color: $primary!important;
+      }
+      .button.is-link{
+        color: $primary!important;
+        border-color: $primary!important;
+      }
+      .navbar-item.has-text-dark{
+        color: $primary!important;
+      }
+    }
+  }
   margin: 0;
   .social {
     border-color: rgba(255, 255, 255, 0.85) !important;
@@ -89,6 +104,12 @@
 }
 
 .navbar.is-secondary {
+  .navbar-menu{
+    &.is-active{
+      background: white!important;
+      color: $primary!important;
+    }
+  }
   margin: 0;
   background: white!important;
   .social {
@@ -190,6 +211,12 @@
 }
 
 .navbar.is-terciaria {
+  .navbar-menu{
+    &.is-active{
+      background: white!important;
+      color: $primary!important;
+    }
+  }
   margin: 0;
 
   .navbar-brand {

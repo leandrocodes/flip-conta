@@ -1,5 +1,5 @@
 <template>
-  <div class="login-cliente">
+  <div class="cadastro-fisica">
     <section class="hero is-bold">
       <div class="hero-head">
         <barra-menu-terciaria></barra-menu-terciaria>
@@ -14,14 +14,14 @@
     </section>
     <div class="conteudo">
       <div class="columns is-centered is-mobile">
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
+        <div class="column is-9-mobile is-6-tablet is-3-desktop is-3-fullhd">
           <div class="texto-inicio has-text-centered">
-            <h4 class="subtitle is-black has-text-weight-bold">Recuperar conta</h4>
+            <h4 class="subtitle is-black has-text-weight-bold">Esqueceu a senha?</h4>
           </div>
-          <form style="padding: 40px 30px 50px;">
+          <form>
             <div class="field">
               <div class="control is-expanded">
-                <input class="input is-primary is-rounded" type="text" placeholder="Digite o e-mail da sua conta" />
+                <input class="input is-primary is-rounded" type="text" placeholder="Insira seu email" />
               </div>
             </div>
             <div class="field">
@@ -32,9 +32,6 @@
           </form>
         </div>
       </div>
-    </div>
-    <div class="modelo-bg">
-      <img src="~@/assets/img/modelo-cliente.png" alt />
     </div>
     <rodape></rodape>
   </div>
@@ -50,7 +47,7 @@ export default {
     BarraMenuTerciaria,
     Rodape
   },
-  data () {
+  data() {
     return {
     }
   }

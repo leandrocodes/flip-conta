@@ -73,29 +73,31 @@
       </a>
     </div>
 
-    <div class="cards" id="solutions">
-      <div v-swiper:mySwiper="swiperOption">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
-            <div @click="modal = banner.modal" class="swiper-z column is-12-desktop is-8-mobile has-text-centered">
-              <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
-              <div class="data">
-                <img :src="`${banner.img}`" width="65px" height="65px" />
-                <p>
-                  {{banner.text}}
-                  <br />
-                  <strong>{{banner.boldtext}}</strong>
-                </p>
+    <div class="container is-fluid">
+      <div class="cards" id="solutions">
+        <div v-swiper:mySwiper="swiperOption">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
+              <div @click="modal = banner.modal" class="swiper-z column is-12-desktop is-8-mobile has-text-centered">
+                <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
+                <div class="data">
+                  <img :src="`${banner.img}`" width="65px" height="65px" />
+                  <p>
+                    {{banner.text}}
+                    <br />
+                    <strong>{{banner.boldtext}}</strong>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="swiper-pagination"></div>
-        <div v-show="$device.isMobile" class="swiper-button-prev">
-          <font-awesome-icon :icon="['fas', 'angle-left']" />
-        </div>
-        <div v-show="$device.isMobile" class="swiper-button-next">
-          <font-awesome-icon :icon="['fas', 'angle-right']" />
+          <div class="swiper-pagination"></div>
+          <div v-show="$device.isMobile" class="swiper-button-prev">
+            <font-awesome-icon :icon="['fas', 'angle-left']" />
+          </div>
+          <div v-show="$device.isMobile" class="swiper-button-next">
+            <font-awesome-icon :icon="['fas', 'angle-right']" />
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="login-cliente">
+  <div class="cadastro-fisica">
     <section class="hero is-bold">
       <div class="hero-head">
         <barra-menu-terciaria></barra-menu-terciaria>
@@ -13,10 +13,10 @@
       </div>
     </section>
     <div class="conteudo">
-      <div v-if="cliente" class="columns is-centered is-mobile">
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
+      <div v-if="fisica" class="columns is-centered is-mobile">
+        <div class="column is-9-mobile is-6-tablet is-3-desktop is-3-fullhd">
           <div class="texto-inicio has-text-centered">
-            <h4 class="subtitle is-black has-text-weight-bold">Login do Cliente</h4>
+            <h4 class="subtitle is-black has-text-weight-bold">Cliente</h4>
           </div>
           <form>
             <div class="field">
@@ -26,26 +26,26 @@
             </div>
             <div class="field">
               <div class="control is-expanded">
-                <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
+                <input class="input is-primary is-rounded" type="password" placeholder="Insira sua senha" />
               </div>
             </div>
             <div class="field">
               <div class="control is-expanded">
-                <a href class="button is-primary is-rounded">Entrar</a>
+                <a href class="button is-primary is-rounded">Login</a>
               </div>
             </div>
             <div class="field">
               <div class="control is-expanded">
-                <nuxt-link to="/esqueci" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</nuxt-link>
+                <nuxt-link to="/esqueci" class="has-text-primary">Esqueci a minha senha</nuxt-link>
               </div>
             </div>
           </form>
         </div>
       </div>
       <div v-else class="columns is-centered is-mobile">
-        <div class="column is-10-mobile is-8-tablet is-3-desktop is-2-fullhd">
+        <div class="column is-9-mobile is-6-tablet is-3-desktop is-3-fullhd">
           <div class="texto-inicio has-text-centered">
-            <h4 class="subtitle is-black has-text-weight-bold">Login do Consultor</h4>
+            <h4 class="subtitle is-black has-text-weight-bold">Consultor</h4>
           </div>
           <form>
             <div class="field">
@@ -55,29 +55,31 @@
             </div>
             <div class="field">
               <div class="control is-expanded">
-                <input class="input is-primary is-rounded" type="text" placeholder="Insira sua senha" />
+                <input class="input is-primary is-rounded" type="password" placeholder="Insira sua senha" />
               </div>
             </div>
             <div class="field">
               <div class="control is-expanded">
-                <a href class="button is-primary is-rounded">Entrar</a>
+                <a href class="button is-primary is-rounded">Login</a>
               </div>
             </div>
+
             <div class="field">
               <div class="control is-expanded">
-                <nuxt-link to="/esqueci" class="ajuda has-text-centered-mobile has-text-weight-semibold">Esqueci a senha</nuxt-link>
+                <nuxt-link to="/esqueci" class="has-text-primary">Esqueci a minha senha</nuxt-link>
               </div>
             </div>
           </form>
         </div>
       </div>
-    </div>
-    <div class="modelo-bg">
-      <img src="~@/assets/img/modelo-cliente.png" alt />
-    </div>
-    <div class="tabs">
-      <div :class="{active: cliente}" class="tab has-text-weight-semibold" @click="cliente=true">Cliente</div>
-      <div :class="{active: !cliente}" class="tab has-text-weight-semibold" @click="cliente=false">Consultor</div>
+
+      <div class="modelo-bg">
+        <img src="~@/assets/img/modelo-cliente.png" alt />
+      </div>
+      <div class="tabs">
+        <div class="tab has-text-weight-semibold" @click="fisica=true" :class="{active: fisica}">Cliente</div>
+        <div class="tab has-text-weight-semibold" @click="fisica=false" :class="{active: !fisica}">Consultor</div>
+      </div>
     </div>
     <rodape></rodape>
   </div>
@@ -93,9 +95,9 @@ export default {
     BarraMenuTerciaria,
     Rodape
   },
-  data () {
+  data() {
     return {
-      cliente: true,
+      fisica: true
     }
   }
 }
