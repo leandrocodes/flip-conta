@@ -25,7 +25,7 @@
             <div class="swiper-z column is-6-fullhd is-10-desktop is-6-mobile has-text-centered">
               <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam.</div>
               <div class="data">
-                <img :src="`${banner.img}`" width="65px" height="65px" />
+                <img :src="`${banner.img}`" width="60px" height="60px" />
                 <p>
                   {{banner.text}}
                   <br />
@@ -87,10 +87,10 @@
     <prices id="prices"></prices>
 
     <section class="clientes">
-      <div class="container is-fluid">
+      <div class="container is-fluid " style="padding: 1em;">
         <div class="columns is-mobile is-centered is-4 is-multiline">
           <div class="column is-6-desktop is-12-monile">
-            <h2 class="is-size-3 has-text-weight-bold has-text-left">Quem usa, recomenda</h2>
+            <h2 class="is-size-3-desktop is-size-4-mobile has-text-weight-bold has-text-left">Quem usa, recomenda</h2>
             <p class="has-text-weight-semibold has-text-left has-text-grey">Potencielize você também no mercado, alguns de nossos clientes.</p>
             <div class="comentarios columns is-mobile is-multiline is-centered">
               <div class="column is-12-mobile comentario 1">

@@ -5,6 +5,11 @@
         margin: 1em 0 !important;
       }
     }
+    @media only screen and (max-width: 768px) {
+      .column {
+        height: 15em !important;
+      }
+    }
   }
 }
 
@@ -257,7 +262,7 @@
     }
 
     .anim {
-      width: 20em;
+      width: 17em;
       top: 25%;
       animation-name: floatSM;
     }
@@ -296,11 +301,10 @@
     @media screen and (max-height: 570px){
       .slider-hero {
         img {
-          top: 5em !important;
+          top: 4em !important;
           width: 10em;
         }
       }
-  
     }
   }
 
