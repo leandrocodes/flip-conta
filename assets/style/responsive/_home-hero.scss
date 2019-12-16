@@ -292,6 +292,16 @@
         background-image: none;
       }
     }
+
+    @media screen and (max-height: 570px){
+      .slider-hero {
+        img {
+          top: 5em !important;
+          width: 10em;
+        }
+      }
+  
+    }
   }
 
   @media only screen and (max-width: 375px) and (min-width: 321px) {
@@ -352,6 +362,15 @@
       }
     }
 
+    @media screen and (max-height: 675px){
+      .slider-hero {
+        img {
+          top: 5em !important;
+          width: 10em;
+        }
+      }
+  
+    }
 
   }
 

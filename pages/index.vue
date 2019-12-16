@@ -6,54 +6,9 @@
       </div>
 
       <div class="hero-body">
-        <div class="texto-entrada has-text-centered-mobile has-text-centered-tablet">
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
-            <div v-if="indexImage == 1" class="texto-a">
-              <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
-              <h2 class="subtitle has-text-link">
-                nós somos a
-                <span>flip</span>conta
-              </h2>
-            </div>
-          </transition>
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
-            <div v-if="indexImage == 2" class="texto-a">
-              <h1 class="title has-text-link is-size-1-fullhd">amet</h1>
-              <h2 class="subtitle has-text-link">
-                consectetur
-                <span>adipisicing</span>elit.
-              </h2>
-            </div>
-          </transition>
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
-            <div v-if="indexImage == 3" class="texto-a">
-              <h1 class="title has-text-link is-size-1-fullhd">lorem,</h1>
-              <h2 class="subtitle has-text-link">
-                ipsum
-                <span>dolor</span>sit
-              </h2>
-            </div>
-          </transition>
-        </div>
         <img src="../assets/img/float-icons.webp" class="anim" />
         <div class="slider-hero">
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 1" src="../assets/img/modelo.png" />
-          </transition>
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 2" src="../assets/img/modelo2.png" />
-          </transition>
-          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
-            <img v-if="indexImage == 3" src="../assets/img/modelo2.png" />
-          </transition>
-        </div>
-        <div class="nav-buttons">
-          <a class="button is-rounded is-light is-outlined" @click="sliderImage('frente')">
-            <font-awesome-icon :icon="['fas', 'angle-left']" />
-          </a>
-          <a class="button is-rounded is-light is-outlined" @click="sliderImage('tras')">
-            <font-awesome-icon :icon="['fas', 'angle-right']" />
-          </a>
+          <img src="../assets/img/modelo.png" />
         </div>
       </div>
     </section>
@@ -89,37 +44,39 @@
         </div>
       </div>
     </div>
-    <section class="gestao">
+    <section class="gestao" style="padding: 1em;">
       <div class="container">
         <div class="columns is-mobile is-multiline is-variable is-8">
           <div class="column is-6-desktop is-12-mobile">
             <img src="img/gestao-completa.png" alt srcset />
           </div>
           <div class="column is-5-desktop is-12-mobile">
-            <div class="texto">
-              <h3 class="has-text-info is-size-3 has-text-weight-bold">Uma gestão completa para sua empresa.</h3>
+            <div class="container">
+              <div class="texto">
+                <h3 class="has-text-info is-size-3 has-text-weight-bold">Uma gestão completa para sua empresa.</h3>
 
-              <p
-                class="has-text-grey-darker has-text-weight-semibold"
-              >Somos um gerenciador completo no mercado com tudo o que você precisa para a sua empresa.</p>
+                <p
+                  class="has-text-grey-darker has-text-weight-semibold"
+                >Somos um gerenciador completo no mercado com tudo o que você precisa para a sua empresa.</p>
 
-              <div class="box">
-                <div class="icon-box">
-                  <font-awesome-icon :icon="['fas', 'check-double']" />
+                <div class="box">
+                  <div class="icon-box">
+                    <font-awesome-icon :icon="['fas', 'check-double']" />
+                  </div>
+                  <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
                 </div>
-                <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
-              </div>
-              <div class="box">
-                <div class="icon-box">
-                  <font-awesome-icon :icon="['fas', 'check-double']" />
+                <div class="box">
+                  <div class="icon-box">
+                    <font-awesome-icon :icon="['fas', 'check-double']" />
+                  </div>
+                  <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
                 </div>
-                <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
-              </div>
-              <div class="box">
-                <div class="icon-box">
-                  <font-awesome-icon :icon="['fas', 'check-double']" />
+                <div class="box">
+                  <div class="icon-box">
+                    <font-awesome-icon :icon="['fas', 'check-double']" />
+                  </div>
+                  <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
                 </div>
-                <p class="has-text-info is-size-5 has-text-weight-bold">Gestão completa financeira</p>
               </div>
             </div>
           </div>
