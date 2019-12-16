@@ -50,13 +50,10 @@
   }
 
   .hero {
-    @media only screen and (max-width: 768px) {
-      height: 50vh;
+    @media only screen and (max-width: 425px) {
+      height: 85vh;
       background-size: cover;
       background-position: center center;
-      @media screen and (max-height: 650px){
-        height: 60vh;
-      }
     }
   }
 
@@ -76,7 +73,7 @@
     }
 
     .nav-buttons {
-      margin-top: -10.5em;
+      margin-top: -7.75em;
     }
 
     .slider-hero {
@@ -121,7 +118,7 @@
     }
 
     .nav-buttons {
-      margin-top: -15.5em;
+      margin-top: -8.5em;
     }
 
     .slider-hero {
@@ -221,7 +218,7 @@
     }
 
     .cards {
-      margin: 0 !important;
+      margin: 5rem 0 0 0 !important;
       height: 25vh;
       .swiper-slide {
         margin: 0 !important;
@@ -229,22 +226,11 @@
     }
 
     .how-works {
-      margin: 0 !important;
+      margin: 5rem 0 0 0 !important;
 
       .swiper-slide {
         margin: 0 !important;
       }
-    }
-
-    @media screen and (min-height: 1280px) {
-      .slider-hero{
-        img{
-          width: 20em;
-        }
-      }
-    }
-    .nav-buttons {
-      margin-top: 5em;
     }
   }
 }
