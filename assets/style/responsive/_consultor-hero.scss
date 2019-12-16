@@ -50,10 +50,13 @@
   }
 
   .hero {
-    @media only screen and (max-width: 425px) {
-      height: 85vh;
+    @media only screen and (max-width: 768px) {
+      height: 50vh;
       background-size: cover;
       background-position: center center;
+      @media screen and (max-height: 650px){
+        height: 60vh;
+      }
     }
   }
 

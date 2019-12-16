@@ -4,6 +4,16 @@
       width: 100vw;
       padding: 0;
       margin: 0;
+      .navbar-brand{
+        .navbar-item{
+          &:focus{
+            background: none!important;
+          }
+          &.link-active{
+            background: none!important;
+          }
+        }
+      }
       .burger{
         margin-right: 0!important;
       }
