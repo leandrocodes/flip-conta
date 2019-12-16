@@ -211,8 +211,8 @@
     }
 
     .nav-buttons {
-      margin-top: 15em;
-      margin-left: 102em;
+      margin-top: 25em;
+      margin-left: 110em;
     }
 
     .cards {
@@ -226,6 +226,18 @@
         .swiper-slide {
           margin: 0 auto;
         }
+      }
+    }
+
+    @media only screen and (height: 1440px){
+      .slider-hero {
+        img {
+          top: 9em;
+          width: 30em!important;
+        }
+      }
+      .anim{
+        width: 45em!important;
       }
     }
 
