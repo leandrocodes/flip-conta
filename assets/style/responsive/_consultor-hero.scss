@@ -221,7 +221,7 @@
     }
 
     .cards {
-      margin: 5rem 0 0 0 !important;
+      margin: 0 !important;
       height: 25vh;
       .swiper-slide {
         margin: 0 !important;
@@ -229,11 +229,22 @@
     }
 
     .how-works {
-      margin: 5rem 0 0 0 !important;
+      margin: 0 !important;
 
       .swiper-slide {
         margin: 0 !important;
       }
+    }
+
+    @media screen and (min-height: 1280px) {
+      .slider-hero{
+        img{
+          width: 20em;
+        }
+      }
+    }
+    .nav-buttons {
+      margin-top: 5em;
     }
   }
 }

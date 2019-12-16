@@ -442,7 +442,7 @@
     }
   }
 
-  @media screen and (max-width: 780px) and (min-width: 600px) {
+  @media screen and (max-width: 800px) and (min-width: 600px) {
     .cards {
       .subtitle {
         //margin-right: 0em;
@@ -494,6 +494,17 @@
     .precos {
       .conteudo {
         background-image: none;
+      }
+    }
+  }
+
+  @media screen and (min-height: 1280px) {
+    .anim{
+      width: 28em;
+    }
+    .slider-hero{
+      img{
+        width: 20em;
       }
     }
   }

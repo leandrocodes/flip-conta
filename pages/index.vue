@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <div class="cards" id="solutions">
+    <div class="cards" id="solutions" style="padding: 1em;">
       <h2 class="subtitle is-size-5-mobile has-text-centered-mobile has-text-right-desktop">
         Oferecemos as
         <br />
