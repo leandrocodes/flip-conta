@@ -6,8 +6,60 @@
       </div>
 
       <div class="hero-body">
+<!--         <div class="texto-entrada has-text-centered-mobile-only">
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 1" class="texto-a">
+              <h1 class="title has-text-primary is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-primary">
+                nós somos a
+                <span>flip</span>conta.
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
+              </h2>
+            </div>
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 2" class="texto-a">
+              <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-success">
+                nós somos a
+                <span>flip</span>conta.
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
+              </h2>
+            </div>
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
+            <div v-if="indexImage == 3" class="texto-a">
+              <h1 class="title has-text-dark is-size-1-fullhd">bem-vindo,</h1>
+              <h2 class="subtitle has-text-danger">
+                nós somos a
+                <span>flip</span>conta.
+                <br />
+                <span class="is-orange has-text-weight-medium">
+                  venha ser um
+                  <span>consultor</span>!
+                </span>
+              </h2>
+            </div>
+          </transition>
+        </div> -->
         <div class="slider-hero">
-          <img src="@/assets/img/consultor-teste.png" />
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
+            <img v-if="indexImage == 1" src="@/assets/img/consultor-teste.png" />
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
+            <img v-if="indexImage == 2" src="@/assets/img/consultor-teste.png" />
+          </transition>
+          <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
+            <img v-if="indexImage == 3" src="@/assets/img/consultor-teste.png" />
+          </transition>
         </div>
       </div>
     </section>
