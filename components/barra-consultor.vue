@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar is-primary is-transparent is-fixed-top" id="nav">
-    <div class="navbar-brand">
+    <div class="navbar-brand" style="background: none;">
       <nuxt-link to="/" class="navbar-item" href="#">
         <img id="nav-logo" src="~@/assets/img/flipconta-logo-purple.png" alt="Flip Conta" width="112" height="28" />
       </nuxt-link>

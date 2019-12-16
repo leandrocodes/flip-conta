@@ -1,16 +1,12 @@
 .home {
 
   .hero {
-    background-color: transparent !important;
-    background-image: url(~@/assets/img/bg-gradient.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-
-    .hero-body {
-      padding-top: 12rem !important;
-      padding-bottom: 12rem !important;
-    }
+    background: rgb(129, 2, 254);
+    background: linear-gradient(
+      -90deg,
+      rgba(129, 2, 254, 1) 0%,
+      rgba(0, 239, 222, 1) 100%
+    )
   }
 
   .anim {
@@ -83,7 +79,7 @@
   }
 
   .cards {
-    margin-top: -100px;
+    margin-top: 1em;
     .column {
       background: white;
       margin: 10px;
@@ -123,6 +119,7 @@
   .cards {
 
     .swiper-z{
+      padding: 1em;
       transition: all .3s ease;
       .texto{
         display: none;
