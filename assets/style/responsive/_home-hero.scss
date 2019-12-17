@@ -321,12 +321,23 @@
       }
     }
 
-    @media screen and (max-height: 570px){
+    @media only screen and (max-height: 570px){
       .slider-hero {
         img {
           top: 4em !important;
           width: 10em;
         }
+      }
+    }
+    @media only screen and (min-height: 570px){
+      .slider-hero {
+        img {
+          top: 4em !important;
+          width: 10em;
+        }
+      }
+      .nav-buttons {
+        margin: 20em auto;
       }
     }
   }
