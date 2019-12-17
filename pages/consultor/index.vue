@@ -223,6 +223,7 @@ export default {
         slidesPerView: 6,
         centeredSlides: false,
         clickable: true,
+        spaceBetween: 30,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev'
