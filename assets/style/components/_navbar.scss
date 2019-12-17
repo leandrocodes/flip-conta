@@ -213,8 +213,17 @@
 .navbar.is-terciaria {
   .navbar-menu{
     &.is-active{
+      position: absolute;
+      width: 100%;
       background: white!important;
-      color: $primary!important;
+      .button.is-primary{
+        color: white!important;
+        background: $orange!important;
+      }
+      .button.is-light{
+        color: $orange!important;
+        border-color: $orange!important;
+      }
     }
   }
   margin: 0;
