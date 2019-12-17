@@ -101,7 +101,7 @@
       }
     }
 
-    .subtitle {
+    h2{
       color: $blueish;
       font-weight: 700;
       font-size: 1.85rem;
@@ -117,7 +117,7 @@
   .cards {
 
     .swiper-z{
-      padding: 1em;
+      padding: .5em;
       transition: all .3s ease;
       .texto{
         display: none;

@@ -207,13 +207,19 @@
     }
 
     .nav-buttons {
-      margin-top: 10em;
+      margin-top: 20em;
+    }
+
+    @media only screen and (height: 1200px) {
+      .nav-buttons {
+        margin-top: -5em;
+      }
     }
 
     .slider-hero {
       img {
-        top: 10.5em;
-        width: 16em;
+        top: 8.5em;
+        width: 22em;
       }
     }
 

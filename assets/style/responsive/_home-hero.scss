@@ -19,8 +19,8 @@
 
     .slider-hero {
       img {
-        top: 3.5em;
-        width: 12em;
+        top: 4.5em;
+        width: 16em;
       }
     }
 
@@ -30,14 +30,17 @@
     }
 
     .nav-buttons {
-      margin-top: 2.55em;
-      margin-left: 52em;
+      margin-top: 3em;
+      margin-left: 60em;
     }
 
     .cards {
-      margin-top: 1rem !important;
+      margin-top: -5rem !important;
     }
 
+    .anim{
+      width: 22em;
+    }
   }
 
   @media only screen and (max-width: 1366px) and (min-width: 1366px) {

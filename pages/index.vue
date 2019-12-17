@@ -6,7 +6,7 @@
       </div>
 
       <div class="hero-body">
-<!--         <div class="texto-entrada has-text-centered-mobile has-text-centered-tablet">
+        <!--         <div class="texto-entrada has-text-centered-mobile has-text-centered-tablet">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="in-out">
             <div v-if="indexImage == 1" class="texto-a">
               <h1 class="title has-text-link is-size-1-fullhd">bem-vindo,</h1>
@@ -34,7 +34,7 @@
               </h2>
             </div>
           </transition>
-        </div> -->
+        </div>-->
         <img src="../assets/img/float-icons.webp" class="anim" />
         <div class="slider-hero">
           <transition enter-active-class="animated bounceInLeft" leave-active-class="animated bounceOutRight" mode="out-in">
@@ -59,11 +59,15 @@
     </section>
 
     <div class="cards" id="solutions" style="padding: 1em;">
-      <h2 class="subtitle is-size-5-mobile has-text-centered-mobile has-text-right-desktop">
-        Oferecemos as
-        <br />
-        <span class="is-size-7-mobile">melhores soluções para sua empresa</span>
-      </h2>
+      <div class="container">
+        <h2
+          class="is-size-3-desktop is-size-3-tablet is-size-5-mobile has-text-centered-mobile has-text-right-desktop has-text-right-tablet has-text-right-widescreen"
+        >
+          Oferecemos as
+          <br />
+          <span class="is-size-5-desktop is-size-5-desktop is-size-7-mobile">melhores soluções para sua empresa</span>
+        </h2>
+      </div>
       <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
           <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
@@ -132,7 +136,7 @@
     <prices id="prices"></prices>
 
     <section class="clientes">
-      <div class="container is-fluid " style="padding: 1em;">
+      <div class="container is-fluid" style="padding: 1em;">
         <div class="columns is-mobile is-centered is-4 is-multiline">
           <div class="column is-6-desktop is-12-monile">
             <h2 class="is-size-3-desktop is-size-4-mobile has-text-weight-bold has-text-left">Quem usa, recomenda</h2>
