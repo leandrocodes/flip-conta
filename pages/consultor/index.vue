@@ -235,11 +235,11 @@ export default {
   created() {
     if (this.$device.isMobile) {
       this.swiperOption.slidesPerView = 1
-      this.swiperOption.centeredSlides = true
+      this.swiperOption.centeredSlides = false
     }
     if (this.$device.isTablet) {
       this.swiperOption.slidesPerView = 2
-      this.swiperOption.centeredSlides = true
+      this.swiperOption.centeredSlides = false
     }
   },
   mounted() {
