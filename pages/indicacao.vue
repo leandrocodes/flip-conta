@@ -7,7 +7,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns">
-            <div class="column is-offset-2 is-5 has-text-left">
+            <div class="column is-offset-2 is-5 has-text-left-desktop has-text-centered-mobile">
               <p class="has-text-light">código do convite</p>
               <a class="button is-medium is-light has-text-weight-bold" style="margin: 0.5em 0;">CHARLES101</a>
               <p class="is-size-4 has-text-white has-text-weight-bold">
