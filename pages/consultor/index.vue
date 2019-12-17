@@ -237,7 +237,7 @@ export default {
       this.swiperOption.centeredSlides = true
     }
     if (this.$device.isTablet) {
-      this.swiperOption.slidesPerView = 1
+      this.swiperOption.slidesPerView = 2
       this.swiperOption.centeredSlides = true
     }
   },
