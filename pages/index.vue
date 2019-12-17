@@ -288,6 +288,13 @@ export default {
     prices,
     rodape
   },
+  // SEO GOES HERE
+  head() {
+    return {
+      head: [{}],
+      link: [{}],
+    }
+  },
   data() {
     return {
       indexImage: 1,
