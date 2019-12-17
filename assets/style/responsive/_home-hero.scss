@@ -285,7 +285,7 @@
     .nav-buttons {
       width: 100%;
       text-align: center;
-      margin: 18em auto;
+      margin: 49vh auto;
     }
 
     .anim {
@@ -324,7 +324,7 @@
     @media only screen and (max-height: 570px){
       .slider-hero {
         img {
-          top: 4em !important;
+          top: 3em !important;
           width: 10em;
         }
       }
@@ -337,7 +337,7 @@
         }
       }
       .nav-buttons {
-        margin: 20em auto;
+        margin: 50vh auto;
       }
     }
   }
@@ -367,7 +367,7 @@
     .nav-buttons {
       width: 100%;
       text-align: center;
-      margin: 20em auto;
+      margin: 50vh auto;
     }
 
     .anim {
@@ -402,19 +402,6 @@
         background-image: none;
       }
     }
-
-    @media only screen and (min-height: 751px) and (max-height: 875px){
-      .nav-buttons{
-        margin: 26em auto;
-      }
-    }
-
-    @media only screen and (min-height: 675px) and (max-height: 750px){
-      .nav-buttons{
-        margin: 50vh auto;
-      }
-    }
-
   }
 
   @media screen and (max-width: 425px) and (min-width: 376px) {
@@ -449,7 +436,7 @@
     .nav-buttons {
       width: 100%;
       text-align: center;
-      margin: 24em auto;
+      margin: 50vh auto;
     }
 
     .anim {
@@ -476,19 +463,6 @@
         background-image: none;
       }
     }
-
-    @media only screen and (min-height: 800px) and (max-height: 875px){
-      .nav-buttons{
-        margin: 26em auto;
-      }
-    }
-
-    /* @media screen and (max-height: 800px){
-      .nav-buttons {
-        margin: 24em auto;
-      }
-    } */
-
   }
 
   @media screen and (max-width: 800px) and (min-width: 600px) {
@@ -514,7 +488,7 @@
     .nav-buttons {
       width: 100%;
       text-align: center;
-      margin: 34em auto;
+      margin: 50vh auto;
     }
 
     @media only screen and (height: 1200px){
