@@ -145,23 +145,21 @@
   }
 
   .cards {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
 
-    .swiper-slide {
-      margin: 0 3.5em !important;
-    }
-
-    .swiper-z {
+    .swiper-z{
+      padding: .5em;
       transition: all .3s ease;
-
-      .texto {
+      .texto{
         display: none;
       }
-
-      &:hover {
-        cursor: pointer;
+      &:hover{
+        transition: all .3s ease;
+        .texto{
+          display: block;
+        }
+        .data{
+          display: none;
+        }
       }
     }
 
