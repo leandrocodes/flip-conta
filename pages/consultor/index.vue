@@ -74,7 +74,7 @@
     </div>
 
     <div class="container is-fluid">
-      <div class="cards" id="solutions">
+      <div class="cards" id="solutions" style="margin-top: 3rem;">
         <div v-swiper:mySwiper="swiperOption">
           <div class="swiper-wrapper">
             <div class="swiper-slide columns is-centered is-mobile" v-for="banner in banners" :key="banner.text">
