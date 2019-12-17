@@ -64,8 +64,9 @@
           class="is-size-3-desktop is-size-3-tablet is-size-5-mobile has-text-centered-mobile has-text-right-desktop has-text-right-tablet has-text-right-widescreen"
         >
           Oferecemos as
-          <br />
-          <span class="is-size-5-desktop is-size-5-desktop is-size-7-mobile">melhores soluções para sua empresa</span>
+          
+          <span class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">melhores soluções para sua empresa</span>
+          <!-- <span style="padding: -1em;" class="is-size-5-desktop is-size-5-tablet is-size-6-mobile">melhores soluções para sua empresa</span> -->
         </h2>
       </div>
       <div v-swiper:mySwiper="swiperOption">
