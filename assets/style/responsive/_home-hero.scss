@@ -262,7 +262,7 @@
 
   @media only screen and (max-width: 320px) {
     .cards {
-      margin-top: -1.25rem;
+      margin-top: -0.5rem;
       .subtitle {
         //margin-right: 0em;
       }
@@ -325,7 +325,7 @@
       .slider-hero {
         img {
           top: 3em !important;
-          width: 10em;
+          width: 8em;
         }
       }
     }
@@ -392,8 +392,8 @@
 
     .slider-hero {
       img {
-        top: 3.25em !important;
-        width: 12em;
+        top: 6.25vh !important;
+        width: 10em;
       }
     }
 

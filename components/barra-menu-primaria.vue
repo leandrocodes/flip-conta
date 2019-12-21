@@ -14,42 +14,42 @@
     <div id="navbarHome" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
         <div class="nav-link navbar-item">
-          <nuxt-link to="/">
-            <a href class="button is-light is-outlined is-rounded">início</a>
+          <nuxt-link class="button is-light is-outlined is-rounded" to="/" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
+            início
           </nuxt-link>
         </div>
         <div class="nav-link navbar-item">
-          <a href='#solutions' class="button is-light is-outlined is-rounded">soluções</a>
+          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href='#solutions' class="button is-light is-outlined is-rounded">soluções</a>
         </div>
         <div class="nav-link navbar-item">
-          <a href='#prices' class="button is-light is-outlined is-rounded">preços</a>
+          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href='#prices' class="button is-light is-outlined is-rounded">preços</a>
         </div>
         <div class="nav-link navbar-item has-dropdown is-hoverable">
           <div class="navbar-link is-arrowless is-rounded">
-            <a class="button is-light is-outlined is-rounded">suporte</a>
+            <a class="button is-light is-outlined is-rounded">suporte  <font-awesome-icon style="margin-left: 5px;" :icon="['fas', 'arrow-down']" /></a> 
           </div>
           <div class="navbar-dropdown is-boxed">
-            <nuxt-link to="/contato">
+            <nuxt-link to="/contato" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
               <a class="navbar-item has-text-dark" href>
                 <font-awesome-icon :icon="['fas', 'comment-alt']" />Chat
               </a>
             </nuxt-link>
             <hr class="navbar-divider" />
-            <a class="navbar-item has-text-dark" href>
+            <nuxt-link to="/" class="navbar-item has-text-dark" href>
               <font-awesome-icon :icon="['fas', 'phone-volume']" />Fone
-            </a>
+            </nuxt-link>
             <hr class="navbar-divider" />
-            <a class="navbar-item has-text-dark" href>
+            <nuxt-link to="/" class="navbar-item has-text-dark" href>
               <font-awesome-icon :icon="['fas', 'envelope']" />contato@flipconta.com
-            </a>
+            </nuxt-link>
             <hr class="navbar-divider" />
-            <nuxt-link to="/perguntas">
+            <nuxt-link to="/perguntas" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
               <a class="navbar-item has-text-dark" href>
                 <font-awesome-icon :icon="['fas', 'question-circle']" />Dúvidas
               </a>
             </nuxt-link>
             <hr class="navbar-divider" />
-            <a class="navbar-item has-text-dark" href>
+            <nuxt-link to="/" class="navbar-item has-text-dark">
               <span>
                 <font-awesome-icon :icon="['fas', 'clock']" />Horário de Funcionamento
                 <div class="horarios">
@@ -64,7 +64,7 @@
                   <span>Exceto Domingos e Feriados</span>
                 </div>
               </span>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <div class="navbar-item social-btn">

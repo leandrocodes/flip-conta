@@ -101,5 +101,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@media screen and (max-width: 1280px) {
+  .social-btn{
+    display: none;
+  }
+}
 </style>
