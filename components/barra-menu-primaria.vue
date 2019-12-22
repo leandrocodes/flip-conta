@@ -14,25 +14,24 @@
     <div id="navbarHome" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
         <div class="nav-link navbar-item">
-          <nuxt-link class="button is-light is-outlined is-rounded" to="/" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
-            início
-          </nuxt-link>
+          <nuxt-link class="button is-light is-outlined is-rounded" to="/" @click="showNav = !showNav" :class="{ 'is-active': showNav }">início</nuxt-link>
         </div>
         <div class="nav-link navbar-item">
-          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href='#solutions' class="button is-light is-outlined is-rounded">soluções</a>
+          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href="#solutions" class="button is-light is-outlined is-rounded">soluções</a>
         </div>
         <div class="nav-link navbar-item">
-          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href='#prices' class="button is-light is-outlined is-rounded">preços</a>
+          <a @click="showNav = !showNav" :class="{ 'is-active': showNav }" href="#prices" class="button is-light is-outlined is-rounded">preços</a>
         </div>
         <div class="nav-link navbar-item has-dropdown is-hoverable">
           <div class="navbar-link is-arrowless is-rounded">
-            <a class="button is-light is-outlined is-rounded">suporte  <font-awesome-icon style="margin-left: 5px;" :icon="['fas', 'arrow-down']" /></a> 
+            <a class="button is-light is-outlined is-rounded">
+              suporte
+              <font-awesome-icon style="margin-left: 5px;" :icon="['fas', 'arrow-down']" />
+            </a>
           </div>
           <div class="navbar-dropdown is-boxed">
-            <nuxt-link to="/contato" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
-              <a class="navbar-item has-text-dark" href>
-                <font-awesome-icon :icon="['fas', 'comment-alt']" />Chat
-              </a>
+            <nuxt-link tag="div" class="navbar-item has-text-dark" to="/contato" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
+              <font-awesome-icon :icon="['fas', 'comment-alt']" />Chat
             </nuxt-link>
             <hr class="navbar-divider" />
             <nuxt-link to="/" class="navbar-item has-text-dark" href>
@@ -43,10 +42,8 @@
               <font-awesome-icon :icon="['fas', 'envelope']" />contato@flipconta.com
             </nuxt-link>
             <hr class="navbar-divider" />
-            <nuxt-link to="/perguntas" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
-              <a class="navbar-item has-text-dark" href>
-                <font-awesome-icon :icon="['fas', 'question-circle']" />Dúvidas
-              </a>
+            <nuxt-link class="navbar-item has-text-dark" tag="div" to="/perguntas" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
+              <font-awesome-icon :icon="['fas', 'question-circle']" />Dúvidas
             </nuxt-link>
             <hr class="navbar-divider" />
             <nuxt-link to="/" class="navbar-item has-text-dark">
@@ -78,7 +75,7 @@
           </a>
         </div>
         <div class="navbar-item">
-           <nuxt-link to="/cliente/cadastro" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</nuxt-link>
+          <nuxt-link to="/cliente/cadastro" class="button is-link is-outlined is-rounded">Abrir minha conta grátis</nuxt-link>
         </div>
         <div class="navbar-item">
           <nuxt-link to="/login" class="button is-link is-outlined is-rounded">Logar na minha conta</nuxt-link>
@@ -103,10 +100,10 @@ export default {
 
 <style>
 .navbar {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 1280px) {
-  .social-btn{
+  .social-btn {
     display: none;
   }
 }
