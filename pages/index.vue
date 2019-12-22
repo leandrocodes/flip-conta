@@ -333,15 +333,15 @@ export default {
         var navLogo = document.getElementById("nav-logo")
         if (document.documentElement.scrollTop >= 150) {
           if (navbar.classList.contains("is-secondary") === false) {
-            navbar.classList.toggle("is-primary")
-            navbar.classList.toggle("is-secondary")
+            navbar.classList.remove("is-primary")
+            navbar.classList.add("is-secondary")
             navLogo.src = ("img/flipconta-logo-purple.png")
           }
         }
         else {
           if (navbar.classList.contains("is-secondary") === true) {
-            navbar.classList.toggle("is-primary")
-            navbar.classList.toggle("is-secondary")
+            navbar.classList.add("is-primary")
+            navbar.classList.remove("is-secondary")
             navLogo.src = ("img/flipconta-logo-white.png")
           }
         }
